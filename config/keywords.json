@@ -1,0 +1,113 @@
+{
+  "version": "2025-01-12",
+  "keywords": {
+    "ai_models": {
+      "priority": "critical",
+      "terms": [
+        "GPT-5",
+        "GPT-4",
+        "Claude 4",
+        "Claude 3.7",
+        "Gemini 2.0",
+        "Gemini Pro",
+        "o1",
+        "o3",
+        "Llama 4",
+        "Llama 3"
+      ],
+      "updateFrequency": "daily"
+    },
+    "ai_companies": {
+      "priority": "critical",
+      "terms": [
+        "OpenAI",
+        "Anthropic",
+        "Google AI",
+        "DeepMind",
+        "Meta AI",
+        "Mistral AI"
+      ],
+      "updateFrequency": "daily"
+    },
+    "frameworks": {
+      "priority": "high",
+      "terms": [
+        "Next.js 15",
+        "Next.js 16",
+        "React 19",
+        "React 20",
+        "Vue 4",
+        "Svelte 5",
+        "Astro",
+        "Remix",
+        "Vite 6"
+      ],
+      "updateFrequency": "weekly"
+    },
+    "languages": {
+      "priority": "high",
+      "terms": [
+        "TypeScript 5",
+        "Python 3.13",
+        "Rust 1.",
+        "Go 1.",
+        "Bun 1."
+      ],
+      "updateFrequency": "weekly"
+    },
+    "ai_development": {
+      "priority": "medium",
+      "terms": [
+        "LangChain",
+        "LlamaIndex",
+        "RAG",
+        "vector database",
+        "embeddings",
+        "fine-tuning",
+        "AI agents",
+        "multimodal"
+      ],
+      "updateFrequency": "daily"
+    },
+    "infrastructure": {
+      "priority": "medium",
+      "terms": [
+        "Docker",
+        "Kubernetes",
+        "Vercel",
+        "AWS",
+        "Cloudflare",
+        "Edge Computing"
+      ],
+      "updateFrequency": "weekly"
+    },
+    "trending_terms": {
+      "priority": "medium",
+      "terms": [
+        "released",
+        "launched",
+        "announced",
+        "breaking",
+        "just released",
+        "open source",
+        "Show HN"
+      ],
+      "updateFrequency": "static"
+    }
+  },
+  "influencers": {
+    "priority": "critical",
+    "accounts": [
+      "sama",
+      "karpathy",
+      "gdb",
+      "darioamodei",
+      "jeffdean",
+      "ylecun",
+      "goodfellow_ian",
+      "vercel",
+      "dan_abramov",
+      "addyosmani"
+    ]
+  }
+}

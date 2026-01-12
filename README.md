@@ -131,14 +131,45 @@ npm run type-check
 - [要件定義書](./docs/requirements.md)
 - [機能仕様書](./docs/functional-spec.md)
 
+## コスト戦略
+
+### フェーズ0: 完全無料版 (現在の実装) - $0/月
+- ✅ Hacker News API統合
+- ✅ Reddit API統合
+- ✅ GitHub Trending統合
+- ✅ キーワード管理システム
+- ✅ 1日1回自動収集 (毎朝6時)
+- 予定: Ollama (ローカルLLM) による無料AI要約
+
+**データソース:**
+- Hacker News: 無料・無制限
+- Reddit: 無料 (読み取り専用)
+- GitHub: 無料 (60req/時)
+
+### フェーズ1: X統合版 - $200/月
+- X API Basic tier追加
+- 1日3回または30分ごと取得
+- 一次情報の追加
+
+### フェーズ2: プロ版 - $220/月
+- 10分ごと更新
+- Claude/GPT要約追加
+
 ## ロードマップ
 
-### v1.0 (MVP)
+### v0.5 (完全無料MVP) ← 今ここ
 - [x] プロジェクト設計
-- [ ] X API統合
-- [ ] AI要約機能
+- [x] 無料データソース統合 (HN/Reddit/GitHub)
+- [x] キーワード管理システム
+- [x] 1日1回スケジューラー
+- [ ] Ollama AI要約
 - [ ] 基本的なダッシュボード
 - [ ] デプロイ
+
+### v1.0 (X統合版)
+- [ ] X API Basic統合 ($200/月)
+- [ ] 頻度を1日3回に増加
+- [ ] AI要約強化
 
 ### v1.1
 - [ ] ユーザー認証
@@ -146,8 +177,7 @@ npm run type-check
 - [ ] 通知機能
 
 ### v2.0
-- [ ] GitHub Trending統合
-- [ ] Hacker News統合
+- [ ] リアルタイム更新 (10分〜30分ごと)
 - [ ] 週次/月次レポート
 - [ ] Slack/Discord Bot連携
 
