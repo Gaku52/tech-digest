@@ -1,0 +1,84 @@
+// Prisma Schema for Tech Digest
+// Database: PostgreSQL (Supabase)
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// トレンド記事
+model Trend {
+  id            String   @id @default(cuid())
+  externalId    String   @unique // "hn-123", "reddit-abc", "github-456"
+
+  title         String
+  url           String
+  source        String   // "Hacker News", "Reddit", "GitHub"
+  description   String?  @db.Text
+
+  score         Int      @default(0)          // 元のスコア (upvotes, stars等)
+  keywordsScore Int      @default(0)          // キーワードマッチスコア
+
+  author        String?
+  subreddit     String?                       // Reddit用
+  language      String?                       // GitHub用
+  topics        String[]                      // GitHub用
+
+  fetchedAt     DateTime @default(now())      // 取得日時
+  publishedAt   DateTime?                     // 公開日時
+
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  @@index([source, fetchedAt])
+  @@index([keywordsScore])
+  @@index([fetchedAt(sort: Desc)])
+}
+
+// キーワードマッチ履歴
+model KeywordMatch {
+  id        String   @id @default(cuid())
+  trendId   String
+  keyword   String
+  priority  String   // "critical", "high", "medium", "low"
+
+  createdAt DateTime @default(now())
+
+  @@index([trendId])
+  @@index([keyword])
+}
+
+// デイリーダイジェスト
+model DailyDigest {
+  id        String   @id @default(cuid())
+  date      DateTime @unique @db.Date
+
+  trendsCount      Int      @default(0)
+  topKeywords      String[]
+  summaryGenerated Boolean  @default(false)
+  summary          String?  @db.Text
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([date(sort: Desc)])
+}
+
+// 実行ログ (スケジューラー)
+model FetchLog {
+  id            String   @id @default(cuid())
+
+  source        String   // "all", "hacker_news", "reddit", "github"
+  status        String   // "success", "error", "partial"
+  itemsFetched  Int      @default(0)
+  errorMessage  String?  @db.Text
+
+  executedAt    DateTime @default(now())
+
+  @@index([executedAt(sort: Desc)])
+  @@index([source, status])
+}

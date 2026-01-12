@@ -1,106 +1,142 @@
 # Tech Digest
 
-> 技術トレンドを最速でキャッチアップするWebアプリケーション
+> 技術トレンドを最速でキャッチアップする完全無料のWebアプリケーション
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue)](https://www.typescriptlang.org/)
+[![Next.js](https://img.shields.io/badge/Next.js-15-black)](https://nextjs.org/)
 
 ## 概要
 
-Tech Digestは、X（旧Twitter）から最新のITトレンドを自動収集し、AI要約によって技術者が効率的にキャッチアップできるWebアプリケーションです。
+Tech Digestは、複数のソース（Hacker News、Reddit、GitHub）から最新のAI・エンジニアリングトレンドを自動収集し、毎日まとめて配信するWebアプリケーションです。
+
+**特徴:**
+- 💰 **完全無料** - 全て無料APIのみ使用
+- 🤖 **AI要約** - Ollama (ローカルLLM) で自動要約
+- ⏰ **毎日自動収集** - 朝6時に自動実行
+- 🎯 **スマートフィルタリング** - 60+キーワードで重要度スコアリング
 
 ### 主な機能
 
-- **リアルタイムITトレンド表示**: Xから収集した技術トレンドをカテゴリ別に表示
-- **AI自動要約**: 複数のポストをAIが要約し、重要なポイントを抽出
-- **トレンドフィルタリング**: 興味のある技術カテゴリでカスタマイズ可能
-- **お気に入り保存**: 気になるトピックをブックマークして後で確認
-- **デイリーダイジェスト**: 毎日のトレンドをまとめて朝の5分でキャッチアップ
+- **複数ソース統合**: Hacker News、Reddit、GitHub Trendingから自動収集
+- **キーワードベースフィルタリング**: GPT-5、Claude、Next.js等の重要キーワードで自動抽出
+- **スコアリングシステム**: 優先度に応じた重要度計算
+- **1日1回自動実行**: 毎朝6時にトレンド収集
+- **段階的アップグレード対応**: 将来的にX API追加可能な設計
 
 ## 技術スタック
 
 ### フロントエンド
-- Next.js 14
-- React 18
-- TypeScript
-- Tailwind CSS
-- shadcn/ui
+- **Next.js 15** - App Router
+- **React 19** - Server Components
+- **TypeScript 5** - 型安全
+- **Tailwind CSS** - スタイリング
+- **shadcn/ui** - UIコンポーネント
 
 ### バックエンド
-- Next.js API Routes
-- Prisma (ORM)
-- PostgreSQL
-- Redis (キャッシング)
+- **Next.js API Routes** - サーバーレスAPI
+- **Prisma ORM** - タイプセーフなDB操作
+- **PostgreSQL** - メインデータベース
+- **Supabase** - データベースホスティング (Proプラン推奨)
 
-### AI/外部API
-- OpenAI API / Anthropic Claude API
-- X API v2
+### データソース (全て無料)
+- **Hacker News API** - 技術トレンド
+- **Reddit API** - コミュニティの声
+- **GitHub Trending API** - 人気リポジトリ
+- *(将来) X API v2* - リアルタイム情報
+
+### AI/要約
+- **Ollama** - ローカルLLM (無料)
+- *(将来) Claude/GPT API* - 高度な要約
 
 ### インフラ
-- Vercel (ホスティング)
-- Supabase / Neon (データベース)
-- Upstash (Redis)
+- **Vercel** - ホスティング & デプロイ
+- **Supabase** - PostgreSQLホスティング
+- **Vercel Cron Jobs** - スケジューラー (無料枠)
 
 ## プロジェクト構成
 
 ```
 tech-digest/
-├── docs/                   # ドキュメント
-│   ├── requirements.md     # 要件定義書
-│   └── functional-spec.md  # 機能仕様書
+├── config/
+│   └── keywords.json          # キーワード管理 (60+キーワード)
+├── docs/                      # ドキュメント
+│   ├── requirements.md        # 要件定義書
+│   ├── functional-spec.md     # 機能仕様書
+│   ├── keyword-strategy.md    # キーワード戦略
+│   └── realtime-detection-strategy.md
+├── prisma/                    # Prismaスキーマ
+│   └── schema.prisma
 ├── src/
-│   ├── app/               # Next.js App Router
-│   ├── components/        # Reactコンポーネント
-│   ├── lib/              # ユーティリティ関数
-│   └── types/            # TypeScript型定義
-├── prisma/               # Prismaスキーマ
-└── public/               # 静的ファイル
+│   ├── app/                   # Next.js App Router
+│   ├── components/            # Reactコンポーネント
+│   ├── lib/
+│   │   ├── data-sources/      # データソース統合
+│   │   │   ├── hacker-news.ts
+│   │   │   ├── reddit.ts
+│   │   │   └── github.ts
+│   │   ├── scheduler/         # スケジューラー
+│   │   │   └── daily-fetch.ts
+│   │   └── keyword-manager.ts # キーワード管理
+│   └── types/                 # TypeScript型定義
+└── public/                    # 静的ファイル
 ```
 
 ## セットアップ
 
 ### 必要な環境
 
-- Node.js 18+
-- npm / yarn / pnpm
-- PostgreSQL
-- Redis
+- **Node.js 18+**
+- **npm / yarn / pnpm**
+- **Supabase アカウント** (無料プランでOK、Proプラン推奨)
 
-### インストール
+### クイックスタート
 
 ```bash
-# リポジトリをクローン
-git clone https://github.com/yourusername/tech-digest.git
+# 1. リポジトリをクローン
+git clone https://github.com/Gaku52/tech-digest.git
 cd tech-digest
 
-# 依存関係をインストール
+# 2. 依存関係をインストール
 npm install
 
-# 環境変数を設定
+# 3. Supabaseプロジェクトを作成
+# https://supabase.com でプロジェクト作成
+
+# 4. 環境変数を設定
 cp .env.example .env.local
-# .env.local を編集して必要なAPI キーを設定
+# .env.local を編集 (下記参照)
 
-# データベースをセットアップ
-npx prisma migrate dev
+# 5. データベースをセットアップ
+npx prisma db push
 
-# 開発サーバーを起動
+# 6. データ取得のテスト
+npx ts-node src/test-fetch.ts
+
+# 7. 開発サーバーを起動
 npm run dev
 ```
 
 ### 環境変数
 
-```env
-# Database
-DATABASE_URL="postgresql://..."
-REDIS_URL="redis://..."
+`.env.local` を作成して以下を設定:
 
-# APIs
-X_API_KEY="..."
-X_API_SECRET="..."
-OPENAI_API_KEY="..."
-# または
-ANTHROPIC_API_KEY="..."
+```env
+# Supabase Database (必須)
+DATABASE_URL="postgresql://postgres:[YOUR-PASSWORD]@db.[YOUR-PROJECT-REF].supabase.co:5432/postgres"
 
 # Next.js
 NEXT_PUBLIC_APP_URL="http://localhost:3000"
+
+# 将来的に追加予定
+# X_API_KEY="..."
+# ANTHROPIC_API_KEY="..."
 ```
+
+**Supabase接続文字列の取得方法:**
+1. [Supabase Dashboard](https://supabase.com/dashboard)
+2. Project Settings → Database → Connection String
+3. `postgres://...` の文字列をコピー
 
 ## 開発
 
@@ -124,12 +160,45 @@ npm run lint
 npm run type-check
 ```
 
+## Vercelへのデプロイ
+
+### 1. Vercelプロジェクト作成
+
+```bash
+# Vercel CLIをインストール (初回のみ)
+npm i -g vercel
+
+# デプロイ
+vercel
+```
+
+または [Vercel Dashboard](https://vercel.com/new) から:
+1. GitHubリポジトリをインポート
+2. 環境変数を設定 (下記参照)
+3. Deploy
+
+### 2. 環境変数設定
+
+Vercel Dashboard > Settings > Environment Variables で以下を設定:
+
+```
+DATABASE_URL = postgresql://postgres:[PASSWORD]@db.[REF].supabase.co:5432/postgres
+NEXT_PUBLIC_APP_URL = https://your-app.vercel.app
+```
+
+### 3. Cron Jobs設定
+
+`vercel.json` で毎朝6時に自動実行する設定済み:
+- `/api/cron/daily-fetch` - 毎日6:00に実行
+
 ## ドキュメント
 
 詳細な仕様は以下のドキュメントを参照してください：
 
 - [要件定義書](./docs/requirements.md)
 - [機能仕様書](./docs/functional-spec.md)
+- [キーワード戦略](./docs/keyword-strategy.md)
+- [リアルタイム検知戦略](./docs/realtime-detection-strategy.md)
 
 ## コスト戦略
 
