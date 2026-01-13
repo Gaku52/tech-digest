@@ -8,21 +8,22 @@
 
 ## 概要
 
-Tech Digestは、複数のソース（Hacker News、Reddit、GitHub）から最新のAI・エンジニアリングトレンドを自動収集し、毎日まとめて配信するWebアプリケーションです。
+Tech Digestは、SuperGrokをメインデータソースとし、複数のソース（Hacker News、Reddit、GitHub）から最新のAI・エンジニアリングトレンドを自動収集・配信するWebアプリケーションです。
 
 **特徴:**
-- 💰 **完全無料** - 全て無料APIのみ使用
-- 🤖 **AI要約** - Ollama (ローカルLLM) で自動要約
-- ⏰ **毎日自動収集** - 朝6時に自動実行
+- 🤖 **SuperGrok統合** - AIが分析済みの最新トレンドを活用
+- 💰 **超低コスト** - 月額$17のみ（従来の91%削減）
+- 📊 **複数ソース統合** - HN/Reddit/GitHub も併用
+- ⏰ **毎日更新** - 朝の5-10分作業で最新情報をキャッチアップ
 - 🎯 **スマートフィルタリング** - 60+キーワードで重要度スコアリング
 
 ### 主な機能
 
+- **SuperGrokトレンド分析**: AIが既に分析・要約済みの最新技術トレンド（最重要）
 - **複数ソース統合**: Hacker News、Reddit、GitHub Trendingから自動収集
 - **キーワードベースフィルタリング**: GPT-5、Claude、Next.js等の重要キーワードで自動抽出
 - **スコアリングシステム**: 優先度に応じた重要度計算
-- **1日1回自動実行**: 毎朝6時にトレンド収集
-- **段階的アップグレード対応**: 将来的にX API追加可能な設計
+- **柔軟な運用**: 手動統合から段階的に自動化可能な設計
 
 ## 技術スタック
 
@@ -39,11 +40,11 @@ Tech Digestは、複数のソース（Hacker News、Reddit、GitHub）から最�
 - **PostgreSQL** - メインデータベース
 - **Supabase** - データベースホスティング (Proプラン推奨)
 
-### データソース (全て無料)
-- **Hacker News API** - 技術トレンド
-- **Reddit API** - コミュニティの声
-- **GitHub Trending API** - 人気リポジトリ
-- *(将来) X API v2* - リアルタイム情報
+### データソース
+- **SuperGrok** - AIが分析済みの最新技術トレンド（メインソース・$17/月）
+- **Hacker News API** - 技術トレンド（無料）
+- **Reddit API** - コミュニティの声（無料）
+- **GitHub Trending API** - 人気リポジトリ（無料）
 
 ### AI/要約
 - **Ollama** - ローカルLLM (無料)
@@ -60,11 +61,16 @@ Tech Digestは、複数のソース（Hacker News、Reddit、GitHub）から最�
 tech-digest/
 ├── config/
 │   └── keywords.json          # キーワード管理 (60+キーワード)
+├── data/                      # データファイル
+│   └── supergrok-trends/      # SuperGrok取得データ
+│       ├── YYYY-MM-DD.md      # 日次トレンドデータ
+│       └── template.md        # 質問テンプレート
 ├── docs/                      # ドキュメント
 │   ├── requirements.md        # 要件定義書
 │   ├── functional-spec.md     # 機能仕様書
 │   ├── keyword-strategy.md    # キーワード戦略
-│   └── realtime-detection-strategy.md
+│   ├── realtime-detection-strategy.md
+│   └── supergrok-integration-strategy.md  # SuperGrok統合戦略
 ├── prisma/                    # Prismaスキーマ
 │   └── schema.prisma
 ├── src/
@@ -72,6 +78,7 @@ tech-digest/
 │   ├── components/            # Reactコンポーネント
 │   ├── lib/
 │   │   ├── data-sources/      # データソース統合
+│   │   │   ├── supergrok-reader.ts  # SuperGrokデータ読み込み
 │   │   │   ├── hacker-news.ts
 │   │   │   ├── reddit.ts
 │   │   │   └── github.ts
@@ -202,53 +209,64 @@ NEXT_PUBLIC_APP_URL = https://your-app.vercel.app
 
 ## コスト戦略
 
-### フェーズ0: 完全無料版 (現在の実装) - $0/月
+### フェーズ0: SuperGrok統合版 (現在の実装) - $17/月 ← 今ここ
+- ✅ SuperGrok統合（メインデータソース）
 - ✅ Hacker News API統合
 - ✅ Reddit API統合
 - ✅ GitHub Trending統合
 - ✅ キーワード管理システム
-- ✅ 1日1回自動収集 (毎朝6時)
-- 予定: Ollama (ローカルLLM) による無料AI要約
+- ✅ 手動統合（1日5-10分作業）
 
-**データソース:**
-- Hacker News: 無料・無制限
-- Reddit: 無料 (読み取り専用)
-- GitHub: 無料 (60req/時)
+**コスト内訳:**
+- X Premium+: $17/月（SuperGrok利用料込み）
+- その他のデータソース: 無料
+- **合計: $17/月**
 
-### フェーズ1: X統合版 - $200/月
-- X API Basic tier追加
-- 1日3回または30分ごと取得
-- 一次情報の追加
+**従来プラン（X API利用）との比較:**
+- X API Basic: $200/月
+- 削減率: **91%**（$183/月の節約）
+- 年間削減額: **$2,196**
 
-### フェーズ2: プロ版 - $220/月
-- 10分ごと更新
-- Claude/GPT要約追加
+### フェーズ1: 半自動化版 - $17/月
+- ファイル監視による自動取り込み
+- 手動作業の軽減
+- コストは変わらず
+
+### フェーズ2: AI要約強化版 - $37-67/月
+- Ollama (ローカルLLM) または
+- Claude/GPT API追加 ($20-50/月)
+- より高度な要約生成
 
 ## ロードマップ
 
-### v0.5 (完全無料MVP) ← 今ここ
+### v0.5 (SuperGrok統合MVP) ← 今ここ
 - [x] プロジェクト設計
 - [x] 無料データソース統合 (HN/Reddit/GitHub)
 - [x] キーワード管理システム
-- [x] 1日1回スケジューラー
-- [ ] Ollama AI要約
+- [x] SuperGrok統合戦略策定
+- [ ] SuperGrokデータ読み込み実装
 - [ ] 基本的なダッシュボード
+- [ ] 1週間トライアル運用
 - [ ] デプロイ
 
-### v1.0 (X統合版)
-- [ ] X API Basic統合 ($200/月)
+### v1.0 (半自動化版)
+- [ ] ファイル監視システム実装
+- [ ] 自動データ取り込み
+- [ ] データベース統合強化
+- [ ] Ollama AI要約
 - [ ] 頻度を1日3回に増加
-- [ ] AI要約強化
 
-### v1.1
+### v1.1 (機能拡張)
 - [ ] ユーザー認証
 - [ ] パーソナライゼーション
 - [ ] 通知機能
+- [ ] ブックマーク機能
 
-### v2.0
-- [ ] リアルタイム更新 (10分〜30分ごと)
-- [ ] 週次/月次レポート
+### v2.0 (完全版)
+- [ ] 週次/月次レポート自動生成
 - [ ] Slack/Discord Bot連携
+- [ ] Claude/GPT API統合
+- [ ] トレンド予測機能
 
 ## ライセンス
 
