@@ -7,7 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "type-check": "tsc --noEmit"
+    "type-check": "tsc --noEmit",
+    "generate-prompt": "ts-node src/scripts/generate-daily-prompt.ts",
+    "genprompt": "ts-node src/scripts/generate-daily-prompt.ts --copy"
   },
   "dependencies": {
     "next": "15.1.6",
@@ -28,6 +30,7 @@
     "tailwindcss": "^3.4.1",
     "postcss": "^8",
     "autoprefixer": "^10.0.1",
-    "prisma": "^6.2.1"
+    "prisma": "^6.2.1",
+    "ts-node": "^10.9.2"
   }
 }

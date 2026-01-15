@@ -51,3 +51,7 @@ dump.rdb
 # Logs
 logs
 *.log
+
+# SuperGrok data (exclude generated prompts and trend data, keep template)
+data/supergrok-trends/*.md
+!data/supergrok-trends/template.md

@@ -167,6 +167,72 @@ npm run lint
 npm run type-check
 ```
 
+## SuperGrok 統合ワークフロー
+
+### 毎日のトレンド収集（5-10分）
+
+**1. プロンプトを自動生成**
+
+```bash
+# 今日の日付でプロンプトを生成（クリップボードにコピー）
+npm run genprompt
+
+# または、日付を指定
+npm run generate-prompt -- --date 2025-01-20
+
+# ファイル出力のみ
+npm run generate-prompt
+```
+
+生成されたプロンプトは以下に保存されます:
+- `data/supergrok-trends/YYYY-MM-DD-prompt.md`
+
+**2. Grok に投稿**
+
+1. [X (Twitter)](https://x.com) にログイン（Premium+ 必須）
+2. Grok を開く
+3. 生成されたプロンプトを貼り付けて送信
+4. Grok からの応答を待つ（1-2分）
+
+**3. 応答を保存**
+
+Grok からの応答を以下のファイルに保存:
+```
+data/supergrok-trends/YYYY-MM-DD.md
+```
+
+**4. データベースに統合（今後実装予定）**
+
+```bash
+# SuperGrok データを読み込んでデータベースに保存
+npm run import-supergrok
+```
+
+### プロンプトテンプレートのカスタマイズ
+
+テンプレートをカスタマイズする場合:
+
+```bash
+# テンプレートを編集
+vim data/supergrok-trends/template.md
+
+# カスタムプロンプトを生成
+npm run generate-prompt
+```
+
+**テンプレートの変数:**
+- `{{DATE}}` - 日付 (YYYY-MM-DD)
+- `{{DATE_UTC}}` - UTC日付 (X検索用)
+
+### コマンド一覧
+
+| コマンド | 説明 |
+|---------|------|
+| `npm run genprompt` | プロンプト生成 + クリップボードコピー |
+| `npm run generate-prompt` | プロンプト生成のみ |
+| `npm run generate-prompt -- --date 2025-01-20` | 日付指定で生成 |
+| `npm run generate-prompt -- --output ./custom.md` | 出力先を指定 |
+
 ## Vercelへのデプロイ
 
 ### 1. Vercelプロジェクト作成
