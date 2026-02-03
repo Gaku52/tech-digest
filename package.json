@@ -9,28 +9,34 @@
     "lint": "next lint",
     "type-check": "tsc --noEmit",
     "generate-prompt": "ts-node src/scripts/generate-daily-prompt.ts",
-    "genprompt": "ts-node src/scripts/generate-daily-prompt.ts --copy"
+    "genprompt": "ts-node src/scripts/generate-daily-prompt.ts --copy",
+    "process-response": "ts-node src/scripts/process-supergrok-response.ts --interactive",
+    "import-articles": "ts-node src/scripts/import-articles-to-db.ts"
   },
   "dependencies": {
+    "@prisma/client": "^6.2.1",
+    "axios": "^1.7.9",
+    "clsx": "^2.1.1",
+    "framer-motion": "^12.31.0",
+    "lucide-react": "^0.563.0",
     "next": "15.1.6",
+    "node-cron": "^3.0.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "@prisma/client": "^6.2.1",
-    "node-cron": "^3.0.3",
-    "axios": "^1.7.9"
+    "tailwind-merge": "^3.4.0"
   },
   "devDependencies": {
     "@types/node": "^22",
+    "@types/node-cron": "^3.0.11",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "@types/node-cron": "^3.0.11",
-    "typescript": "^5",
+    "autoprefixer": "^10.0.1",
     "eslint": "^9",
     "eslint-config-next": "15.1.6",
-    "tailwindcss": "^3.4.1",
     "postcss": "^8",
-    "autoprefixer": "^10.0.1",
     "prisma": "^6.2.1",
-    "ts-node": "^10.9.2"
+    "tailwindcss": "^3.4.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5"
   }
 }

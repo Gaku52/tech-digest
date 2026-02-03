@@ -80,8 +80,11 @@ async function main() {
   // 日付を決定
   const targetDate = options.date ? new Date(options.date) : new Date();
 
-  // テンプレートを読み込み
-  const templatePath = path.join(process.cwd(), 'data/supergrok-trends/template.md');
+  // テンプレートを読み込み (記事生成用の新しいテンプレートを優先)
+  const articleTemplatePath = path.join(process.cwd(), 'data/supergrok-trends/article-generation-template.md');
+  const defaultTemplatePath = path.join(process.cwd(), 'data/supergrok-trends/template.md');
+
+  const templatePath = fs.existsSync(articleTemplatePath) ? articleTemplatePath : defaultTemplatePath;
 
   if (!fs.existsSync(templatePath)) {
     console.error('❌ テンプレートファイルが見つかりません:', templatePath);
@@ -89,6 +92,7 @@ async function main() {
   }
 
   const template = fs.readFileSync(templatePath, 'utf-8');
+  console.log(`📄 テンプレート: ${path.basename(templatePath)}`);
 
   // プロンプトを生成
   const prompt = generatePrompt(template, targetDate);

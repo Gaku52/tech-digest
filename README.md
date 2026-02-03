@@ -96,6 +96,7 @@ tech-digest/
 - **Node.js 18+**
 - **npm / yarn / pnpm**
 - **Supabase アカウント** (無料プランでOK、Proプラン推奨)
+- **X Premium+** ($17/月) - SuperGrok利用のため
 
 ### クイックスタート
 
@@ -117,10 +118,7 @@ cp .env.example .env.local
 # 5. データベースをセットアップ
 npx prisma db push
 
-# 6. データ取得のテスト
-npx ts-node src/test-fetch.ts
-
-# 7. 開発サーバーを起動
+# 6. 開発サーバーを起動
 npm run dev
 ```
 
@@ -169,44 +167,45 @@ npm run type-check
 
 ## SuperGrok 統合ワークフロー
 
-### 毎日のトレンド収集（5-10分）
+### 📝 記事生成ワークフロー (日次5-10分)
 
-**1. プロンプトを自動生成**
+完全自動化された記事生成システムで、毎日最新の技術トレンドを配信!
+
+**ステップ1: SuperGrok用プロンプトを生成**
 
 ```bash
-# 今日の日付でプロンプトを生成（クリップボードにコピー）
 npm run genprompt
-
-# または、日付を指定
-npm run generate-prompt -- --date 2025-01-20
-
-# ファイル出力のみ
-npm run generate-prompt
 ```
 
-生成されたプロンプトは以下に保存されます:
-- `data/supergrok-trends/YYYY-MM-DD-prompt.md`
+これにより:
+- 今日の日付で最適化されたプロンプトが生成
+- クリップボードに自動コピー
+- `data/supergrok-trends/YYYY-MM-DD-prompt.md` に保存
 
-**2. Grok に投稿**
+**ステップ2: SuperGrokに投稿**
 
-1. [X (Twitter)](https://x.com) にログイン（Premium+ 必須）
+1. [X (Twitter)](https://x.com) にログイン (Premium+ 必須)
 2. Grok を開く
-3. 生成されたプロンプトを貼り付けて送信
-4. Grok からの応答を待つ（1-2分）
+3. **クリップボードからプロンプトを貼り付けて送信**
+4. SuperGrokの応答を待つ (1-2分)
 
-**3. 応答を保存**
-
-Grok からの応答を以下のファイルに保存:
-```
-data/supergrok-trends/YYYY-MM-DD.md
-```
-
-**4. データベースに統合（今後実装予定）**
+**ステップ3: Claude Codeに応答を伝達**
 
 ```bash
-# SuperGrok データを読み込んでデータベースに保存
-npm run import-supergrok
+npm run process-response
 ```
+
+SuperGrokからの応答を貼り付けて、新しい行で `EOF` と入力
+
+**ステップ4: データベースにインポート**
+
+```bash
+npm run import-articles
+```
+
+記事が自動的にデータベースに保存され、サイトに表示されます!
+
+**詳細なワークフロー**: [docs/WORKFLOW.md](./docs/WORKFLOW.md) を参照
 
 ### プロンプトテンプレートのカスタマイズ
 

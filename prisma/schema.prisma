@@ -39,6 +39,34 @@ model Trend {
   @@index([fetchedAt(sort: Desc)])
 }
 
+// SuperGrok由来の記事
+model Article {
+  id            String   @id @default(cuid())
+  slug          String   @unique // URL用のスラッグ
+
+  title         String
+  content       String   @db.Text
+  excerpt       String?  @db.Text // 抜粋・概要
+
+  category      String   // "AI", "Frontend", "Backend", "DevOps", "Tools"
+  priority      String   // "critical", "high", "medium", "low"
+  tags          String[]
+
+  engagement    Int?     // 総エンゲージメント数 (いいね + RT等)
+  sources       String[] // 元投稿のURL
+
+  publishedAt   DateTime @default(now())
+  featured      Boolean  @default(false) // トップ記事かどうか
+
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  @@index([publishedAt(sort: Desc)])
+  @@index([category, publishedAt(sort: Desc)])
+  @@index([priority, publishedAt(sort: Desc)])
+  @@index([featured, publishedAt(sort: Desc)])
+}
+
 // キーワードマッチ履歴
 model KeywordMatch {
   id        String   @id @default(cuid())
