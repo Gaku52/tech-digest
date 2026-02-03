@@ -1,9 +1,7 @@
-import { PrismaClient } from '@prisma/client';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { Metadata } from 'next';
-
-const prisma = new PrismaClient();
+import { prisma } from '@/lib/prisma';
 
 interface PageProps {
   params: {
@@ -12,10 +10,15 @@ interface PageProps {
 }
 
 async function getArticle(slug: string) {
-  const article = await prisma.article.findUnique({
-    where: { slug },
-  });
-  return article;
+  try {
+    const article = await prisma.article.findUnique({
+      where: { slug },
+    });
+    return article;
+  } catch (error) {
+    console.log('Database not connected yet:', error);
+    return null;
+  }
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
