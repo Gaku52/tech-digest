@@ -99,7 +99,7 @@ export class KeywordManager {
     const textLower = text.toLowerCase();
     let score = 0;
 
-    const priorityScores = {
+    const priorityScores: Record<'critical' | 'high' | 'medium' | 'low', number> = {
       'critical': 10,
       'high': 5,
       'medium': 2,
@@ -109,7 +109,7 @@ export class KeywordManager {
     Object.values(this.keywords.keywords).forEach(category => {
       category.terms.forEach(term => {
         if (textLower.includes(term.toLowerCase())) {
-          score += priorityScores[category.priority] || 1;
+          score += priorityScores[category.priority as keyof typeof priorityScores] || 1;
         }
       });
     });
