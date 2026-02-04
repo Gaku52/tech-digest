@@ -18,7 +18,8 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
-  const article = getArticleBySlug(params.slug);
+  const { slug } = await Promise.resolve(params);
+  const article = getArticleBySlug(slug);
 
   if (!article) {
     return {
@@ -33,7 +34,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 }
 
 export default async function ArticlePage({ params }: PageProps) {
-  const article = getArticleBySlug(params.slug);
+  const { slug } = await Promise.resolve(params);
+  const article = getArticleBySlug(slug);
 
   if (!article) {
     notFound();
