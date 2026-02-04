@@ -2,6 +2,7 @@ import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { Metadata } from 'next';
 import { getArticleBySlug, getAllArticles } from '@/lib/articles';
+import ArticleContent from '@/components/ArticleContent';
 
 interface PageProps {
   params: {
@@ -109,21 +110,7 @@ export default async function ArticlePage({ params }: PageProps) {
             <div className="border-t border-slate-700 mb-8"></div>
 
             {/* Article Content */}
-            <div
-              className="prose prose-invert prose-lg max-w-none
-                prose-headings:text-white prose-headings:font-bold
-                prose-h2:text-3xl prose-h2:mt-12 prose-h2:mb-6
-                prose-h3:text-2xl prose-h3:mt-8 prose-h3:mb-4
-                prose-p:text-slate-300 prose-p:leading-relaxed prose-p:mb-4
-                prose-a:text-blue-400 prose-a:no-underline hover:prose-a:underline
-                prose-strong:text-white prose-strong:font-bold
-                prose-ul:text-slate-300 prose-ol:text-slate-300
-                prose-li:mb-2
-                prose-code:text-purple-400 prose-code:bg-slate-900 prose-code:px-2 prose-code:py-1 prose-code:rounded
-                prose-pre:bg-slate-900 prose-pre:border prose-pre:border-slate-700
-                prose-blockquote:border-l-4 prose-blockquote:border-blue-500 prose-blockquote:pl-4 prose-blockquote:italic prose-blockquote:text-slate-400"
-              dangerouslySetInnerHTML={{ __html: formatMarkdown(article.content) }}
-            />
+            <ArticleContent content={article.content} />
 
             {/* Sources */}
             {article.sources && article.sources.length > 0 && (
@@ -179,34 +166,3 @@ function PriorityBadge({ priority }: { priority: string }) {
   );
 }
 
-/**
- * MarkdownをHTMLに変換（簡易版）
- * 本番環境では markdown-it や remark などのライブラリを使用することを推奨
- */
-function formatMarkdown(markdown: string): string {
-  let html = markdown;
-
-  // 見出し
-  html = html.replace(/^### (.*$)/gim, '<h3>$1</h3>');
-  html = html.replace(/^## (.*$)/gim, '<h2>$1</h2>');
-  html = html.replace(/^# (.*$)/gim, '<h1>$1</h1>');
-
-  // 太字
-  html = html.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
-
-  // リスト
-  html = html.replace(/^\- (.*$)/gim, '<li>$1</li>');
-  html = html.replace(/(<li>.*<\/li>)/s, '<ul>$1</ul>');
-
-  // リンク
-  html = html.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank" rel="noopener noreferrer">$1</a>');
-
-  // 段落
-  html = html.replace(/\n\n/g, '</p><p>');
-  html = '<p>' + html + '</p>';
-
-  // 空の段落を削除
-  html = html.replace(/<p><\/p>/g, '');
-
-  return html;
-}
