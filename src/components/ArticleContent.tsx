@@ -319,7 +319,7 @@ function renderContent(text: string) {
 // エンジニアへの影響をレンダリング
 function renderEngineerImpact(text: string) {
   const sections = text.split(/\*\*(.*?)\*\*/g);
-  const parts: JSX.Element[] = [];
+  const parts: React.ReactElement[] = [];
 
   for (let i = 0; i < sections.length; i++) {
     const section = sections[i];
