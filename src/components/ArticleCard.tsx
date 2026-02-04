@@ -5,17 +5,16 @@ import { motion } from 'framer-motion';
 import { Calendar, TrendingUp, AlertCircle, ArrowUpRight } from 'lucide-react';
 import clsx from 'clsx';
 
-// 型定義 (Prismaのスキーマに合わせて調整)
+// 型定義 (ファイルベースのスキーマに合わせて調整)
 type Article = {
-  id: string;
   slug: string;
   title: string;
-  excerpt: string | null;
+  excerpt?: string | null;
   category: string;
   priority: string;
   tags: string[];
   publishedAt: Date;
-  engagement: number | null;
+  engagement?: number | null;
 };
 
 const categoryStyles = {

@@ -1,7 +1,7 @@
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { Metadata } from 'next';
-import { prisma } from '@/lib/prisma';
+import { getArticleBySlug, getAllArticles } from '@/lib/articles';
 
 interface PageProps {
   params: {
@@ -9,20 +9,16 @@ interface PageProps {
   };
 }
 
-async function getArticle(slug: string) {
-  try {
-    const article = await prisma.article.findUnique({
-      where: { slug },
-    });
-    return article;
-  } catch (error) {
-    console.log('Database not connected yet:', error);
-    return null;
-  }
+// 静的パスを生成
+export async function generateStaticParams() {
+  const articles = getAllArticles();
+  return articles.map((article) => ({
+    slug: article.slug,
+  }));
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
-  const article = await getArticle(params.slug);
+  const article = getArticleBySlug(params.slug);
 
   if (!article) {
     return {
@@ -37,7 +33,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 }
 
 export default async function ArticlePage({ params }: PageProps) {
-  const article = await getArticle(params.slug);
+  const article = getArticleBySlug(params.slug);
 
   if (!article) {
     notFound();

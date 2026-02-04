@@ -18,6 +18,7 @@
     "axios": "^1.7.9",
     "clsx": "^2.1.1",
     "framer-motion": "^12.31.0",
+    "gray-matter": "^4.0.3",
     "lucide-react": "^0.563.0",
     "next": "^16.1.6",
     "node-cron": "^3.0.3",

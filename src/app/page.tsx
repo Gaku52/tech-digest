@@ -1,22 +1,7 @@
 import HeroSection from '@/components/HeroSection';
 import ArticleCard from '@/components/ArticleCard';
 import { Newspaper } from 'lucide-react';
-import { prisma } from '@/lib/prisma';
-
-// データ取得はServer Componentで行う
-async function getLatestArticles() {
-  // データベース接続がない場合は空配列を返す
-  try {
-    const articles = await prisma.article.findMany({
-      orderBy: { publishedAt: 'desc' },
-      take: 20,
-    });
-    return articles;
-  } catch (error) {
-    console.log('Database not connected yet:', error);
-    return [];
-  }
-}
+import { getLatestArticles } from '@/lib/articles';
 
 export default async function HomePage() {
   const articles = await getLatestArticles();
@@ -99,7 +84,7 @@ export default async function HomePage() {
           ) : (
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {articles.map((article, index) => (
-                <ArticleCard key={article.id} article={article} index={index} />
+                <ArticleCard key={article.slug} article={article} index={index} />
               ))}
             </div>
           )}
