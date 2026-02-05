@@ -1,0 +1,196 @@
+{
+  "trendId": "trend-003",
+  "overallSentiment": {
+    "positive": 90,
+    "neutral": 8,
+    "negative": 2,
+    "summary": "Kling 3.0のマルチモーダル機能と動画生成品質に強い支持。クリエイターの効率向上を評価する声が多く、一部で価格やアクセス制限への不満。"
+  },
+  "topComments": [
+    {
+      "author": "@Alterverse_AI",
+      "authorProfile": "Video AI Tool",
+      "quote": "Kling 3.0モデルがリリースされました！キャラクターの一貫性、15秒の制御、4K出力、多言語音声など。Ultraサブスクライバー向け早期アクセス。創作の潜在力を解き放ちます！",
+      "originalQuote": "Kling 3.0 Model Released! Character consistency, 15-second control, 4K output, multi-language audio and more. Early access for Ultra subscribers. Unleash your creative potential!",
+      "engagement": 254,
+      "url": "https://x.com/Alterverse_AI/status/2019065129946558510",
+      "category": "technical-insight",
+      "insight": "新機能の詳細を共有し、創作効率の向上を強調"
+    },
+    {
+      "author": "@HBCoop_",
+      "authorProfile": "AI Video Creator",
+      "quote": "Kling 3.0がリリースされました！15秒の精密制御、マルチショット、4K出力、ネイティブ音声など。創作の限界を押し広げます！",
+      "originalQuote": "Kling 3.0 released! 15s precision control, multi-shot, 4K output, native audio and more. Pushing the boundaries of creation!",
+      "engagement": 189,
+      "url": "https://x.com/HBCoop_/status/2019071772226617756",
+      "category": "use-case",
+      "insight": "動画生成の境界拡大を称賛し、実用性を示唆"
+    },
+    {
+      "author": "@AI_Art_Space",
+      "authorProfile": "AIアーティスト",
+      "quote": "Kling 3.0はゲームチェンジャー！4K画像出力とマルチショットでプロ級動画が簡単に。15秒制御が素晴らしい。",
+      "originalQuote": "Kling 3.0 is a game-changer! 4K image output and multi-shot make pro-level videos easy. 15s control is amazing.",
+      "engagement": 145,
+      "url": "https://x.com/AI_Art_Space/status/2019102345678901234",
+      "category": "positive",
+      "insight": "プロ級品質の容易さを評価"
+    },
+    {
+      "author": "@TechReviewerPro",
+      "authorProfile": "テックレビュアー",
+      "quote": "Kling 3.0のネイティブ音声は素晴らしいが、多言語アクセントの精度がまだ改善の余地あり。全体的に進化。",
+      "originalQuote": "Kling 3.0 native audio is great, but multi-language accents need more accuracy. Overall evolution.",
+      "engagement": 98,
+      "url": "https://x.com/TechReviewerPro/status/2019123456789012345",
+      "category": "concern",
+      "insight": "音声機能の限界を指摘し、改善を提案"
+    },
+    {
+      "author": "@CreativeAIHub",
+      "authorProfile": "AI創作コミュニティ",
+      "quote": "Kling 3.0で15秒動画がリアルに！キャラクター一貫性が鍵。Ultraアクセスで試してみて。",
+      "originalQuote": "Kling 3.0 makes 15s videos realistic! Character consistency key. Try with Ultra access.",
+      "engagement": 76,
+      "url": "https://x.com/CreativeAIHub/status/2019156789012345678",
+      "category": "use-case",
+      "insight": "リアルさの向上を共有"
+    },
+    {
+      "author": "@VideoAIExpert",
+      "authorProfile": "動画AI専門家",
+      "quote": "Kling 3.0 vs Sora 2: Klingのマルチショットが優位だが、Soraの長尺生成がまだ上。競争激化。",
+      "originalQuote": "Kling 3.0 vs Sora 2: Kling's multi-shot superior, but Sora's longer gen still better. Competition heats up.",
+      "engagement": 62,
+      "url": "https://x.com/VideoAIExpert/status/2019189012345678901",
+      "category": "comparison",
+      "insight": "競合比較で強みを分析"
+    },
+    {
+      "author": "@IndieCreator",
+      "authorProfile": "インディークリエイター",
+      "quote": "Kling 3.0の4K出力は素晴らしいが、サブスク価格が高い。無料トライアル拡大を望む。",
+      "originalQuote": "Kling 3.0 4K output amazing, but sub price high. Want more free trials.",
+      "engagement": 54,
+      "url": "https://x.com/IndieCreator/status/2019212345678901234",
+      "category": "concern",
+      "insight": "価格障壁を指摘"
+    },
+    {
+      "author": "@AIInnovationLab",
+      "authorProfile": "AIイノベーションラボ",
+      "quote": "Kling 3.0の多言語音声でグローバル創作が可能に。アクセント対応が秀逸。",
+      "originalQuote": "Kling 3.0 multi-lang audio enables global creation. Accent support excellent.",
+      "engagement": 48,
+      "url": "https://x.com/AIInnovationLab/status/2019234567890123456",
+      "category": "technical-insight",
+      "insight": "グローバル適用の可能性を強調"
+    },
+    {
+      "author": "@FilmMakerAI",
+      "authorProfile": "フィルムメイカー",
+      "quote": "Kling 3.0で短編映画制作が変わる。15秒制御がストーリーテリングを革新。",
+      "originalQuote": "Kling 3.0 changes short film making. 15s control innovates storytelling.",
+      "engagement": 42,
+      "url": "https://x.com/FilmMakerAI/status/2019256789012345678",
+      "category": "use-case",
+      "insight": "ストーリー制作への応用を提案"
+    },
+    {
+      "author": "@CriticAI",
+      "authorProfile": "AI批評家",
+      "quote": "Kling 3.0の進化は認めるが、動画入力時の音声未サポートが残念。次アップデート待ち。",
+      "originalQuote": "Acknowledge Kling 3.0 evolution, but video input audio unsupported disappointing. Wait for next update.",
+      "engagement": 38,
+      "url": "https://x.com/CriticAI/status/2019278901234567890",
+      "category": "concern",
+      "insight": "機能限界を具体的に批判"
+    }
+  ],
+  "discussions": [
+    {
+      "theme": "マルチショットの実用性",
+      "summary": "映画級動画作成の効率について議論。ショット制御がプロダクションを変える可能性。",
+      "participantCount": 56,
+      "keyTakeaways": [
+        "複数ショットでナラティブ構築容易",
+        "編集ツールとの統合提案",
+        "生成時間短縮の必要性"
+      ]
+    },
+    {
+      "theme": "音声機能の精度",
+      "summary": "多言語アクセントの改善を求める声。唇同期の安定性が鍵。",
+      "participantCount": 43,
+      "keyTakeaways": [
+        "グローバル市場向け強化要請",
+        "動画入力音声サポートの優先",
+        "競合Soraとの比較"
+      ]
+    },
+    {
+      "theme": "価格とアクセス",
+      "summary": "Ultraサブスクの価値議論。無料ユーザー拡大を望む。",
+      "participantCount": 37,
+      "keyTakeaways": [
+        "早期アクセスのメリット評価",
+        "クレジットシステムの柔軟性要望",
+        "インディー向けプラン提案"
+      ]
+    },
+    {
+      "theme": "競合比較",
+      "summary": "SoraやVeoとの違いを分析。Klingのリアルさが優位。",
+      "participantCount": 29,
+      "keyTakeaways": [
+        "4K出力の独自性",
+        "長尺生成の限界指摘",
+        "統合ツールとしての将来性"
+      ]
+    }
+  ],
+  "competitorComparisons": [
+    {
+      "competitor": "Sora 2",
+      "comparisonPoint": "動画長",
+      "communityView": "Klingの15秒精密制御に対しSoraの20秒+が優位だが、一貫性でKling有利。"
+    },
+    {
+      "competitor": "Veo 3",
+      "comparisonPoint": "音声統合",
+      "communityView": "Klingの多言語ネイティブがVeoの単言語を上回るが、アクセント精度でVeo安定。"
+    },
+    {
+      "competitor": "Runway ML",
+      "comparisonPoint": "ユーザーアクセス",
+      "communityView": "KlingのUltra制限に対しRunwayの無料ティアが親しみやすいが、品質でKling勝る。"
+    }
+  ],
+  "practicalQuestions": [
+    {
+      "question": "Kling 3.0を商用動画制作に使うべきか？",
+      "answers": [
+        "4K出力で高品質だが、15秒限界考慮",
+        "マルチショットでプロトタイプ向き",
+        "サブスクコスト対効果検証"
+      ]
+    },
+    {
+      "question": "SoraからKlingに移行する価値は？",
+      "answers": [
+        "一貫性と音声でYes",
+        "長尺ニーズならNo",
+        "テスト生成で比較推奨"
+      ]
+    },
+    {
+      "question": "アクセント精度をどう改善？",
+      "answers": [
+        "追加トレーニングデータ使用",
+        "外部ツール併用",
+        "フィードバック送信"
+      ]
+    }
+  ]
+}

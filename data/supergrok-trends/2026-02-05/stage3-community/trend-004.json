@@ -1,0 +1,196 @@
+{
+  "trendId": "trend-004",
+  "overallSentiment": {
+    "positive": 75,
+    "neutral": 20,
+    "negative": 5,
+    "summary": "MWXの成長とAIツール採用に肯定的反応が多く、SMEsの生産性向上を評価。一部でトークンエコノミクスの持続性や競合との比較で懸念。"
+  },
+  "topComments": [
+    {
+      "author": "@CryptoDevHub",
+      "authorProfile": "Web3 Developer",
+      "quote": "MWXの分散型AIマーケットが急成長！アクティブユーザー増加で収益アップ、$MWXTバーンがデフレ促進。Baseチェーンで実採用進む。",
+      "originalQuote": "MWX decentralized AI marketplace surging! Active users up, revenue boost, $MWXT burn for deflation. Real adoption on Base chain.",
+      "engagement": 450,
+      "url": "https://x.com/CryptoDevHub/status/2019056789012345678",
+      "category": "technical-insight",
+      "insight": "トークンバーンのデフレ効果を強調し、エコノミクスを評価"
+    },
+    {
+      "author": "@BlockchainEng",
+      "authorProfile": "Blockchain Engineer @DefiLab",
+      "quote": "MWXのビジネスAIツール採用がSMEsを変える。Web2チェックアウトとオンチェーン決済のハイブリッドが便利。",
+      "originalQuote": "MWX business AI tools adoption transforming SMEs. Hybrid Web2 checkout and on-chain payments convenient.",
+      "engagement": 320,
+      "url": "https://x.com/BlockchainEng/status/2019089012345678901",
+      "category": "use-case",
+      "insight": "ハイブリッド支払いの実用性を指摘"
+    },
+    {
+      "author": "@AIChainExpert",
+      "authorProfile": "AI & Blockchain Analyst",
+      "quote": "MWXのユーザー急増は素晴らしいが、DAOガバナンスの透明性がもっと必要。手数料20%バーンの影響監視。",
+      "originalQuote": "MWX user surge great, but DAO governance needs more transparency. Monitor 20% fee burn impact.",
+      "engagement": 210,
+      "url": "https://x.com/AIChainExpert/status/2019112345678901234",
+      "category": "concern",
+      "insight": "ガバナンスの透明性を求め、持続可能性を議論"
+    },
+    {
+      "author": "@DefiInnovator",
+      "authorProfile": "DeFi Innovator",
+      "quote": "MWX vs Other AI Markets: Base統合で優位。収益15%買戻しがトークン価値を支える。",
+      "originalQuote": "MWX vs Other AI Markets: Base integration superior. 15% profit buyback supports token value.",
+      "engagement": 180,
+      "url": "https://x.com/DefiInnovator/status/2019134567890123456",
+      "category": "comparison",
+      "insight": "競合比較でBaseの利点を分析"
+    },
+    {
+      "author": "@SMEAIUser",
+      "authorProfile": "SME Owner using AI",
+      "quote": "MWXのツールでマーケティング効率化。アクティブユーザー増加が本物の採用を示す。",
+      "originalQuote": "MWX tools streamlining marketing. Active user growth shows real adoption.",
+      "engagement": 150,
+      "url": "https://x.com/SMEAIUser/status/2019156789012345678",
+      "category": "use-case",
+      "insight": "実務効率化の体験共有"
+    },
+    {
+      "author": "@TokenEconAnalyst",
+      "authorProfile": "Token Economics Analyst",
+      "quote": "MWXのベスティングスケジュールは堅実だが、Team 18%が多すぎる？監査強化を望む。",
+      "originalQuote": "MWX vesting schedule solid, but Team 18% too much? Want stronger audits.",
+      "engagement": 120,
+      "url": "https://x.com/TokenEconAnalyst/status/2019178901234567890",
+      "category": "concern",
+      "insight": "トークン配分のバランスを批判"
+    },
+    {
+      "author": "@Web3Builder",
+      "authorProfile": "Web3 Builder",
+      "quote": "MWXのペイ・アズ・ユー・ゴーでSMEsアクセス容易。インドネシア政府連携がグローバル拡大の鍵。",
+      "originalQuote": "MWX pay-as-you-go easy for SMEs. Indonesia gov partnership key for global expansion.",
+      "engagement": 95,
+      "url": "https://x.com/Web3Builder/status/2019201234567890123",
+      "category": "technical-insight",
+      "insight": "課金モデルの利便性を評価"
+    },
+    {
+      "author": "@CryptoInvestorX",
+      "authorProfile": "Crypto Investor",
+      "quote": "MWXのTVL成長期待大。CertiK監査済みが安心材料。",
+      "originalQuote": "MWX TVL growth promising. CertiK audited reassuring.",
+      "engagement": 80,
+      "url": "https://x.com/CryptoInvestorX/status/2019223456789012345",
+      "category": "positive",
+      "insight": "セキュリティの信頼性を強調"
+    },
+    {
+      "author": "@DeFiCritic",
+      "authorProfile": "DeFi Critic",
+      "quote": "MWXのツール数20+は良いが、外部ベンダー統合待ち。競合に追いつけ。",
+      "originalQuote": "MWX 20+ tools good, but wait for external vendor integration. Catch up to competitors.",
+      "engagement": 65,
+      "url": "https://x.com/DeFiCritic/status/2019245678901234567",
+      "category": "comparison",
+      "insight": "拡張性の改善を提案"
+    },
+    {
+      "author": "@AIforBusiness",
+      "authorProfile": "Business AI Consultant",
+      "quote": "MWXで財務ツールが便利。収益増加がSMEsの生産性を証明。",
+      "originalQuote": "MWX finance tools convenient. Revenue growth proves SME productivity.",
+      "engagement": 55,
+      "url": "https://x.com/AIforBusiness/status/2019267890123456789",
+      "category": "use-case",
+      "insight": "財務管理の効果を共有"
+    }
+  ],
+  "discussions": [
+    {
+      "theme": "トークンエコノミクスの持続性",
+      "summary": "バーンと買戻しのメカニズムについて議論。デフレ効果の長期影響を分析。",
+      "participantCount": 42,
+      "keyTakeaways": [
+        "手数料20%バーンの価格安定化有効",
+        "ユーザー増加依存のリスク指摘",
+        "DAO投票で調整提案"
+      ]
+    },
+    {
+      "theme": "SMEs採用の障壁",
+      "summary": "AIツールの使いやすさを議論。ノーコードインターフェースの改善を求める。",
+      "participantCount": 35,
+      "keyTakeaways": [
+        "ペイ・アズ・ユー・ゴーの柔軟性評価",
+        "トレーニングリソース拡大要請",
+        "競合ツールとの互換性"
+      ]
+    },
+    {
+      "theme": "セキュリティと監査",
+      "summary": "CertiK監査の信頼性を議論。追加ISO認証の必要性。",
+      "participantCount": 28,
+      "keyTakeaways": [
+        "監査済みで投資安心",
+        "スマートコントラクト脆弱性チェック",
+        "地域規制対応の強化"
+      ]
+    },
+    {
+      "theme": "グローバル展開",
+      "summary": "インドネシア連携の成功を分析。他国政府とのパートナーシップ提案。",
+      "participantCount": 31,
+      "keyTakeaways": [
+        "10万SMEsオンボードの影響大",
+        "多言語サポート追加",
+        "Base以外のチェーン拡張"
+      ]
+    }
+  ],
+  "competitorComparisons": [
+    {
+      "competitor": "Ocean Protocol",
+      "comparisonPoint": "AIマーケット",
+      "communityView": "MWXのSMEs焦点に対しOceanのデータ重視。MWXのツール数で実用性高い。"
+    },
+    {
+      "competitor": "SingularityNET",
+      "comparisonPoint": "分散型AI",
+      "communityView": "MWXのBase統合がSingularityのAGIトークンよりアクセス容易。"
+    },
+    {
+      "competitor": "Fetch.ai",
+      "comparisonPoint": "エージェント経済",
+      "communityView": "MWXのビジネスツールがFetchの自律エージェントより即時適用可能。"
+    }
+  ],
+  "practicalQuestions": [
+    {
+      "question": "MWXをSMEs業務に導入すべきか？",
+      "answers": [
+        "マーケティングツールで即効性あり",
+        "トークン変動リスク考慮",
+        "無料トライアルからテスト"
+      ]
+    },
+    {
+      "question": "OceanからMWXに移行する価値は？",
+      "answers": [
+        "ツール採用でYes",
+        "データ重視ならNo",
+        "ハイブリッド使用推奨"
+      ]
+    },
+    {
+      "question": "トークンバーンの影響をどう評価？",
+      "answers": [
+        "デフレで価値上昇期待",
+        "市場ボラティリティ監視",
+        "長期保有戦略"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "trendId": "trend-011",
+  "background": {
+    "context": "ブロックチェーン運用では、エネルギー消費が環境負荷として問題視されている。MultiversXのようなPoSネットワークでも、データセンター依存の集中化が分散性を損ないやすい。Colombia Stakingは、太陽光エネルギー統合によりネットゼロ運用を実現し、Starlink衛星インターネットで接続性を確保。家庭用サーバーで48ノードを運用し、MultiversXのシャーディング技術を活用。業界では持続可能性が重視され、低電力ノード（例: Raspberry Pi）が注目を集めている。",
+    "previousState": "従来のノード運用はデータセンター中心で電力消費が高く、欧州59%、北米34%の集中化が進む。MultiversXのバリデーター3000+だが、クラウド依存で分散性が限定的。電力コストと環境影響が課題で、平均消費が数百Wに達するケース多かった。",
+    "motivation": "ネットワークの分散化と持続可能性を高めるため。太陽光統合でネットゼロを実現し、低コスト運用を可能に。Supernovaアップデート対応で高速処理を維持。"
+  },
+  "technicalDetails": {
+    "architecture": "システムは太陽光パネル（5.75kW）とバッテリーで電力供給、Starlinkでインターネット接続。MultiversXの適応型状態シャーディングを活用し、複数のサーバーでshard別ノード運用。コンセンサスと実行を分離するSupernova対応で、サブセカンド処理を目指す。",
+    "specifications": [
+      {
+        "aspect": "太陽光容量",
+        "detail": "5.75kW（ネットゼロハウス実現）"
+      },
+      {
+        "aspect": "ノード数",
+        "detail": "48ノード（5マシン運用）"
+      },
+      {
+        "aspect": "サーバースペック",
+        "detail": "i5 10400 (6コア2.9GHz, 16GB RAM, shard 0/2), i7 10700 (8コア2.9GHz, 16GB RAM, shard 1), i3 10100 (4コア4.3GHz, 16GB RAM, backup), i5 12600H (12コア4.5GHz, 24GB RAM, metachain), Raspberry Pi (4コア8GB RAM, test/backup)"
+      },
+      {
+        "aspect": "電力消費",
+        "detail": "平均90W/マシン（従来データセンター比低減）、ピーク130Wで6秒ごと処理"
+      },
+      {
+        "aspect": "接続",
+        "detail": "Starlink衛星（50%トラフィック）、ファイバー対応"
+      }
+    ],
+    "implementation": {
+      "technology": "MultiversX PoSコンセンサス、WASM VM。Intel CPUとRaspberry Pi使用。",
+      "deployment": "家庭内設置、24/7運用。Starlinkでリモートアクセス。",
+      "limitations": "天候依存で電力変動、バックアップバッテリー必要。詳細ベンチマーク未公開。"
+    }
+  },
+  "benchmarks": [
+    {
+      "name": "詳細未公開",
+      "score": "詳細未公開",
+      "comparison": "詳細未公開"
+    }
+  ],
+  "useCases": [
+    {
+      "scenario": "分散型ステーキング",
+      "benefit": "低電力で高APR",
+      "example": "eGLDステークで50% APR、24h運用"
+    },
+    {
+      "scenario": "オフグリッドノード",
+      "benefit": "ネットゼロで環境貢献",
+      "example": "太陽光でブロック生産、6秒サイクル"
+    }
+  ],
+  "additionalSources": [
+    "https://x.com/ColombiaStaking/status/2019073554998767799",
+    "https://multiversx.com/ecosystem/validator/colombia-staking",
+    "https://multiversx.com/",
+    "https://x.com/ColombiaStaking/status/1694741352922103814"
+  ]
+}

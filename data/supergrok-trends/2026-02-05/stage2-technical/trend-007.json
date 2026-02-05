@@ -1,0 +1,65 @@
+{
+  "trendId": "trend-007",
+  "background": {
+    "context": "AIツール市場は急速に拡大し、数百のツールが存在するが、用途別の発見が難しい課題がある。仕事の生産性向上や個人成長を求めるユーザーが増加中。jason_coder0のリストは、アイデア生成からマーケティングまで13カテゴリに120ツールを分類し、日常業務効率化を支援。2026年2月のポストが注目を集め、エンジニアのツール選定を助ける。",
+    "previousState": "従来、AIツールは散在し、カテゴリ分類が不十分。ユーザーは個別に検索する必要があり、時間浪費や最適ツールの見逃しが発生。類似リストは存在したが、120規模の包括的なものは少なく、更新頻度も低い。",
+    "motivation": "多様なAIツールを一元的にまとめ、ユーザーの選択を容易にするため。カテゴリ分類で目的別アクセスを可能にし、生産性向上を促進。"
+  },
+  "technicalDetails": {
+    "architecture": "リスト形式の分類構造を採用。13カテゴリ（Ideas, Presentation, Website, Writing, AI Models, Meeting, Chatbots, Automation, UI/UX, Image, Video, Design, Marketing, Twitter）に各5ツールを配置。Xポストで視覚的に提示し、保存性を考慮。",
+    "specifications": [
+      {
+        "aspect": "カテゴリ数",
+        "detail": "13カテゴリ（IdeasからTwitterまで）"
+      },
+      {
+        "aspect": "ツール総数",
+        "detail": "120ツール（各カテゴリ5つ）"
+      },
+      {
+        "aspect": "分類基準",
+        "detail": "用途別（例: IdeasはChatGPTなど言語モデル中心）"
+      },
+      {
+        "aspect": "更新性",
+        "detail": "詳細未公開、日常AIツール共有を推奨"
+      },
+      {
+        "aspect": "アクセス性",
+        "detail": "Xポスト経由無料公開"
+      }
+    ],
+    "implementation": {
+      "technology": "Xプラットフォーム使用、リストテキストと画像で構成。",
+      "deployment": "Xポストで公開、フォロー推奨で継続更新。",
+      "limitations": "各ツールの詳細説明なし、有料/無料区別未明記。静的リストのため更新追跡必要。"
+    }
+  },
+  "benchmarks": [
+    {
+      "name": "詳細未公開",
+      "score": "詳細未公開",
+      "comparison": "詳細未公開"
+    }
+  ],
+  "useCases": [
+    {
+      "scenario": "アイデア生成",
+      "benefit": "ChatGPTなどでブレインストーム",
+      "example": "プロジェクト企画を5分で複数案生成"
+    },
+    {
+      "scenario": "プレゼン作成",
+      "benefit": "Slides AIで自動レイアウト",
+      "example": "資料を10分で完成、従来比50%短縮"
+    },
+    {
+      "scenario": "マーケティング",
+      "benefit": "AdCreativeで広告生成",
+      "example": "キャンペーンを15分で設計"
+    }
+  ],
+  "additionalSources": [
+    "https://x.com/jason_coder0/status/2018949667623698466"
+  ]
+}

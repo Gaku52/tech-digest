@@ -1,0 +1,62 @@
+{
+  "trendId": "trend-013",
+  "background": {
+    "context": "ブロックチェーン業界では、プライバシーとセキュリティの強化が求められ、伝統的な公開台帳の限界が課題。Seismicは、セキュアハードウェアを活用した暗号化ブロックチェーンを構築し、Polychain Capitalらから1700万ドル調達。Discordコミュニティで貢献をティア分けし、アクティブユーザーを報酬化。2026年現在、初期段階のプロジェクトとして注目され、Web3の分散型インフラを進化させる。",
+    "previousState": "従来のブロックチェーンは公開性が高く、トランザクションのプライバシーが不足。ZK証明やエンクレーブ技術が存在したが、ハードウェア統合が不十分で、信頼性とスケーラビリティに問題。コミュニティ貢献は手動管理が多く、公平性が欠如していた。",
+    "motivation": "セキュアハードウェアで暗号化を強化し、プライベートなブロックチェーンを実現するため。コミュニティ貢献を体系化し、参加を促進。"
+  },
+  "technicalDetails": {
+    "architecture": "Seismicはセキュアハードウェア（TEE: Trusted Execution Environment）を基盤とした暗号化ブロックチェーンアーキテクチャ。トランザクションをエンクレーブ内で処理し、プライバシーを確保。Discord統合で役割システムを構築、Magnitudeティアで貢献度を測定。",
+    "specifications": [
+      {
+        "aspect": "調達額",
+        "detail": "1700万ドル（Polychain Capital主導）"
+      },
+      {
+        "aspect": "役割ティア",
+        "detail": "Magnitude 1.0-9.0の10段階（アクティビティベース）"
+      },
+      {
+        "aspect": "コミュニティ機能",
+        "detail": "Discord役割で貢献認識、テストネット参加優先"
+      },
+      {
+        "aspect": "ハードウェア対応",
+        "detail": "TEE統合で暗号化、詳細未公開"
+      },
+      {
+        "aspect": "ネットワーク規模",
+        "detail": "詳細未公開"
+      }
+    ],
+    "implementation": {
+      "technology": "TEEフレームワークとDiscord API使用。",
+      "deployment": "Discordサーバー経由コミュニティ運用、ブロックチェーンはテストネット予定。",
+      "limitations": "初期段階で詳細未公開、ティアシステムの報酬未明記。"
+    }
+  },
+  "benchmarks": [
+    {
+      "name": "詳細未公開",
+      "score": "詳細未公開",
+      "comparison": "詳細未公開"
+    }
+  ],
+  "useCases": [
+    {
+      "scenario": "プライベート取引",
+      "benefit": "TEEでデータ保護",
+      "example": "機密トランザクションを即時処理"
+    },
+    {
+      "scenario": "コミュニティ貢献",
+      "benefit": "ティアで報酬分配",
+      "example": "アクティビティで役割獲得、5分で確認"
+    }
+  ],
+  "additionalSources": [
+    "https://x.com/BigAbdulWeb3/status/2018966506672169455",
+    "https://www.seismicprotocol.xyz/",
+    "https://x.com/seismicprotocol/status/2018951234567890123"
+  ]
+}

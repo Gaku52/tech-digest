@@ -1,0 +1,71 @@
+{
+  "trendId": "trend-012",
+  "background": {
+    "context": "ブロックチェーン業界では、伝統金融機関の採用が進む中、スケーラビリティとコンプライアンスの課題が顕在化。Avalancheはサブネット技術でカスタムブロックチェーンを提供し、機関向けに高速・低コストのインフラを実現。2025年Q4でRWAトークン化TVLが1.3億ドル超え、68.6%成長。BlackRockやVisaなどのパートナーシップが増加し、2026年のリーダー予測。トークン化資産の流動性向上と規制対応が鍵。",
+    "previousState": "従来のブロックチェーンはスケーラビリティ不足で、EthereumのTPS制限やSolanaのダウンタイムが問題。機関採用は遅れ、TVL成長が停滞。Avalancheの初期TVLは低かったが、2025年949%年成長で改善。",
+    "motivation": "機関が求めるコンプライアンス・プライバシー・カスタマイズを提供するため。トークン化で資産流動性を高め、伝統金融とブロックチェーンの橋渡し。"
+  },
+  "technicalDetails": {
+    "architecture": "AvalancheはPoSコンセンサスとサブネットアーキテクチャを採用。C-ChainでEVM互換、専用L1でカスタムVM・ガストークン・ジオ制限可能。2秒未満のファイナリティと低手数料で機関向け。",
+    "specifications": [
+      {
+        "aspect": "RWA TVL",
+        "detail": "1.3億ドル（2025 Q4、68.6% QonQ成長、949% YoY成長）"
+      },
+      {
+        "aspect": "取引数",
+        "detail": "C-Chainで10億超（2025年末）"
+      },
+      {
+        "aspect": "DAU",
+        "detail": "171,000（2026年1月、20倍増）"
+      },
+      {
+        "aspect": "ファイナリティ",
+        "detail": "2秒未満（従来比高速）"
+      },
+      {
+        "aspect": "手数料削減",
+        "detail": "Octaneアップデートで42.7%低減"
+      }
+    ],
+    "implementation": {
+      "technology": "サブネットとWASM VM使用、ZK証明統合予定。",
+      "deployment": "メインネット運用、機関向け専用L1。",
+      "limitations": "価格変動リスク、ベンチマーク一部未公開。"
+    }
+  },
+  "benchmarks": [
+    {
+      "name": "詳細未公開",
+      "score": "詳細未公開",
+      "comparison": "詳細未公開"
+    }
+  ],
+  "useCases": [
+    {
+      "scenario": "RWAトークン化",
+      "benefit": "流動性向上",
+      "example": "BlackRock基金を5分でトークン化"
+    },
+    {
+      "scenario": "支払い処理",
+      "benefit": "即時決済",
+      "example": "Wyoming stablecoinで数秒処理"
+    }
+  ],
+  "additionalSources": [
+    "https://x.com/realwarrior313/status/2019019836391625061",
+    "https://ambcrypto.com/avalanche-adoption-is-exploding-but-avax-now-faces-its-biggest-test",
+    "https://www.ainvest.com/news/avalanche-sees-rapid-institutional-adoption-tokenizing-real-world-assets-avax-price-drop-2602",
+    "https://phemex.com/news/article/avalanche-rwa-issuance-exceeds-13-billion-boosting-institutional-adoption-56809",
+    "https://www.youtube.com/watch?v=DJhe4-eTwcs",
+    "https://tradersunion.com/news/cryptocurrency-news/show/1400692-avalanche-price-prediction-for-2027",
+    "https://cryptorank.io/news/feed/96ccf-avalanche-price-prediction-avax-100-5",
+    "https://www.kucoin.com/news/flash/avalanche-ecosystem-gains-institutional-momentum-amid-market-downturn",
+    "https://www.linkedin.com/posts/avaxone_avalanche-blockchain-digitalassets-activity-7416889542127030272-TmQy",
+    "https://www.globenewswire.com/news-release/2026/01/28/3227665/0/en/AVAX-One-Provides-Strategic-Update-on-AVAX-Treasury-and-Ongoing-Growth-Initiatives.html",
+    "https://www.businesswire.com/news/home/20260126788202/en/VanEck-Introduces-Another-First-with-Launch-of-the-VanEck-Avalanche-ETF-VAVX",
+    "https://x.com/avax/status/1988286476606390465"
+  ]
+}

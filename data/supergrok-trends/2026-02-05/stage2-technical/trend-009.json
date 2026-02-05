@@ -1,0 +1,67 @@
+{
+  "trendId": "trend-009",
+  "background": {
+    "context": "ブロックチェーン業界では、スケーラビリティが永遠の課題で、EthereumのTPS制限やSolanaの安定性問題が議論されている。StarknetはZK-Rollupとして登場し、STARK証明技術で高スループットを実現。Eli Ben-Sasson（ZK-STARK発明者）は、2030年までにStarknetがSolanaとEthereumをTVLとTPSで上回ると予測。この予測は、ZK技術の市場勢い移行を強調し、量子耐性やプライバシーを備えた未来-proofなブロックチェーンを目指す。2026年現在、StarknetのTVLは約300百万ドル、TPS容量は1000以上で、Bitcoin統合が進む。",
+    "previousState": "従来のEthereumはTPS約30で混雑し、Solanaは最大2000TPSだがダウンタイム多発。Starknetの初期はTVL90百万ドル（2025年8月）で、TPS500程度。競合L2（Arbitrumなど）と比較し、TVLで後れを取っていた。ZK証明の採用が遅れ、市場シェアが限定的だった。",
+    "motivation": "ZK-STARKの優位性を活かし、Ethereum/Solanaの制限を超えるため。高TPSと低コストでDeFi/Gamingを活性化。Bitcoinの実行レイヤーとして機能し、分散化を推進。"
+  },
+  "technicalDetails": {
+    "architecture": "StarknetはValidity Rollup（ZK-Rollup）アーキテクチャを採用。オフチェーンで取引をバッチ処理し、STARK証明でEthereum L1に検証。Cairo言語とVMでスマートコントラクトを実行、Native Account AbstractionでUX向上。S-twoプローバーで証明時間を短縮。Bitcoin統合でSTARK検証をBTCスクリプトに実装予定。",
+    "specifications": [
+      {
+        "aspect": "TPS容量",
+        "detail": "現在1000以上（従来500から2倍増）、ピーク2630 UOPS（約2600 TPS相当）、目標10k TPS"
+      },
+      {
+        "aspect": "TVL",
+        "detail": "2026年1月約301百万ドル（2025年8月90百万ドルから3倍増）"
+      },
+      {
+        "aspect": "取引遅延",
+        "detail": "500ms（従来2秒から75%短縮）"
+      },
+      {
+        "aspect": "ガス料金",
+        "detail": "平均0.001ドル未満"
+      },
+      {
+        "aspect": "証明時間",
+        "detail": "S-twoで3分未満（従来24分から88%短縮）"
+      }
+    ],
+    "implementation": {
+      "technology": "ZK-STARK証明とCairoフレームワーク使用。量子耐性とプライバシー強化。",
+      "deployment": "Ethereum L2としてメインネット運用、Bitcoin L2拡張予定。",
+      "limitations": "詳細ベンチマーク未公開。Bitcoin統合初期段階。"
+    }
+  },
+  "benchmarks": [
+    {
+      "name": "UOPSピーク",
+      "score": "2630 UOPS",
+      "comparison": "1日平均273 UOPS"
+    }
+  ],
+  "useCases": [
+    {
+      "scenario": "DeFi取引",
+      "benefit": "低コスト高TPS",
+      "example": "取引を500msで処理、従来比コスト99%減"
+    },
+    {
+      "scenario": "BTCFi",
+      "benefit": "Bitcoin資産ステーキング",
+      "example": "Runes転送を数秒で完了"
+    }
+  ],
+  "additionalSources": [
+    "https://x.com/EliBenSasson/status/2019138842180366518",
+    "https://www.starknet.io/blog/starknet-2025-year-in-review",
+    "https://www.starknet.io/blog/eli-ben-sasson-on-bitcoin-starknet-and-the-future-of-decentralization",
+    "https://www.youtube.com/watch?v=Wi_7qY8uE-0",
+    "https://thedefiant.io/news/blockchains/starknet-token-outperforms-as-tvl-climbs",
+    "https://stealthex.io/blog/starknet-price-prediction-is-strk-coin-a-good-investment",
+    "https://www.youtube.com/watch?v=lN7W0ctgUlg",
+    "https://www.thebigwhale.io/articles-en/eli-ben-sasson-starkware-starknet-becoming-a-l2-bitcoin-a-natural-evolution-for-our-technology"
+  ]
+}

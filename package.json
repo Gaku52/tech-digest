@@ -11,7 +11,8 @@
     "generate-prompt": "ts-node src/scripts/generate-daily-prompt.ts",
     "genprompt": "ts-node src/scripts/generate-daily-prompt.ts --copy",
     "process-response": "ts-node src/scripts/process-supergrok-response.ts --interactive",
-    "import-articles": "ts-node src/scripts/import-articles-to-db.ts"
+    "import-articles": "ts-node src/scripts/import-articles-to-db.ts",
+    "generate-articles": "ts-node scripts/generate-articles.ts"
   },
   "dependencies": {
     "@prisma/client": "^6.2.1",

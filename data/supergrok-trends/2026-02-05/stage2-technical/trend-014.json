@@ -1,0 +1,77 @@
+{
+  "trendId": "trend-014",
+  "background": {
+    "context": "外国為替（FX）市場は世界最大の金融市場で、日次取引高が9.6兆ドルを超えるが、ブロックチェーン上での実行は流動性の断片化と信頼できない価格設定により遅れている。従来のAMMモデルは実世界通貨向けに設計されておらず、予測可能性が不足。Mentoは分散型FXインフラとして登場し、固定価格モデルでオラクルベースの実際レートを追跡。Celoで開始し、Monadのような高性能チェーンに拡張。Wormhole統合でマルチチェーンを実現し、グローバルな決済やDeFiアプリケーションを支援。2026年のMonad展開は、低レイテンシと速いファイナリティを活用し、機関グレードの実行を提供。",
+    "previousState": "従来のブロックチェーンFXはAMM曲線依存で、スリッページや不確実な価格実行が問題。実世界通貨ペアのサポートが限定的で、市場時間制限や中央集権的中間業者に依存。Mentoの前は、ステーブルコイン交換が主にUSD中心で、非USD通貨の流動性が低く、クロスチェーン移動が複雑。結果として、グローバルユーザー向けの効率的なFXアクセスが不足し、取引量がオフチェーン市場の僅か一部に留まっていた。",
+    "motivation": "実世界レートでの信頼できるオンチェーンFXを提供するため。予測可能で資本効率の高い実行を機関規模で実現し、国境を越えた支払いや財務ワークフローを効率化。Monadの高スループット環境を活用し、DeFiのコンポーザビリティを強化。"
+  },
+  "technicalDetails": {
+    "architecture": "Mentoはモジュラー型マルチチェーンFXインフラを基盤とし、Celoでステーブルコイン発行とリスク管理を固定。流動性と市場形成はMonadのような高性能チェーンに拡張。Fixed-Price FXモデルを採用し、Chainlinkオラクルで実世界レートを追跡。変動AMM曲線ではなく、固定価格プールでスリッページを最小化。Wormholeでセキュアなクロスチェーン接続を確保し、流動性の統一を実現。MonadのEVM環境で低レイテンシと連続リバランスをサポートし、プログラマブルな通貨交換を可能にする。",
+    "specifications": [
+      {
+        "aspect": "サポート通貨数",
+        "detail": "15通貨（USDm, EURm, BRLm, KESm, PHPm, COPm, XOFm, NGNm, JPYm, CHFm, ZARm, GBPm, AUDm, CADm, GHSm）"
+      },
+      {
+        "aspect": "初期取引ペア",
+        "detail": "GBPm / USDm（世界で最も活発なFXペアの一つ）"
+      },
+      {
+        "aspect": "取引高",
+        "detail": "2025年185億ドル（前年比増加）"
+      },
+      {
+        "aspect": "ユーザー数",
+        "detail": "Opera MiniPayで1200万+ユーザー"
+      },
+      {
+        "aspect": "ファイナリティ",
+        "detail": "Monadで即時（数秒以内、従来AMM比低レイテンシ）"
+      },
+      {
+        "aspect": "拡張性",
+        "detail": "マルチチェーン（CeloからMonadへ、追加チェーン予定）"
+      }
+    ],
+    "implementation": {
+      "technology": "Fixed-Price FXモデルとChainlinkオラクル統合。Wormhole NTT標準でマルチチェーン転送。Monadの高スループットEVMで実行最適化。",
+      "deployment": "Celoメインネットで発行、Monadで流動性プール展開。インセンティブプログラムで初期流動性確保。Webアプリ経由アクセス。",
+      "limitations": "初期ペア限定（GBPm/USDm）、追加通貨は需要次第。ベンチマーク詳細未公開。クロスチェーンリスク存在。"
+    }
+  },
+  "benchmarks": [
+    {
+      "name": "取引高",
+      "score": "185億ドル",
+      "comparison": "2025年全体"
+    },
+    {
+      "name": "ユーザー規模",
+      "score": "1200万+",
+      "comparison": "MiniPay経由"
+    }
+  ],
+  "useCases": [
+    {
+      "scenario": "国境越え支払い",
+      "benefit": "リアルタイム通貨変換",
+      "example": "給与支払いを数秒で完了、従来比コスト90%減"
+    },
+    {
+      "scenario": "DeFi利回り戦略",
+      "benefit": "低スリッページ交換",
+      "example": "資産リバランスを自動化、5分以内に実行"
+    },
+    {
+      "scenario": "フィンテックアプリ",
+      "benefit": "コンポーザブルFXプリミティブ",
+      "example": "マルチ通貨ウォレットを統合、ユーザー体験向上"
+    }
+  ],
+  "additionalSources": [
+    "https://www.mento.org/blog/mento-is-bringing-onchain-fx-to-the-monad-ecosystem",
+    "https://wormhole.com/blog/mento-selects-wormhole-as-its-official-interoperability-provider",
+    "https://www.mento.org/blog/mento-the-place-for-onchain-fx",
+    "https://x.com/MentoLabs/status/2019057429099753552"
+  ]
+}

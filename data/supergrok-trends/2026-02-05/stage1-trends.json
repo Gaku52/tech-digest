@@ -1,0 +1,335 @@
+{
+"date": "2026-02-05",
+"trends": [
+{
+"id": "trend-001",
+"title": "Claude AIの広告非表示ポリシー発表",
+"category": "AI",
+"priority": "critical",
+"tags": ["Claude", "広告フリー", "AI倫理"],
+"excerpt": "Anthropic社のClaude AIが、AIに広告を導入しない方針を発表。動画で「広告がAIにくるが、Claudeにはない。考え続けろ」と強調。ユーザーの思考を妨げない安全で正確なAIを目指す。",
+"engagement": 42880,
+"sources": [
+"https://x.com/claudeai/status/2019071113741906403"
+],
+"keyPoints": [
+"広告非表示によりユーザー体験を優先、39757いいね獲得",
+"Anthropicの安全・正確・セキュアなAI構築を強調",
+"動画視聴回数3167988回、広範な支持を集める"
+],
+"technicalKeywords": [
+"AI倫理",
+"広告フリーAI",
+"ユーザー体験"
+]
+},
+{
+"id": "trend-002",
+"title": "Kling 3.0モデル公開：マルチモーダル創作エンジン",
+"category": "AI",
+"priority": "critical",
+"tags": ["Kling AI", "動画生成", "マルチモーダル"],
+"excerpt": "Kling AIが3.0モデルをリリース。キャラクターの一貫性、15秒動画制御、4K画像出力、多言語音声を強化。Ultraサブスクライバー向け早期アクセス提供。創作潜在力を解き放つ。",
+"engagement": 3428,
+"sources": [
+"https://x.com/Kling_ai/status/2019064918960668819"
+],
+"keyPoints": [
+"15秒動画の精密制御とリアルさ向上",
+"4K画像出力と新画像シリーズモード搭載",
+"2837いいね、591リポストの高いエンゲージメント"
+],
+"technicalKeywords": [
+"マルチモーダルAI",
+"動画生成",
+"画像出力"
+]
+},
+{
+"id": "trend-003",
+"title": "MWXマーケットプレイス急成長：AIツール採用拡大",
+"category": "Blockchain",
+"priority": "critical",
+"tags": ["MWX", "AIマーケット", "Base"],
+"excerpt": "MWXの分散型AIマーケットプレイスが急成長。2026年1月時点でアクティブユーザー急増。ビジネスAIツールの採用増加が収益増大と$MWXTバーンを促進。現実的な採用が進む。",
+"engagement": 1124,
+"sources": [
+"https://x.com/mwx_ai/status/2019035082942759018"
+],
+"keyPoints": [
+"アクティブユーザー急増で収益増加",
+"614いいね、510リポストの注目度",
+"Baseチェーン上でのWeb2チェックアウトとオンチェーン決済"
+],
+"technicalKeywords": [
+"分散型マーケット",
+"AIツール",
+"トークンバーン"
+]
+},
+{
+"id": "trend-004",
+"title": "Kling 3.0によるフォトリアリスティックAI動画",
+"category": "AI",
+"priority": "high",
+"tags": ["Kling 3.0", "動画制作", "マルチショット"],
+"excerpt": "Kling 3.0のリリースでAIが100%フォトリアリスティックに。2日でBrandon Sandersonの小説オープニングシーケンスを作成。新マルチショット技法で映画制作を高速・低コスト化。",
+"engagement": 15927,
+"sources": [
+"https://x.com/PJaccetturo/status/2019072637192843463"
+],
+"keyPoints": [
+"14369いいね、1558リポストのウイルス的広がり",
+"マルチショット技法で制作時間短縮",
+"2887202視聴回数の影響力"
+],
+"technicalKeywords": [
+"フォトリアリスティックAI",
+"マルチショット",
+"動画生成"
+]
+},
+{
+"id": "trend-005",
+"title": "Veritas AI Genesis Pass限定リリース",
+"category": "AI",
+"priority": "high",
+"tags": ["Veritas AI", "サポートエージェント", "Discord"],
+"excerpt": "Veritas AIがGenesis Passを888枚限定でリリース。プライベートでセキュアなカスタムAIサポートエージェントを提供。Discordネイティブで自律動作、ブランド適合。",
+"engagement": 4095,
+"sources": [
+"https://x.com/veritasapp/status/2019097048939925883"
+],
+"keyPoints": [
+"2550いいね、1545リポストの人気",
+"限定888枚のアクセスカード",
+"75079視聴回数の関心度"
+],
+"technicalKeywords": [
+"AIエージェント",
+"Discord統合",
+"自律動作"
+]
+},
+{
+"id": "trend-006",
+"title": "ARC Terminal：AI駆動の分散型ウェブアシスタント",
+"category": "Blockchain",
+"priority": "high",
+"tags": ["ARC Terminal", "ポートフォリオ分析", "オンチェーンOS"],
+"excerpt": "ARC Terminalがリアルタイム集計とAI分析を統合したファイナンシャルエンジンを提供。分散型ウェブでの個人専門アシスタントを実現。オンチェーン生活をレベルアップ。",
+"engagement": 1189,
+"sources": [
+"https://x.com/TheARCTERMINAL/status/2019048303271559384"
+],
+"keyPoints": [
+"1040いいね、149リポストの支持",
+"ブラウザ内AI駆動オンチェーンOS",
+"4739視聴回数の注目"
+],
+"technicalKeywords": [
+"オンチェーン分析",
+"AI集計",
+"分散型ウェブ"
+]
+},
+{
+"id": "trend-007",
+"title": "120の必須AIツールリスト公開",
+"category": "AI",
+"priority": "medium",
+"tags": ["AIツール", "生産性", "開発"],
+"excerpt": "仕事と成長のための120のスマートAIツールを紹介。アイデア生成、プレゼン、ウェブサイト作成、ライティングなどカテゴリ別に分類。日常業務を効率化するツール集。",
+"engagement": 886,
+"sources": [
+"https://x.com/jason_coder0/status/2018949667623698466"
+],
+"keyPoints": [
+"690いいね、196リポストの有用性",
+"12カテゴリに分けたツール一覧",
+"25485視聴回数の広範な共有"
+],
+"technicalKeywords": [
+"AIツール",
+"生産性向上",
+"カテゴリ分類"
+]
+},
+{
+"id": "trend-008",
+"title": "Vitalik ButerinのL2同期コンポーザビリティ提唱",
+"category": "Blockchain",
+"priority": "medium",
+"tags": ["Ethereum", "L2", "トークン化"],
+"excerpt": "VitalikがL2の完全ネイティブ化と同期コンポーザビリティを提唱。一つの共通ブロックチェーンのビジョンを完成。BlackRockがEthereumをトークン化のデフォルト選択と評価。",
+"engagement": 213,
+"sources": [
+"https://x.com/leolanza/status/2019061771022090502"
+],
+"keyPoints": [
+"182いいね、31リポストの議論喚起",
+"BlackRockのEthereum優先発言",
+"14626視聴回数の影響"
+],
+"technicalKeywords": [
+"L2コンポーザビリティ",
+"トークン化",
+"Ethereum"
+]
+},
+{
+"id": "trend-009",
+"title": "StarknetのTVL・TPSでSolana・Ethereum超え予測",
+"category": "Blockchain",
+"priority": "medium",
+"tags": ["Starknet", "ZK-STARK", "スケーラビリティ"],
+"excerpt": "2030年までにStarknetがTVLとTPSでSolanaとEthereumを上回ると予測。ZK数学から市場勢いへの移行を強調。ブロックチェーンを未来-proof化。",
+"engagement": 210,
+"sources": [
+"https://x.com/EliBenSasson/status/2019138842180366518"
+],
+"keyPoints": [
+"195いいね、15リポストの楽観論",
+"ZK-STARK発明者の視点",
+"16126視聴回数の注目"
+],
+"technicalKeywords": [
+"ZK証明",
+"TVL",
+"TPS"
+]
+},
+{
+"id": "trend-010",
+"title": "Pollo AIによるファンタジー動画創作",
+"category": "AI",
+"priority": "low",
+"tags": ["Pollo AI", "動画生成", "クレジット配布"],
+"excerpt": "Pollo AIで作成された魔法・ファンタジー作品を紹介。12時間限定でフォロー・リポスト・リプライで68無料クレジット提供。ボット防止のためプロフィール写真必須。",
+"engagement": 865,
+"sources": [
+"https://x.com/itsPolloAI/status/2018988506077704447"
+],
+"keyPoints": [
+"404いいね、461リポストの参加促進",
+"17604視聴回数のクリエイティブ共有",
+"36秒動画の無限想像力強調"
+],
+"technicalKeywords": [
+"AI動画作成",
+"クレジットシステム",
+"ファンタジー生成"
+]
+},
+{
+"id": "trend-011",
+"title": "Colombia Stakingの太陽光エネルギー統合",
+"category": "Infrastructure",
+"priority": "low",
+"tags": ["MultiversX", "太陽光", "ノード運用"],
+"excerpt": "5.75kW太陽光エネルギーでネットゼロハウス実現。MultiversXノードを5台48ノード運用。ファイバースピードブロックチェーンとSupernova対応。",
+"engagement": 180,
+"sources": [
+"https://x.com/ColombiaStaking/status/2019073554998767799"
+],
+"keyPoints": [
+"151いいね、29リポストのエコ運用",
+"i5/i7サーバー複数使用",
+"2992視聴回数の技術共有"
+],
+"technicalKeywords": [
+"太陽光統合",
+"ブロックチェーンノード",
+"ネットゼロ"
+]
+},
+{
+"id": "trend-012",
+"title": "Avalancheの機関向けブロックチェーン採用",
+"category": "Blockchain",
+"priority": "low",
+"tags": ["Avalanche", "機関採用", "トークン化"],
+"excerpt": "Avalancheが機関向けスケーラブルインフラとして位置づけ。Visa、Toyota、BlackRockなど多数の企業がブロックチェーン活用。2026年の機関採用リーダー予測。",
+"engagement": 270,
+"sources": [
+"https://x.com/realwarrior313/status/2019019836391625061"
+],
+"keyPoints": [
+"227いいね、43リポストのリスト共有",
+"30以上の機関例挙",
+"9022視聴回数の情報拡散"
+],
+"technicalKeywords": [
+"機関ブロックチェーン",
+"トークン化",
+"スケーラビリティ"
+]
+},
+{
+"id": "trend-013",
+"title": "Seismicの暗号化ブロックチェーン構築",
+"category": "Blockchain",
+"priority": "low",
+"tags": ["Seismic", "セキュアハードウェア", "貢献システム"],
+"excerpt": "SeismicがPolychain Capitalらから1700万ドル調達。セキュアハードウェアを使った暗号化ブロックチェーン構築。Discord役割で貢献認識、アクティビティでティア分け。",
+"engagement": 174,
+"sources": [
+"https://x.com/BigAbdulWeb3/status/2018966506672169455"
+],
+"keyPoints": [
+"169いいね、5リポストのガイド",
+"Magnitude 1.0-9.0の役割ティア",
+"7663視聴回数のコミュニティ構築"
+],
+"technicalKeywords": [
+"暗号化ブロックチェーン",
+"セキュアハードウェア",
+"貢献ティア"
+]
+},
+{
+"id": "trend-014",
+"title": "MentoのMonadエコシステム向けFXインフラ",
+"category": "Infrastructure",
+"priority": "low",
+"tags": ["Mento", "FXオンチェーン", "Monad"],
+"excerpt": "Mentoが機関グレードのFXインフラをMonadエコシステムに導入。現実世界レートでのオンチェーンFXアクセスを提供。",
+"engagement": 262,
+"sources": [
+"https://x.com/MentoLabs/status/2019057429099753552"
+],
+"keyPoints": [
+"227いいね、35リポストの発表",
+"35660視聴回数の関心",
+"10秒動画のプロモーション"
+],
+"technicalKeywords": [
+"オンチェーンFX",
+"機関レート",
+"エコシステム統合"
+]
+},
+{
+"id": "trend-015",
+"title": "トンネルボーリングマシンの都市インフラ構築",
+"category": "Engineering",
+"priority": "low",
+"tags": ["TBM", "トンネル掘削", "インフラ"],
+"excerpt": "トンネルボーリングマシン（TBM）が大都市インフラ構築の重要機器。現代の主要都市開発に不可欠。",
+"engagement": 2631,
+"sources": [
+"https://x.com/CivilEngDis/status/2018962457822216443"
+],
+"keyPoints": [
+"2344いいね、287リポストの教育コンテンツ",
+"59718視聴回数の人気",
+"材料特性考慮のエンジニアリング"
+],
+"technicalKeywords": [
+"トンネルボーリング",
+"都市インフラ",
+"掘削機械"
+]
+}
+]
+}
