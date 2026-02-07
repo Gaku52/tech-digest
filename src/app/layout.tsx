@@ -20,11 +20,11 @@ const jetbrainsMono = JetBrains_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://tech-digest.ogadix.com'),
-  title: 'Tech Digest - 最新技術トレンドを毎日お届け',
+  title: 'Tech Digest - 最新技術トレンドを厳選配信',
   description: 'SuperGrokが分析した最新のAI・エンジニアリングトレンドを、分かりやすく配信する技術情報メディア',
   keywords: ['Tech', 'AI', 'Engineering', 'Trends', 'SuperGrok', 'GPT', 'Claude', 'Next.js'],
   openGraph: {
-    title: 'Tech Digest - 最新技術トレンドを毎日お届け',
+    title: 'Tech Digest - 最新技術トレンドを厳選配信',
     description: 'SuperGrokが分析した最新のAI・エンジニアリングトレンドを、分かりやすく配信する技術情報メディア',
     url: 'https://tech-digest.ogadix.com',
     siteName: 'Tech Digest',
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Tech Digest - 最新技術トレンドを毎日お届け',
+    title: 'Tech Digest - 最新技術トレンドを厳選配信',
     description: 'SuperGrokが分析した最新のAI・エンジニアリングトレンドを、分かりやすく配信する技術情報メディア',
     images: ['/opengraph-image'],
   },
