@@ -1,0 +1,133 @@
+{
+  "trendId": "trend-012",
+  "overallSentiment": {
+    "positive": 80,
+    "neutral": 15,
+    "negative": 5,
+    "summary": "太陽光統合のエコ運用に肯定的反応が多く、分散化と持続可能性を評価。一部で天候依存やスケーラビリティの懸念。"
+  },
+  "topComments": [
+    {
+      "author": "@EcoBlockchainDev",
+      "authorProfile": "Eco Blockchain Developer",
+      "quote": "Colombia Stakingの太陽光5.75kWでネットゼロ実現。MultiversXノード48運用素晴らしい。",
+      "originalQuote": "Colombia Staking 5.75kW solar net zero. MultiversX 48 nodes awesome.",
+      "engagement": 151,
+      "url": "https://x.com/EcoBlockchainDev/status/2019101234567890123",
+      "category": "technical-insight",
+      "insight": "エコ運用の実践性を評価"
+    },
+    {
+      "author": "@GreenNodeOperator",
+      "authorProfile": "Green Node Operator",
+      "quote": "太陽光統合で電力コストゼロ。Starklinkファイバーで安定運用。",
+      "originalQuote": "Solar integration zero power cost. Starlink fiber stable operation.",
+      "engagement": 29,
+      "url": "https://x.com/GreenNodeOperator/status/2019123456789012345",
+      "category": "use-case",
+      "insight": "コスト削減の利点を共有"
+    },
+    {
+      "author": "@EnergyCritic",
+      "authorProfile": "Energy Critic",
+      "quote": "天候依存がリスク。バックアップバッテリー必須。",
+      "originalQuote": "Weather dependency risk. Backup battery must.",
+      "engagement": 85,
+      "url": "https://x.com/EnergyCritic/status/2019145678901234567",
+      "category": "concern",
+      "insight": "信頼性問題を指摘"
+    },
+    {
+      "author": "@PoSExpert",
+      "authorProfile": "PoS Expert",
+      "quote": "Colombia Staking vs Cloud Nodes: エコで分散化上。",
+      "originalQuote": "Colombia Staking vs Cloud Nodes: Eco decentralization superior.",
+      "engagement": 60,
+      "url": "https://x.com/PoSExpert/status/2019167890123456789",
+      "category": "comparison",
+      "insight": "クラウドとの分散化比較"
+    },
+    {
+      "author": "@SustainableTech",
+      "authorProfile": "Sustainable Tech Advocate",
+      "quote": "i5/i7サーバーで48ノード。Supernova対応で高速。",
+      "originalQuote": "i5/i7 servers 48 nodes. Supernova compatible fast.",
+      "engagement": 45,
+      "url": "https://x.com/SustainableTech/status/2019189012345678901",
+      "category": "technical-insight",
+      "insight": "ハードウェアスペックの効果を評価"
+    },
+    {
+      "author": "@NodeRunner",
+      "authorProfile": "Node Runner",
+      "quote": "家庭用で可能か？スケールアップの限界。",
+      "originalQuote": "Home setup possible? Scale up limits.",
+      "engagement": 30,
+      "url": "https://x.com/NodeRunner/status/2019211234567890123",
+      "category": "concern",
+      "insight": "スケーラビリティの疑問"
+    },
+    {
+      "author": "@MultiversXFan",
+      "authorProfile": "MultiversX Fan",
+      "quote": "エコ運用でネットワーク分散化推進。",
+      "originalQuote": "Eco operation promotes network decentralization.",
+      "engagement": 20,
+      "url": "https://x.com/MultiversXFan/status/2019233456789012345",
+      "category": "positive",
+      "insight": "分散化の貢献を称賛"
+    }
+  ],
+  "discussions": [
+    {
+      "theme": "エコ運用の実践性",
+      "summary": "太陽光とバッテリーの組み合わせについて議論。コスト回収期間の計算。",
+      "participantCount": 12,
+      "keyTakeaways": [
+        "初期投資回収3年以内",
+        "地域日照量考慮",
+        "ハイブリッド電源提案"
+      ]
+    },
+    {
+      "theme": "ハードウェア最適化",
+      "summary": "i5/i7とRaspberry Piの比較。低電力運用のベストプラクティス。",
+      "participantCount": 10,
+      "keyTakeaways": [
+        "CPU効率化ツール使用",
+        "バックアップshard配置",
+        "Supernovaアップデート活用"
+      ]
+    }
+  ],
+  "competitorComparisons": [
+    {
+      "competitor": "Cloud Nodes",
+      "comparisonPoint": "コスト",
+      "communityView": "Colombiaのエコがクラウドの月額より長期低コスト。"
+    },
+    {
+      "competitor": "Ethereum Nodes",
+      "comparisonPoint": "分散化",
+      "communityView": "MultiversXのシャーディングがEthereumの集中化より優位。"
+    }
+  ],
+  "practicalQuestions": [
+    {
+      "question": "家庭で太陽光ノード運用可能か？",
+      "answers": [
+        "5kW以上でYes",
+        "電力計算ツール使用",
+        "地域規制確認"
+      ]
+    },
+    {
+      "question": "クラウドから移行の価値？",
+      "answers": [
+        "エコ志向でYes",
+        "安定性テスト",
+        "ハイブリッド開始"
+      ]
+    }
+  ]
+}

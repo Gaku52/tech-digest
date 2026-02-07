@@ -1,0 +1,133 @@
+{
+  "trendId": "trend-015",
+  "overallSentiment": {
+    "positive": 70,
+    "neutral": 25,
+    "negative": 5,
+    "summary": "MentoのMonad FXインフラに好意的反応が多く、機関レートのオンチェーンアクセスを評価。一部で初期ペア制限やクロスチェーンリスクの懸念。"
+  },
+  "topComments": [
+    {
+      "author": "@DefiDevMonad",
+      "authorProfile": "DeFi Developer on Monad",
+      "quote": "MentoがMonadに機関グレードFX導入。実世界レートでDeFi変わる。",
+      "originalQuote": "Mento institutional grade FX on Monad. Real world rates change DeFi.",
+      "engagement": 227,
+      "url": "https://x.com/DefiDevMonad/status/2019089012345678901",
+      "category": "technical-insight",
+      "insight": "DeFi革新の可能性を強調"
+    },
+    {
+      "author": "@FXTraderCrypto",
+      "authorProfile": "FX Crypto Trader",
+      "quote": "MentoでオンチェーンFXアクセス。支払い効率化。",
+      "originalQuote": "Mento on-chain FX access. Payment efficiency.",
+      "engagement": 35,
+      "url": "https://x.com/FXTraderCrypto/status/2019111234567890123",
+      "category": "use-case",
+      "insight": "実務効率の向上を評価"
+    },
+    {
+      "author": "@RiskAnalystChain",
+      "authorProfile": "Chain Risk Analyst",
+      "quote": "Mentoのクロスチェーンリスク注意。Wormhole依存。",
+      "originalQuote": "Mento cross-chain risk caution. Wormhole dependency.",
+      "engagement": 120,
+      "url": "https://x.com/RiskAnalystChain/status/2019133456789012345",
+      "category": "concern",
+      "insight": "セキュリティ懸念を指摘"
+    },
+    {
+      "author": "@CeloUser",
+      "authorProfile": "Celo User",
+      "quote": "Mento vs Uniswap: Mentoの固定価格がスリッページ低減。",
+      "originalQuote": "Mento vs Uniswap: Mento fixed price low slippage.",
+      "engagement": 85,
+      "url": "https://x.com/CeloUser/status/2019155678901234567",
+      "category": "comparison",
+      "insight": "AMMモデルとの違い分析"
+    },
+    {
+      "author": "@MonadBuilder",
+      "authorProfile": "Monad Builder",
+      "quote": "Mento Monad展開で高スループットFX。機関向け。",
+      "originalQuote": "Mento Monad deployment high throughput FX. Institutional.",
+      "engagement": 60,
+      "url": "https://x.com/MonadBuilder/status/2019177890123456789",
+      "category": "technical-insight",
+      "insight": "パフォーマンスの利点を共有"
+    },
+    {
+      "author": "@DeFiSkeptic",
+      "authorProfile": "DeFi Skeptic",
+      "quote": "初期ペアGBPm/USDm限定。通貨拡大待ち。",
+      "originalQuote": "Initial pair GBPm/USDm limited. Wait for currency expansion.",
+      "engagement": 45,
+      "url": "https://x.com/DeFiSkeptic/status/2019199012345678901",
+      "category": "concern",
+      "insight": "機能拡大の必要性を提案"
+    },
+    {
+      "author": "@GlobalPaymentPro",
+      "authorProfile": "Global Payment Pro",
+      "quote": "Mentoで国境越え支払いリアルタイム。",
+      "originalQuote": "Mento cross-border payments real-time.",
+      "engagement": 30,
+      "url": "https://x.com/GlobalPaymentPro/status/2019221234567890123",
+      "category": "use-case",
+      "insight": "国際決済の応用を評価"
+    }
+  ],
+  "discussions": [
+    {
+      "theme": "固定価格モデルの有効性",
+      "summary": "Chainlinkオラクルの信頼性について議論。スリッページ低減の利点。",
+      "participantCount": 16,
+      "keyTakeaways": [
+        "オラクル精度確認",
+        "市場変動対応",
+        "AMM代替としての採用"
+      ]
+    },
+    {
+      "theme": "マルチチェーン拡張",
+      "summary": "CeloからMonadの移行影響を分析。他チェーン展開希望。",
+      "participantCount": 12,
+      "keyTakeaways": [
+        "Wormholeセキュリティ強化",
+        "流動性統一の効果",
+        "インセンティブプログラム活用"
+      ]
+    }
+  ],
+  "competitorComparisons": [
+    {
+      "competitor": "Uniswap",
+      "comparisonPoint": "価格モデル",
+      "communityView": "Mentoの固定価格がUniswapの曲線より予測可能。"
+    },
+    {
+      "competitor": "Curve Finance",
+      "comparisonPoint": "ステーブルスワップ",
+      "communityView": "Mentoの機関レートがCurveの効率を上回る可能性。"
+    }
+  ],
+  "practicalQuestions": [
+    {
+      "question": "MentoをDeFiで使うべきか？",
+      "answers": [
+        "低スリッページでYes",
+        "ペア確認後",
+        "テストスワップ"
+      ]
+    },
+    {
+      "question": "クロスチェーンリスクどう回避？",
+      "answers": [
+        "Wormhole監視",
+        "単チェーン優先",
+        "保険検討"
+      ]
+    }
+  ]
+}

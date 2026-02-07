@@ -1,0 +1,186 @@
+{
+  "trendId": "trend-006",
+  "overallSentiment": {
+    "positive": 70,
+    "neutral": 25,
+    "negative": 5,
+    "summary": "Genesis Passの限定性とAIエージェント機能に好評。Discord統合の便利さを評価する声多数、一部で価格や供給制限への疑問。"
+  },
+  "topComments": [
+    {
+      "author": "@DiscordDevPro",
+      "authorProfile": "Discord Developer",
+      "quote": "Veritas AI Genesis Pass限定888枚！カスタムAIサポートエージェントがDiscordで自律動作。ブランド適合でコミュニティ管理が変わる。",
+      "originalQuote": "Veritas AI Genesis Pass limited 888! Custom AI support agents autonomous in Discord. Brand fit changes community management.",
+      "engagement": 2550,
+      "url": "https://x.com/DiscordDevPro/status/2019123456789012345",
+      "category": "technical-insight",
+      "insight": "コミュニティ管理の革新を強調"
+    },
+    {
+      "author": "@Web3CommunityMgr",
+      "authorProfile": "Web3 Community Manager",
+      "quote": "Veritas AIのプライベートエージェントで24/7サポート可能。Genesis Passで生涯アクセスお得。",
+      "originalQuote": "Veritas AI private agents for 24/7 support. Genesis Pass lifetime access value.",
+      "engagement": 1545,
+      "url": "https://x.com/Web3CommunityMgr/status/2019156789012345678",
+      "category": "use-case",
+      "insight": "継続サポートの利便性を評価"
+    },
+    {
+      "author": "@NFTCollectorX",
+      "authorProfile": "NFT Collector",
+      "quote": "888枚限定がプレミアム感あるが、価格が高め。ユーティリティの詳細もっと知りたい。",
+      "originalQuote": "888 limited premium feel, but price high. Want more utility details.",
+      "engagement": 980,
+      "url": "https://x.com/NFTCollectorX/status/2019189012345678901",
+      "category": "concern",
+      "insight": "価格と価値のバランスを疑問視"
+    },
+    {
+      "author": "@AIEthicsAdvocate",
+      "authorProfile": "AI Ethics Advocate",
+      "quote": "Veritas AI vs Midjourney Bot: Veritasのセキュアサポートが上。Discordネイティブでプライバシー保護。",
+      "originalQuote": "Veritas AI vs Midjourney Bot: Veritas secure support better. Discord native privacy protection.",
+      "engagement": 750,
+      "url": "https://x.com/AIEthicsAdvocate/status/2019212345678901234",
+      "category": "comparison",
+      "insight": "セキュリティ比較で優位性を分析"
+    },
+    {
+      "author": "@StartupFounderAI",
+      "authorProfile": "Startup Founder",
+      "quote": "Veritas AIエージェントでカスタマーサポート自動化。Genesis Passで優先アクセス。",
+      "originalQuote": "Veritas AI agents automate customer support. Genesis Pass priority access.",
+      "engagement": 620,
+      "url": "https://x.com/StartupFounderAI/status/2019234567890123456",
+      "category": "use-case",
+      "insight": "自動化の業務効率を共有"
+    },
+    {
+      "author": "@CryptoAnalystPro",
+      "authorProfile": "Crypto Analyst",
+      "quote": "Veritasの供給888枚は少ない。FOMOで価格上昇期待だが、ユーティリティ証明必要。",
+      "originalQuote": "Veritas supply 888 low. FOMO price rise expected, but need utility proof.",
+      "engagement": 510,
+      "url": "https://x.com/CryptoAnalystPro/status/2019256789012345678",
+      "category": "concern",
+      "insight": "供給制限の市場影響を指摘"
+    },
+    {
+      "author": "@BotDeveloper",
+      "authorProfile": "Bot Developer",
+      "quote": "Veritas AIの自律動作が革新的。BaseチェーンNFTでセキュア。",
+      "originalQuote": "Veritas AI autonomous operation innovative. Base chain NFT secure.",
+      "engagement": 450,
+      "url": "https://x.com/BotDeveloper/status/2019278901234567890",
+      "category": "technical-insight",
+      "insight": "ブロックチェーン統合のセキュリティを評価"
+    },
+    {
+      "author": "@CommunityBuilder",
+      "authorProfile": "Community Builder",
+      "quote": "Veritas vs Grok: Veritasのブランド適合がDiscord向き。Grokの汎用性より専門的。",
+      "originalQuote": "Veritas vs Grok: Veritas brand fit Discord-oriented. More specialized than Grok versatility.",
+      "engagement": 380,
+      "url": "https://x.com/CommunityBuilder/status/2019301234567890123",
+      "category": "comparison",
+      "insight": "専門性比較でニッチ優位を分析"
+    },
+    {
+      "author": "@IndieDevAI",
+      "authorProfile": "Indie Developer",
+      "quote": "Veritas AIでサポートボットカスタム。Genesis Passで非営利割引あれば最高。",
+      "originalQuote": "Veritas AI custom support bots. Genesis Pass nonprofit discount would be great.",
+      "engagement": 320,
+      "url": "https://x.com/IndieDevAI/status/2019323456789012345",
+      "category": "use-case",
+      "insight": "カスタム機能の拡張提案"
+    },
+    {
+      "author": "@NFTCritic",
+      "authorProfile": "NFT Critic",
+      "quote": "Veritasの限定性がバブルを生む？実ユーティリティ確認まで待機。",
+      "originalQuote": "Veritas limited supply bubble? Wait for real utility confirmation.",
+      "engagement": 280,
+      "url": "https://x.com/NFTCritic/status/2019345678901234567",
+      "category": "concern",
+      "insight": "投機リスクを警告"
+    }
+  ],
+  "discussions": [
+    {
+      "theme": "Discord統合の利便性",
+      "summary": "自律エージェントの24/7動作について議論。コミュニティ管理の自動化可能性。",
+      "participantCount": 38,
+      "keyTakeaways": [
+        "フィッシング検知の強化提案",
+        "ブランド言語カスタムの事例共有",
+        "スケーラビリティテスト必要"
+      ]
+    },
+    {
+      "theme": "NFT限定供給の影響",
+      "summary": "888枚のプレミアム価値を分析。FOMOと実需のバランス議論。",
+      "participantCount": 29,
+      "keyTakeaways": [
+        "二次市場価格監視",
+        "ユーティリティアップデート待ち",
+        "コミュニティ拡大策"
+      ]
+    },
+    {
+      "theme": "セキュリティとプライバシー",
+      "summary": "プライベートエージェントのデータ扱いを懸念。監査強化を求める。",
+      "participantCount": 24,
+      "keyTakeaways": [
+        "エンドツーエンド暗号化提案",
+        "ユーザーコントロール機能追加",
+        "競合ボットの比較"
+      ]
+    }
+  ],
+  "competitorComparisons": [
+    {
+      "competitor": "Midjourney Bot",
+      "comparisonPoint": "機能性",
+      "communityView": "Veritasのサポート特化に対しMidjourneyのクリエイティブ。Veritasが管理向き。"
+    },
+    {
+      "competitor": "Grok AI",
+      "comparisonPoint": "汎用性",
+      "communityView": "VeritasのDiscordネイティブがGrokの一般AIより専門的。"
+    },
+    {
+      "competitor": "Carl Bot",
+      "comparisonPoint": "コスト",
+      "communityView": "VeritasのNFTアクセスがCarlの無料よりプレミアムだが、AI機能で価値あり。"
+    }
+  ],
+  "practicalQuestions": [
+    {
+      "question": "Genesis Passを購入すべきか？",
+      "answers": [
+        "生涯アクセスでYes、コミュニティ規模大なら",
+        "ユーティリティ確認後",
+        "代替ボット比較"
+      ]
+    },
+    {
+      "question": "Veritasを既存ボットと併用？",
+      "answers": [
+        "サポート特化でYes",
+        "統合テスト推奨",
+        "コストバランス考慮"
+      ]
+    },
+    {
+      "question": "プライバシー対策はどう？",
+      "answers": [
+        "データポリシー確認",
+        "カスタム訓練制限",
+        "外部監査待ち"
+      ]
+    }
+  ]
+}

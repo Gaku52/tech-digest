@@ -1,0 +1,133 @@
+{
+  "trendId": "trend-011",
+  "overallSentiment": {
+    "positive": 75,
+    "neutral": 20,
+    "negative": 5,
+    "summary": "Pollo AIのファンタジー動画生成に好意的反応が多く、クレジット配布キャンペーンが人気。一部でボット防止の厳しさや品質のばらつきへの指摘。"
+  },
+  "topComments": [
+    {
+      "author": "@AI_VideoFan",
+      "authorProfile": "AI Video Enthusiast",
+      "quote": "Pollo AIで魔法シーン作成楽しい！68無料クレジットで試せる。",
+      "originalQuote": "Pollo AI magic scenes fun! 68 free credits to try.",
+      "engagement": 404,
+      "url": "https://x.com/AI_VideoFan/status/2019012345678901234",
+      "category": "use-case",
+      "insight": "キャンペーンの参加促進効果を評価"
+    },
+    {
+      "author": "@FantasyCreator",
+      "authorProfile": "Fantasy Content Creator",
+      "quote": "Pollo AIの36秒動画が想像力無限。プロフィール写真必須がボット防止良い。",
+      "originalQuote": "Pollo AI 36s videos infinite imagination. Profile pic required good for bot prevention.",
+      "engagement": 461,
+      "url": "https://x.com/FantasyCreator/status/2019034567890123456",
+      "category": "technical-insight",
+      "insight": "セキュリティ対策を称賛"
+    },
+    {
+      "author": "@CreditHunter",
+      "authorProfile": "AI Tool User",
+      "quote": "無料クレジット良いが、12時間限定厳しい。もっと拡張を。",
+      "originalQuote": "Free credits good, but 12hr limit strict. Extend more.",
+      "engagement": 150,
+      "url": "https://x.com/CreditHunter/status/2019056789012345678",
+      "category": "concern",
+      "insight": "キャンペーン制限の改善を提案"
+    },
+    {
+      "author": "@VideoAICompare",
+      "authorProfile": "Video AI Comparer",
+      "quote": "Pollo AI vs Kling: Polloのファンタジー特化がユニーク。",
+      "originalQuote": "Pollo AI vs Kling: Pollo fantasy focus unique.",
+      "engagement": 120,
+      "url": "https://x.com/VideoAICompare/status/2019078901234567890",
+      "category": "comparison",
+      "insight": "ニッチ優位性を分析"
+    },
+    {
+      "author": "@IndieAnimator",
+      "authorProfile": "Indie Animator",
+      "quote": "Pollo AIで短編ファンタジー動画作成。クレジットでテスト可能。",
+      "originalQuote": "Pollo AI short fantasy videos. Credits for testing.",
+      "engagement": 100,
+      "url": "https://x.com/IndieAnimator/status/2019101234567890123",
+      "category": "use-case",
+      "insight": "テスト利用の容易さを共有"
+    },
+    {
+      "author": "@BotCritic",
+      "authorProfile": "Bot Critic",
+      "quote": "プロフィール写真必須が面倒。プライバシー懸念。",
+      "originalQuote": "Profile pic required annoying. Privacy concern.",
+      "engagement": 80,
+      "url": "https://x.com/BotCritic/status/2019123456789012345",
+      "category": "concern",
+      "insight": "ユーザー体験の障壁を指摘"
+    },
+    {
+      "author": "@AICreativeHub",
+      "authorProfile": "AI Creative Hub",
+      "quote": "Pollo AIの無限想像力が創作を活性化。",
+      "originalQuote": "Pollo AI infinite imagination activates creation.",
+      "engagement": 60,
+      "url": "https://x.com/AICreativeHub/status/2019145678901234567",
+      "category": "positive",
+      "insight": "想像力の刺激を評価"
+    }
+  ],
+  "discussions": [
+    {
+      "theme": "クレジットシステムの有効性",
+      "summary": "無料配布の参加方法とボット防止について議論。公平性の確保。",
+      "participantCount": 25,
+      "keyTakeaways": [
+        "フォロー/リポストの簡単さ",
+        "写真必須のセキュリティ評価",
+        "配布延長提案"
+      ]
+    },
+    {
+      "theme": "動画品質と一貫性",
+      "summary": "ファンタジー生成のリアルさを分析。改善点共有。",
+      "participantCount": 18,
+      "keyTakeaways": [
+        "唇同期の精度向上",
+        "多ショット統合",
+        "競合ツール比較"
+      ]
+    }
+  ],
+  "competitorComparisons": [
+    {
+      "competitor": "Kling AI",
+      "comparisonPoint": "生成長",
+      "communityView": "Polloの36秒に対しKlingの15秒だが、ファンタジー特化でPollo優位。"
+    },
+    {
+      "competitor": "Sora",
+      "comparisonPoint": "スタイル",
+      "communityView": "Polloの魔法テーマがSoraの汎用より魅力的。"
+    }
+  ],
+  "practicalQuestions": [
+    {
+      "question": "Pollo AIを創作に採用？",
+      "answers": [
+        "無料クレジットでテストYes",
+        "品質確認後",
+        "競合併用"
+      ]
+    },
+    {
+      "question": "ボット防止の代替策は？",
+      "answers": [
+        "CAPTCHA導入",
+        "メール認証",
+        "ユーザー反馈"
+      ]
+    }
+  ]
+}

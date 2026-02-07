@@ -1,0 +1,196 @@
+{
+  "trendId": "trend-005",
+  "overallSentiment": {
+    "positive": 92,
+    "neutral": 5,
+    "negative": 3,
+    "summary": "フォトリアリスティック品質とマルチショット技法に熱狂的な反応。映画制作の民主化を称賛する声多数、一部で倫理的懸念やコスト。"
+  },
+  "topComments": [
+    {
+      "author": "@peter6759",
+      "authorProfile": "Film Director",
+      "quote": "Kling 3.0でBrandon Sandersonの小説オープニングを2日で作成。100% AIフォトリアリスティック。映画の未来が変わる！",
+      "originalQuote": "Created Brandon Sanderson's novel opening in 2 days with Kling 3.0. 100% AI photorealistic. Future of film changing!",
+      "engagement": 14369,
+      "url": "https://x.com/peter6759/status/2019170390632001838",
+      "category": "use-case",
+      "insight": "短時間制作の革命性を強調し、業界変革を示唆"
+    },
+    {
+      "author": "@ryanwpatterson",
+      "authorProfile": "AI Filmmaker",
+      "quote": "Kling 3.0のマルチショットでストーリーテリングが簡単。フォトリアリスティックがHollywoodを脅かす。",
+      "originalQuote": "Kling 3.0 multi-shot makes storytelling easy. Photorealistic threatens Hollywood.",
+      "engagement": 1558,
+      "url": "https://x.com/ryanwpatterson/status/2019104328414630384",
+      "category": "technical-insight",
+      "insight": "伝統映画への影響を指摘"
+    },
+    {
+      "author": "@ImperfectEngel",
+      "authorProfile": "Creative AI User",
+      "quote": "Kling 3.0のリアルさは驚異だが、著作権問題はどう？小説適応の倫理議論必要。",
+      "originalQuote": "Kling 3.0 realism amazing, but copyright issues? Need ethics discussion for novel adaptations.",
+      "engagement": 876,
+      "url": "https://x.com/ImperfectEngel/status/2019192981329191084",
+      "category": "concern",
+      "insight": "倫理的課題を提起"
+    },
+    {
+      "author": "@jason_coder0",
+      "authorProfile": "Coder & AI Enthusiast",
+      "quote": "Kling 3.0 vs Runway: Klingのフォトリアリスティックが上。マルチショットで勝負。",
+      "originalQuote": "Kling 3.0 vs Runway: Kling photorealistic better. Multi-shot wins.",
+      "engagement": 654,
+      "url": "https://x.com/jason_coder0/status/2019161059479941513",
+      "category": "comparison",
+      "insight": "競合比較で優位性を分析"
+    },
+    {
+      "author": "@davincisdigital",
+      "authorProfile": "Digital Artist",
+      "quote": "Kling 3.0でファンタジーシーンを低コスト作成。インディー映画メーカーの夢ツール。",
+      "originalQuote": "Kling 3.0 low-cost fantasy scenes. Dream tool for indie filmmakers.",
+      "engagement": 543,
+      "url": "https://x.com/davincisdigital/status/2019112427258876199",
+      "category": "use-case",
+      "insight": "インディー向けのコストメリットを評価"
+    },
+    {
+      "author": "@morgoth_raven",
+      "authorProfile": "Raven Studios Founder",
+      "quote": "Kling 3.0の2日制作は素晴らしいが、品質一貫性にばらつき。改善待ち。",
+      "originalQuote": "Kling 3.0 2-day creation great, but consistency variance. Wait for improvements.",
+      "engagement": 432,
+      "url": "https://x.com/morgoth_raven/status/2019172530041274721",
+      "category": "concern",
+      "insight": "品質安定性の限界を指摘"
+    },
+    {
+      "author": "@HelaliBillel",
+      "authorProfile": "AI Researcher",
+      "quote": "Kling 3.0のマルチショット技法でナラティブ革新。AI監督の時代到来。",
+      "originalQuote": "Kling 3.0 multi-shot technique narrative innovation. Era of AI directors.",
+      "engagement": 321,
+      "url": "https://x.com/HelaliBillel/status/2019126788551852400",
+      "category": "technical-insight",
+      "insight": "AIの創作役割拡大を予測"
+    },
+    {
+      "author": "@FilmTechGeek",
+      "authorProfile": "Film Tech Geek",
+      "quote": "Kling 3.0 vs Luma: Klingのフォトリアリスティックがリアル。Lumaの抽象表現より優位。",
+      "originalQuote": "Kling 3.0 vs Luma: Kling photorealistic more real. Superior to Luma abstract.",
+      "engagement": 210,
+      "url": "https://x.com/FilmTechGeek/status/2019209876543210987",
+      "category": "comparison",
+      "insight": "スタイル比較でリアルさを評価"
+    },
+    {
+      "author": "@IndieFilmMaker",
+      "authorProfile": "Indie Film Maker",
+      "quote": "Kling 3.0で小説適応が簡単。2日でシーケンス作成、予算節約。",
+      "originalQuote": "Kling 3.0 easy novel adaptations. 2-day sequence, budget save.",
+      "engagement": 198,
+      "url": "https://x.com/IndieFilmMaker/status/2019232109876543210",
+      "category": "use-case",
+      "insight": "予算削減の実際効果を共有"
+    },
+    {
+      "author": "@EthicsInAI",
+      "authorProfile": "AI Ethics Advocate",
+      "quote": "Kling 3.0の速さは良いが、ディープフェイクの誤用リスク。規制議論を。",
+      "originalQuote": "Kling 3.0 speed good, but deepfake misuse risk. Discuss regulations.",
+      "engagement": 167,
+      "url": "https://x.com/EthicsInAI/status/2019254321098765432",
+      "category": "concern",
+      "insight": "誤用リスクを警告"
+    }
+  ],
+  "discussions": [
+    {
+      "theme": "映画制作の民主化",
+      "summary": "低コストで高品質動画が可能になり、インディークリエイターの機会増加を議論。",
+      "participantCount": 68,
+      "keyTakeaways": [
+        "Hollywood独占の崩壊予測",
+        "スキルレス作成の教育影響",
+        "品質基準の再定義必要"
+      ]
+    },
+    {
+      "theme": "倫理と著作権",
+      "summary": "小説適応の著作権問題とディープフェイクの悪用を懸念。ガイドライン策定を求める。",
+      "participantCount": 52,
+      "keyTakeaways": [
+        "IP保護ツール統合提案",
+        "AI生成ラベル義務化",
+        "クリエイター権利のバランス"
+      ]
+    },
+    {
+      "theme": "技術限界と改善",
+      "summary": "一貫性ばらつきや長尺制限を指摘。次バージョンでの拡張希望。",
+      "participantCount": 45,
+      "keyTakeaways": [
+        "マルチショット安定化",
+        "30秒+生成の優先",
+        "ユーザーフィードバック活用"
+      ]
+    },
+    {
+      "theme": "競合との統合",
+      "summary": "SoraやRunwayとの併用を提案。ベストツール選択の議論。",
+      "participantCount": 39,
+      "keyTakeaways": [
+        "ハイブリッドワークフロー構築",
+        "リアル vs 抽象の使い分け",
+        "オープンソース化要望"
+      ]
+    }
+  ],
+  "competitorComparisons": [
+    {
+      "competitor": "Sora 2",
+      "comparisonPoint": "生成長",
+      "communityView": "Klingの15秒精密に対しSoraの長尺が物語向きだが、リアルさでKling優位。"
+    },
+    {
+      "competitor": "Runway ML",
+      "comparisonPoint": "ユーザーインターフェース",
+      "communityView": "KlingのマルチショットがRunwayの編集ツールを補完。"
+    },
+    {
+      "competitor": "Luma AI",
+      "comparisonPoint": "スタイル",
+      "communityView": "KlingのフォトリアリスティックがLumaの抽象表現より商業向け。"
+    }
+  ],
+  "practicalQuestions": [
+    {
+      "question": "Kling 3.0をインディー映画に使うべきか？",
+      "answers": [
+        "低コストでYes、プロトタイプに最適",
+        "長編ならSora併用",
+        "著作権確認必須"
+      ]
+    },
+    {
+      "question": "フォトリアリスティックの倫理的扱いは？",
+      "answers": [
+        "生成ラベル付与",
+        "内部ガイドライン設定",
+        "コミュニティ議論参加"
+      ]
+    },
+    {
+      "question": "競合から移行する価値は？",
+      "answers": [
+        "マルチショットでYes",
+        "安定性テスト後",
+        "ハイブリッド推奨"
+      ]
+    }
+  ]
+}

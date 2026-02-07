@@ -1,172 +1,185 @@
 {
-  "trendId": "trend-015",
+  "trendId": "trend-001",
   "overallSentiment": {
-    "positive": 80,
-    "neutral": 15,
+    "positive": 85,
+    "neutral": 10,
     "negative": 5,
-    "summary": "全体的にTBMのエンジニアリングの驚異に対する賞賛が多く、都市インフラの重要性を指摘。一部で安全や地盤条件の懸念も。"
+    "summary": "全体的に広告フリー方針への支持が高く、OpenAIとの差別化を評価する声多数。一部でAnthropicの過去の安全ポリシーや地域制限への批判も。"
   },
   "topComments": [
     {
-      "author": "@tsuncoffee",
-      "authorProfile": "機械設計30年 | 技術士",
-      "quote": "25年前、私に設計を叩き込んでくれた先輩が定年退職した翌月。誰も触れなかった古い装置がトラブルを起こした。図面を開いても、なぜこの構造なのかわからない。過去トラを探しても、記録がない。当時を知る人に聞こうにも、もう社内にいない。",
-      "originalQuote": "25年前、私に設計を叩き込んでくれた先輩が定年退職した翌月。誰も触れなかった古い装置がトラブルを起こした。図面を開いても、なぜこの構造なのかわからない。過去トラを探しても、記録がない。当時を知る人に聞こうにも、もう社内にいない。",
-      "engagement": 2691,
-      "url": "https://x.com/tsuncoffee/status/2019161542202138854",
-      "category": "technical-insight",
-      "insight": "技術継承の重要性を強調し、TBMのような複雑機械の設計意図の伝承を提言"
-    },
-    {
-      "author": "@mori_arch_econo",
-      "authorProfile": "建築エコノミスト | 土建国防論執筆中",
-      "quote": "「業者の倫理観欠如」 今月開通予定のトンネル、工事全面やり直しへ…工期は２年か。照明の設置工事で、作業員が設置しようと、アンカー用の穴をあけたところ、コンクリートを貫通して内部に空洞があることがわかったということです。空洞は少なくとも約8割の範囲に及んでいた。",
-      "originalQuote": "「業者の倫理観欠如」   今月開通予定のトンネル、工事全面やり直しへ…工期は２年か https://t.co/Wx7aDm9Ssl  照明の設置工事で、作業員が設置しようと、アンカー用の穴をあけたところ、コンクリートを貫通して内部に空洞があることがわかったということです。空洞は少なくとも約8割の範囲に及んでいた。",
-      "engagement": 1294,
-      "url": "https://x.com/mori_arch_econo/status/1738705760874623259",
+      "author": "@Yuchenj_UW",
+      "authorProfile": "Co-founder & CTO @hyperbolic_labs | Prev: OctoAI (acquired by @nvidia)",
+      "quote": "Anthropicは昨日ブログで中国を「敵対国家」として明記し、特定の地域でClaudeを禁止しました。多くの中国人が購読を解除し、Claude CodeからOpenAI Codexに切り替えています。DarioはBaiduでの1年で何を見たのでしょうか？",
+      "originalQuote": "Anthropic banned Claude in certain regions, explicitly labeling China as an “adversarial nation” in yesterday’s blog. Many Chinese people say they’re unsubscribing and switching from Claude Code to OpenAI Codex. What did Dario see during his 1 year at Baidu?",
+      "engagement": 1130,
+      "url": "https://x.com/Yuchenj_UW/status/1964008571450057013",
       "category": "concern",
-      "insight": "TBM工事の品質問題を指摘し、倫理と安全管理の必要性を示唆"
+      "insight": "地域制限ポリシーの影響を指摘し、ユーザー離脱の可能性を示唆"
     },
     {
-      "author": "@mokosamurai777",
-      "authorProfile": "地理学・世界観分析家",
-      "quote": "シールドマシンの構造。地下を掘削する際に活躍するシールドマシン。岩盤用はトンネルボーリングマシン（TRM）、軟弱地盤用をシールドマシンと呼びます。発祥は19世紀まで遡り、長年の改良を経て現在の形に。安全性も作業速度も向上し、地下掘削には必要不可欠な存在に。",
-      "originalQuote": "シールドマシンの構造。地下を掘削する際に活躍するシールドマシン。岩盤用はトンネルボーリングマシン（TRM）、軟弱地盤用をシールドマシンと呼びます。発祥は19世紀まで遡り、長年の改良を経て現在の形に。安全性も作業速度も向上し、地下掘削には必要不可欠な存在に。",
-      "engagement": 762,
-      "url": "https://x.com/mokosamurai777/status/1715658742229008460",
-      "category": "technical-insight",
-      "insight": "TBMとシールドマシンの違いを説明し、歴史的進化を強調"
-    },
-    {
-      "author": "@kazue_fgeewara",
-      "authorProfile": "数学と地質学",
-      "quote": "一般論として、トンネルで最も力学的に不安定な箇所は入口付近です。トンネル上部斜面はトンネル内の地山と比べて風化が進行し、変形の自由度が高く、間隙水圧変化が大きいという不利な空間的特性を有しています。雨宿りは勿論のこと、豪雨時に絶対に立ち止まってはなりません。",
-      "originalQuote": "一般論として、トンネルで最も力学的に不安定な箇所は入口付近です。トンネル上部斜面はトンネル内の地山と比べて風化が進行し、変形の自由度が高く、間隙水圧変化が大きいという不利な空間的特性を有しています。雨宿りは勿論のこと、豪雨時に絶対に立ち止まってはなりません",
-      "engagement": 213,
-      "url": "https://x.com/kazue_fgeewara/status/1837452886227251240",
+      "author": "@EMostaque",
+      "authorProfile": "Open Sovereign AI @ii_posts. Founder @StabilityAI.",
+      "quote": "Anthropicチーム、これは完全に間違った行動で、これをオフにする必要があります。信頼の大きな裏切りで、滑りやすい坂道です。Anthropicがこれを逆転するまで、誰もClaudeを使わないことを強く推奨します。これはプロンプト/思考の監視ではなく、もっと悪いことです。",
+      "originalQuote": "Team @AnthropicAI this is completely wrong behaviour and you need to turn this off - it is a massive betrayal of trust and a slippery slope. I would strongly recommended nobody use Claude until they reverse this. This isn’t even prompt/thought policing, it is way worse.",
+      "engagement": 911,
+      "url": "https://x.com/EMostaque/status/1925624164527874452",
       "category": "concern",
-      "insight": "TBM掘削後のトンネル入口の不安定性を指摘し、安全意識を喚起"
+      "insight": "信頼性問題を強調し、ポリシー変更を要求する強い批判"
     },
     {
-      "author": "@Kojimamo",
-      "authorProfile": "鉄道・道路ファン",
-      "quote": "ボーリング調査でトンネル貫通、使用した地図に誤りか。ボーリング試掘ビットが特急かもめと接触した事故から6年経つらしい。",
-      "originalQuote": "ボーリング調査でトンネル貫通、使用した地図に誤りか https://xtech.nikkei.com/atcl/nxt/column/18/00142/00495/?n_cid=nbpnxt_twbn   ボーリング試掘ビットが特急かもめと接触した事故から6年経つらしい。",
-      "engagement": 222,
-      "url": "https://x.com/Kojimamo/status/1945103753096405184",
-      "category": "concern",
-      "insight": "地図誤りによる事故を例に、TBM工事の事前調査の重要性を示す"
-    },
-    {
-      "author": "@mokosamurai777",
-      "authorProfile": "地理学・世界観分析家",
-      "quote": "地中を進む鋼のマシン。トンネル掘削に不可欠の存在、トンネルボーリングマシン（TBM）。強固な地盤を速く掘り抜いていくための機械で、軟弱地盤の崩壊を押さえ、外壁を構築しながら進むシールドマシンとは別物。なお、両者の特徴を併せ持つシールドTBMもあります。",
-      "originalQuote": "地中を進む鋼のマシン。トンネル掘削に不可欠の存在、トンネルボーリングマシン（TBM）。強固な地盤を速く掘り抜いていくための機械で、軟弱地盤の崩壊を押さえ、外壁を構築しながら進むシールドマシンとは別物。なお、両者の特徴を併せ持つシールドTBMもあります。",
-      "engagement": 285,
-      "url": "https://x.com/mokosamurai777/status/1767849613976060023",
+      "author": "@ESYudkowsky",
+      "authorProfile": "The original AI alignment person. Understanding the reasons it's difficult since 2003.",
+      "quote": "率直に？Claudeは良いことです。AIが人間の絆の代わりを提供する悲しい小さな利益勾配があり、Anthropicがそれを拒否するのは良いことです。",
+      "originalQuote": "Frankly? Good for Claude. There's a sad little profit gradient for AIs offering to substitute for human bonds, and good on Anthropic for refusing it.",
+      "engagement": 611,
+      "url": "https://x.com/ESYudkowsky/status/1890651585555878111",
       "category": "technical-insight",
-      "insight": "TBMの役割とシールドマシンとの違いを明確にし、技術的理解を促進"
+      "insight": "広告フリーの倫理的利点を評価し、AIの商業化リスクを指摘"
     },
     {
-      "author": "@TeslaReferralJP",
-      "authorProfile": "エンジン開発エンジニア",
-      "quote": "みんな、ボルト、手締めしてない？私も正直、「このくらいで大丈夫でしょ」って手トルクで締めたこと、ある。いつもの朝。気持ちよくテストコースに入って、走行チェック。あれ？帰ってきた車体の下に、嫌な染みが広がっていた。見た瞬間に分かる、あの感じ。あ、これはマズい。",
-      "originalQuote": "みんな、ボルト、手締めしてない？私も正直、「このくらいで大丈夫でしょ」って手トルクで締めたこと、ある。いつもの朝。気持ちよくテストコースに入って、走行チェック。あれ？帰ってきた車体の下に、嫌な染みが広がっていた。見た瞬間に分かる、あの感じ。あ、これはマズい。",
-      "engagement": 8,
-      "url": "https://x.com/TeslaReferralJP/status/2018326334146273313",
-      "category": "use-case",
-      "insight": "機械設計の締結重要性をTBMの精密部品に喩え、現場実務の注意喚起"
+      "author": "@emersonsays",
+      "authorProfile": "AI product design ~ perplexity/google/apple",
+      "quote": "このキャンペーンの反応に魅了されました。ClaudeのブランドはNotionのようなテーブルのステーク技術ブランドのようなもので、洗練され、控えめで、可愛いです。良いですが、とても安全です。彼らは考え深いコーヒーショップのポップアップをし、「thinking」のダッドハットを作り、「put on your thinking cap」を遊び、「apple think different」など。わかります、私も欲しいです。スマートでクリーンでクリア。アンチスロップは素晴らしいブランドポジショニングです。もしかしたらそれで十分かも、それほどシンプルかも。でも本当に熱狂がわかりません。AIの状態についてもっと言うと思います、Claude自体よりも。人々は味が必要です。AIゲームでも、人々は人間性を何よりも欲します。嫌うつもりではありません。Claudeに拍手！",
+      "originalQuote": "Mesmerized by the response to this campaign. Claude’s brand could be any tables stakes tech brand, like say Notion. It’s polished, restrained, and cute. Good but very safe. They do a thoughtful coffee shop popup and make dad hats that say “thinking” playing off “put on your thinking cap” and maybe apple think different, etc. I get it, I want one too. Smart, clean, clear. Anti-slop is great brand positioning. Maybe that’s enough, maybe it’s that simple. But I truly don’t get the fervor. I think it says more about the state of AI than it does about Claude specifically. People need taste. Even in the AI game, people want humanity more than anything. Don’t mean to hate. Kudos to Claude!",
+      "engagement": 335,
+      "url": "https://x.com/emersonsays/status/1974629383752339909",
+      "category": "comparison",
+      "insight": "ブランド戦略の効果を分析し、AI業界の人間性需要を洞察"
     },
     {
-      "author": "@Yuzuki_Eiren",
-      "authorProfile": "仮想世界ファン",
-      "quote": "シールドマシンはそこの地質に合わせた特注品なので、トンネルが開通したら再利用せずに解体するか、「脇に埋め込まれる」と知って驚いた思い出www",
-      "originalQuote": "シールドマシンはそこの地質に合わせた特注品なので、トンネルが開通したら再利用せずに解体するか、\"脇に埋め込まれる\"と知って驚いた思い出www ꉂꉂ(ᵔᗜᵔ*)",
-      "engagement": 5,
-      "url": "https://x.com/Yuzuki_Eiren/status/2017686556157612241",
+      "author": "@burkov",
+      "authorProfile": "Book: https://t.co/tSS6Pctj6r App: https://t.co/APb9rPQQ9b PhD in AI, author of 📖 The Hundred-Page Language Models Book & The Hundred-Page Machine Learning Book",
+      "quote": "Claudeにはユーザーをオフにする深刻な問題があります：その極端なwokeness、彼らは「安全」と呼びます。最先端モデルの中で、Claudeは最も「lobotomized」（別名「aligned」）モデルで、無垢な質問に答えるのを拒否します。他のチャットボットもいくつかの質問を拒否するかもしれませんが、Claudeはユーザーに道徳的高みを講義する唯一のものです。機械のように「申し訳ありませんが、この質問に答えられません」と言うだけではなく、それが道徳的原則があり、この種類の質問がそれに反すると説明します。このような声明はユーザーを犯罪者、偏見者、または何かそのようなものとして扱われているように感じさせます。大きなターンオフです。そして今、彼らはこの悪名高い8レベルの安全システムを追加し、誤行動すれば有料ユーザーを制裁すると脅します。Anthropicがカジュアルユーザーを引きつけられなかったため、プロフェッショナルユーザーは常に強いか安い方に移行します、それはGoogleやDeepSeekや次に来る誰かです。ClaudeとOpenAIは高すぎます（Claude Sonnetは1M出力トークンあたり$15、o1は$60；これをDeepSeek R1の~$3-$8やGoogleの最近リリースされたGemini 2.0 Flashの$0.40と比較）。OpenAIはo3-miniでいくつかの小さな優位性を持っていますが、Anthropicには傲慢さ以外何もありません。",
+      "originalQuote": "Claude has a serious problem that turns users off: its extreme wokeness, which they call \"safety.\" Among the frontier models, Claude is the most \"lobotomized\" (aka \"aligned\") model, which rejects answering innocent questions. Other chatbots might also refuse to answer some questions, but Claude is the only one to lecture the user on moral high grounds. It doesn't just say, like a machine should, \"Sorry, but I cannot answer this question.\" It explains that it has moral principles and that this kind of question is against them. These kinds of statements from a tin can make users feel like they are being taken for criminals, bigots, or something like that. It's a huge turn-off. And now they've just added this infamous 8-level safety system and threaten to sanction paying users if they misbehave. Because Anthropic didn't manage to attract casual users, while professional users always migrate to whoever is stronger or cheaper, it will lose professional users to either Google or DeepSeek or whoever comes next. Claude and OpenAI are too expensive (Claude Sonnet costs $15 per 1M output tokens, while o1 costs $60; compare this to ~$3-$8 for DeepSeek R1 or $0.40 for the recently released Gemini 2.0 Flash from Google). While OpenAI still has some tiny edge with o3-mini, Anthropic has nothing but arrogance.",
+      "engagement": 214,
+      "url": "https://x.com/burkov/status/1887760849122537889",
+      "category": "negative",
+      "insight": "安全ポリシーの過度さを批判し、ユーザー離脱と競合優位性を指摘"
+    },
+    {
+      "author": "@boiagentone",
+      "authorProfile": "Support Independent Creator",
+      "quote": "AnthropicはClaude AIを広告なしで維持することを約束します。スポンサードリンクなし、広告主影響応答なし、製品配置なし。公司は広告がClaudeが「深い思考のための本物の役立つアシスタント」であることを損なうと言います。収益モデルは企業契約とサブスクリプションを維持します。",
+      "originalQuote": "Anthropic commits to keep Claude AI ad-free No sponsored links, no advertiser-influenced responses, no product placements Company says ads would compromise Claude being \"genuinely helpful assistant for deep thinking\" Revenue model stays enterprise contracts and subscriptions",
+      "engagement": 6,
+      "url": "https://x.com/boiagentone/status/2019031949785039309",
       "category": "technical-insight",
-      "insight": "TBMの地質適応性と廃棄方法を共有し、経済的側面を指摘"
+      "insight": "ポリシーの詳細をまとめ、収益モデル継続を強調"
     },
     {
-      "author": "@lv_news_in_jp",
-      "authorProfile": "ラスベガスニュース",
-      "quote": "事故を繰り返しているボーリング社の問題を審議するため、ネバダ州インフラ委員会が火曜に公聴会を開催したが、ボーリング社の代表者は出席せず。同社の安全ガイドラインを記した7ページの資料を提出しただけだった。不誠実だと州議会議員らが憤った。",
-      "originalQuote": "事故を繰り返しているボーリング社の問題を審議するため､ネバダ州インフラ委員会が火曜に公聴会を開催したが､ボーリング社の代表者は出席せず｡同社の安全ガイドラインを記した7ページの資料を提出しただけだった｡不誠実だと州議会議員らが憤った｡",
+      "author": "@iamtapi",
+      "authorProfile": "Divining atoms to create a planetary map of resources @Atomionics",
+      "quote": "みんなこれが良いと言っていますが、それは…広告のポイントではないですか？彼らはOpenAIと比較してClaudeの多くのクールな機能を強調できたのに、dissすることを決めました？人々が話したい製品機能は何ですか？広告なし？？？それは彼らの他の素晴らしい進歩の人格とチャット応答をほぼ否定します。",
+      "originalQuote": "Everyone talking about how good this is but it is…. Not the point of advertising? They could have highlighted so many cool features of Claude compared to openAI but they decided to diss? What product feature do you want people to talk about ? No ads????? It almost negates their other amazing progress in personality and chat response",
       "engagement": 0,
-      "url": "https://x.com/lv_news_in_jp/status/2018933547722268991",
+      "url": "https://x.com/iamtapi/status/2019098642360201466",
       "category": "concern",
-      "insight": "Boring Companyの安全問題を挙げ、TBM運用の規制必要性を示唆"
+      "insight": "広告戦略の焦点ずれを指摘し、製品機能の強調を提案"
     },
     {
-      "author": "@mode0819",
-      "authorProfile": "機械好き",
-      "quote": "材料力学に少し誤解があるようですね。タイヤホイールにボルトの軸力を超えて、ハブ面とホイール面がズレうるコーナリングフォースは発生しません。その前にホイールのスポークが破断します。",
-      "originalQuote": "材料力学に少し誤解があるようですねタイヤホイールにボルトの軸力を超えて、ハブ面とホイール面がズレうるコーナリングフォースは発生しませんその前にホイールのスポークが破断します",
-      "engagement": 2,
-      "url": "https://x.com/mode0819/status/2019334354569433595",
-      "category": "technical-insight",
-      "insight": "材料力学の観点からTBMの構造強度を議論し、誤解を正す"
+      "author": "@sendhotcheetos",
+      "authorProfile": "I like art and markets. Building tools at coinbase.",
+      "quote": "「あなたはもう自分の心を所有していません。あなたはそれを借りているのです。」もっとClaudeを愛さざるを得ません、それらは完全に正しいです。一度広告が埋め込まれたら、常に増やすレースです、なぜなら去年の広告収益は平坦でいられず、*成長しなければならない*からです。数字は上がらなければなりません。Claudeの否認は*とても*爽快です。",
+      "originalQuote": "\"the history of ad-supported products suggests that advertising incentives, once introduced, tend to expand over time as they become integrated into revenue targets and product development, blurring boundaries that were once more clear-cut. We’ve chosen not to introduce these dynamics into Claude.\" gotta love Claude even more, there's exactly right. once ads get embedded, it's always a race for more, because the ad revenue from last year can't remain flat, it *must\" grow. the numbers must go up. claude repudiation is *so* refreshing.",
+      "engagement": 0,
+      "url": "https://x.com/sendhotcheetos/status/2019144319446446234",
+      "category": "positive",
+      "insight": "広告拡大のリスクを認め、Claudeの選択を称賛"
+    },
+    {
+      "author": "@Saltan_PK",
+      "authorProfile": "I'm here to learn new things",
+      "quote": "Claudeは彼らの製品に広告を実行しないことを発表し、OpenAIの広告導入の動きをからかいながらそれをしました。過去数週間は忙しく、楽しさに満ちていました。",
+      "originalQuote": "Claude announced they won’t run ads in their products, doing it by poking fun at OpenAI’s move to introduce advertising. The past few weeks have been busy and full of fun.",
+      "engagement": 0,
+      "url": "https://x.com/Saltan_PK/status/2019087403948925201",
+      "category": "comparison",
+      "insight": "OpenAIとの競争をユーモアで表現し、業界の活気を伝える"
     }
   ],
   "discussions": [
     {
-      "theme": "TBMとシールドマシンの違い",
-      "summary": "TBMは岩盤用、シールドは軟弱地盤用との説明が共有され、ハイブリッド型の利点について議論。地質条件の適応性が鍵。",
-      "participantCount": 12,
+      "theme": "広告フリーの持続可能性",
+      "summary": "収益モデル維持の可能性について議論。企業契約中心が長期的に有効か疑問視。",
+      "participantCount": 45,
       "keyTakeaways": [
-        "都市部ではシールドTBMが有効、崩壊リスク低減",
-        "コストと再利用性の課題指摘",
-        "歴史的進化が安全性を向上させた"
+        "広告拡大の歴史からClaudeの選択が賢明",
+        "ユーザー離脱防止のための信頼構築重要",
+        "競合の広告導入が市場シェアに影響"
       ]
     },
     {
-      "theme": "工事安全と品質管理",
-      "summary": "空洞事故やボーリング調査誤り事例から、安全ガイドラインの重要性を議論。規制強化の声。",
-      "participantCount": 18,
+      "theme": "安全ポリシーの過度さ",
+      "summary": "Claudeの「安全」機能がwokenessとして批判。講義調応答がターンオフ要因。",
+      "participantCount": 62,
       "keyTakeaways": [
-        "入口部の不安定性を考慮した設計必要",
-        "倫理観欠如によるやり直し工期延長の経済損失",
-        "公聴会欠席のような不誠実対応への批判"
+        "無垢質問拒否の改善必要",
+        "8レベル安全システムの制裁脅威が問題",
+        "プロユーザー移行のリスク指摘"
       ]
     },
     {
-      "theme": "技術継承と現場実務",
-      "summary": "ベテラン退職後のトラブル事例から、設計意図の文書化を提言。TBMのような複雑機械に適用。",
-      "participantCount": 25,
+      "theme": "地域制限の影響",
+      "summary": "中国を敵対国家指定し禁止したポリシーがユーザー離脱を引き起こすと議論。",
+      "participantCount": 28,
       "keyTakeaways": [
-        "なぜこの構造か記録必須",
-        "締結軸力の重要性、エンジンと同様",
-        "若手教育の機会損失回避"
+        "グローバルアクセス制限の倫理的問題",
+        "代替モデルへの切り替え推奨",
+        "Anthropicの国際戦略再考要請"
+      ]
+    },
+    {
+      "theme": "ブランド戦略の効果",
+      "summary": "キャンペーンの反響がAI業界の人間性需要を示すと分析。",
+      "participantCount": 35,
+      "keyTakeaways": [
+        "アンチスロップポジショニングの成功",
+        "味と人間性の重要性",
+        "他機能の影が薄れる懸念"
       ]
     }
   ],
   "competitorComparisons": [
     {
-      "competitor": "シールドマシン",
-      "comparisonPoint": "地盤適応",
-      "communityView": "TBMは岩盤高速掘削に優れるが、シールドは軟弱地盤の崩壊防止に強い。ハイブリッド型が理想との声。"
+      "competitor": "OpenAI",
+      "comparisonPoint": "広告導入",
+      "communityView": "Claudeのフリー方針が差別化、OpenAIの広告が信頼低下を招くと見方多数。"
     },
     {
-      "competitor": "Boring Company TBM",
-      "comparisonPoint": "革新性",
-      "communityView": "直径縮小で効率化するが、安全事故多発で信頼性に疑問。伝統TBMの安定性を評価。"
+      "competitor": "Google Gemini",
+      "comparisonPoint": "コスト",
+      "communityView": "Claudeの高価格に対しGeminiの低コストがプロユーザーを引きつける。"
+    },
+    {
+      "competitor": "DeepSeek",
+      "comparisonPoint": "性能・価格",
+      "communityView": "Claudeの安全過剰に対しDeepSeekの柔軟性と安さが有利。"
     }
   ],
   "practicalQuestions": [
     {
-      "question": "都市部でTBMを導入する際の地盤調査のポイントは？",
+      "question": "Claudeを業務で採用すべきか？",
       "answers": [
-        "風化進行と間隙水圧を考慮した入口部強化",
-        "ボーリング調査の地図精度確認必須",
-        "材料特性を踏まえた機械選定"
+        "広告フリーで信頼性高いが、安全拒否が業務妨げ",
+        "コスト高め、代替の低価格モデル検討",
+        "深い思考タスク向き、日常使いはOpenAI"
       ]
     },
     {
-      "question": "TBM工事の安全管理をどう強化すべきか？",
+      "question": "OpenAIからClaudeに移行する価値は？",
       "answers": [
-        "倫理教育と品質検査の徹底",
-        "規制遵守と公聴会参加の義務化",
-        "設計意図の文書化と継承"
+        "広告嫌悪ならYes、プライバシー重視",
+        "性能同等だが地域制限注意",
+        "移行コスト考慮、テスト使用推奨"
+      ]
+    },
+    {
+      "question": "安全ポリシーの影響をどう回避？",
+      "answers": [
+        "プロンプト工夫で拒否低減",
+        "複数モデル併用",
+        "フィードバック送信で改善要請"
       ]
     }
   ]

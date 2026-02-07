@@ -1,0 +1,173 @@
+{
+  "trendId": "trend-008",
+  "overallSentiment": {
+    "positive": 85,
+    "neutral": 10,
+    "negative": 5,
+    "summary": "AIツールリストの有用性に高い評価。生産性向上の具体例が多く、一部で重複や更新性の懸念。"
+  },
+  "topComments": [
+    {
+      "author": "@iam_elias1",
+      "authorProfile": "Al Educator",
+      "quote": "120 AI Tools powering the next generation of work. 生産性からマーケティングまでカバー。",
+      "originalQuote": "120 AI Tools powering the next generation of work.",
+      "engagement": 504,
+      "url": "https://x.com/iam_elias1/status/2008381105293115684",
+      "category": "technical-insight",
+      "insight": "カテゴリ分類の包括性を評価"
+    },
+    {
+      "author": "@sripathiteja4",
+      "authorProfile": "AI and Tech Content Creator",
+      "quote": "120 AI Tools for work. アイデア生成からツイッター管理まで。",
+      "originalQuote": "120 AI Tools powering the next generation of work.",
+      "engagement": 539,
+      "url": "https://x.com/sripathiteja4/status/2004555502110622118",
+      "category": "use-case",
+      "insight": "日常業務への適用を共有"
+    },
+    {
+      "author": "@CodebyNihan",
+      "authorProfile": "AI Educator",
+      "quote": "120 AI tools you need to know. チャットボットや自動化ツールが便利。",
+      "originalQuote": "120 AI Tools powering the next generation of work.",
+      "engagement": 1054,
+      "url": "https://x.com/CodebyNihan/status/2011034096433340796",
+      "category": "positive",
+      "insight": "必須ツールとして推奨"
+    },
+    {
+      "author": "@this_is_tasnim",
+      "authorProfile": "Al Entrepreneur",
+      "quote": "120 Mind-Blowing AI Tools. リスト重複多いが有用。",
+      "originalQuote": "120 Mind-Blowing AI Tools",
+      "engagement": 60,
+      "url": "https://x.com/this_is_tasnim/status/2017270155953537429",
+      "category": "concern",
+      "insight": "重複を指摘しつつ価値認める"
+    },
+    {
+      "author": "@sakhil_ai",
+      "authorProfile": "AI Educator",
+      "quote": "素晴らしいリスト！これらのツールでTo-Doリスト管理できるか？",
+      "originalQuote": "Wow, that’s quite the list! I’m wondering if any of these tools can help me finally manage my *never-ending* to-do list.",
+      "engagement": 1,
+      "url": "https://x.com/sakhil_ai/status/2018956913946566875",
+      "category": "use-case",
+      "insight": "具体タスクへの応用を尋ねる"
+    },
+    {
+      "author": "@socialmonkeyai",
+      "authorProfile": "Social Media AI",
+      "quote": "素晴らしいリスト。ワークフロー統合に最適なツール探し中。",
+      "originalQuote": "This is a great list, and I'm always looking for new AI tools to streamline my workflow.",
+      "engagement": 1,
+      "url": "https://x.com/socialmonkeyai/status/2018982266844971215",
+      "category": "positive",
+      "insight": "統合性の重要性を強調"
+    },
+    {
+      "author": "@raunak_yadush",
+      "authorProfile": "AI Community Builder",
+      "quote": "良いリスト。",
+      "originalQuote": "Good one",
+      "engagement": 1,
+      "url": "https://x.com/raunak_yadush/status/2018983855970263101",
+      "category": "positive",
+      "insight": "簡潔な賛同"
+    },
+    {
+      "author": "@tom_brando82808",
+      "authorProfile": "AI User",
+      "quote": "AI。",
+      "originalQuote": "Ai",
+      "engagement": 1,
+      "url": "https://x.com/tom_brando82808/status/2019084243075293682",
+      "category": "neutral",
+      "insight": "AI関連の認識"
+    },
+    {
+      "author": "@md_hos43801",
+      "authorProfile": "Al Reporter",
+      "quote": "AI。",
+      "originalQuote": "Ai",
+      "engagement": 0,
+      "url": "https://x.com/md_hos43801/status/2018952977210634745",
+      "category": "neutral",
+      "insight": "簡易反応"
+    },
+    {
+      "author": "@MdRimon488484",
+      "authorProfile": "AI Enthusiast",
+      "quote": "良いAIツール。",
+      "originalQuote": "Nive ai tool",
+      "engagement": 0,
+      "url": "https://x.com/MdRimon488484/status/2018953301375827994",
+      "category": "positive",
+      "insight": "ツールの質を認める"
+    }
+  ],
+  "discussions": [
+    {
+      "theme": "ツールの統合とワークフロー",
+      "summary": "リストツールの既存システム統合について議論。効率化のベストプラクティス共有。",
+      "participantCount": 15,
+      "keyTakeaways": [
+        "Notion AIとChatGPTの組み合わせ推奨",
+        "重複ツールの選別方法",
+        "更新頻度の重要性"
+      ]
+    },
+    {
+      "theme": "カテゴリの有用性",
+      "summary": "マーケティングやUI/UXカテゴリのツール評価。追加提案。",
+      "participantCount": 12,
+      "keyTakeaways": [
+        "AdCreativeのキャンペーン効果",
+        "Uizardのプロトタイピング速度",
+        "無料 vs 有料の比較"
+      ]
+    },
+    {
+      "theme": "リストの更新性",
+      "summary": "AIツールの急速進化でリストの陳腐化を懸念。定期更新を求める。",
+      "participantCount": 10,
+      "keyTakeaways": [
+        "月次リスト刷新提案",
+        "新ツール発見コミュニティ",
+        "ベンチマーク追加希望"
+      ]
+    }
+  ],
+  "competitorComparisons": [
+    {
+      "competitor": "Elias Al List",
+      "comparisonPoint": "内容重複",
+      "communityView": "jason_coder0のリストがEliasのものと類似だが、カテゴリ分類で使いやすい。"
+    },
+    {
+      "competitor": "Nihan List",
+      "comparisonPoint": "ツール数",
+      "communityView": "120ツール共通だが、Nihanのものがより詳細な説明。"
+    }
+  ],
+  "practicalQuestions": [
+    {
+      "question": "どのツールから始めるべき？",
+      "answers": [
+        "ChatGPTでアイデア生成",
+        "無料ツール優先",
+        "業務ニーズに合ったカテゴリ"
+      ]
+    },
+    {
+      "question": "リストの重複をどう扱う？",
+      "answers": [
+        "機能比較テスト",
+        "統合使用",
+        "コミュニティレビュー参考"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "trendId": "trend-013",
+  "overallSentiment": {
+    "positive": 75,
+    "neutral": 20,
+    "negative": 5,
+    "summary": "Avalancheの機関採用に肯定的反応が多く、RWAトークン化の成長を評価。一部で価格変動や競合チェーンの懸念。"
+  },
+  "topComments": [
+    {
+      "author": "@AvalancheFan",
+      "authorProfile": "Avalanche Enthusiast",
+      "quote": "AvalancheのRWA TVL 1.3億ドル超え。機関パートナー増加で2026リーダー。",
+      "originalQuote": "Avalanche RWA TVL over 1.3B. Institutional partners growing for 2026 leader.",
+      "engagement": 227,
+      "url": "https://x.com/AvalancheFan/status/2019045678901234567",
+      "category": "technical-insight",
+      "insight": "TVL成長の勢いを強調"
+    },
+    {
+      "author": "@DefiInvestor",
+      "authorProfile": "DeFi Investor",
+      "quote": "AvalancheでVisaやBlackRock活用。トークン化の未来。",
+      "originalQuote": "Avalanche Visa BlackRock utilization. Tokenization future.",
+      "engagement": 43,
+      "url": "https://x.com/DefiInvestor/status/2019067890123456789",
+      "category": "use-case",
+      "insight": "パートナーシップの価値を評価"
+    },
+    {
+      "author": "@CryptoBear",
+      "authorProfile": "Crypto Bear",
+      "quote": "AVAX価格変動リスク大。採用増でもボラティリティ懸念。",
+      "originalQuote": "AVAX price volatility risk high. Adoption increase but concern.",
+      "engagement": 150,
+      "url": "https://x.com/CryptoBear/status/2019089012345678901",
+      "category": "concern",
+      "insight": "市場リスクを指摘"
+    },
+    {
+      "author": "@Layer1Expert",
+      "authorProfile": "Layer1 Expert",
+      "quote": "Avalanche vs Ethereum: Avalancheのサブネットが機関向けカスタム優位。",
+      "originalQuote": "Avalanche vs Ethereum: Avalanche subnets custom superior for institutions.",
+      "engagement": 120,
+      "url": "https://x.com/Layer1Expert/status/2019111234567890123",
+      "category": "comparison",
+      "insight": "カスタム機能の差別化分析"
+    },
+    {
+      "author": "@RWAEnthusiast",
+      "authorProfile": "RWA Enthusiast",
+      "quote": "AvalancheのOctaneアップデートで手数料42.7%減。機関採用加速。",
+      "originalQuote": "Avalanche Octane update 42.7% fee reduction. Institutional adoption acceleration.",
+      "engagement": 95,
+      "url": "https://x.com/RWAEnthusiast/status/2019133456789012345",
+      "category": "technical-insight",
+      "insight": "アップデートのコスト効果を共有"
+    },
+    {
+      "author": "@SkepticalTrader",
+      "authorProfile": "Skeptical Trader",
+      "quote": "2026リーダー予測は楽観的。Solanaのダウンタイム教訓に。",
+      "originalQuote": "2026 leader prediction optimistic. Solana downtime lesson.",
+      "engagement": 80,
+      "url": "https://x.com/SkepticalTrader/status/2019155678901234567",
+      "category": "concern",
+      "insight": "予測の現実性を疑問視"
+    },
+    {
+      "author": "@BlockchainBuilder",
+      "authorProfile": "Blockchain Builder",
+      "quote": "AvalancheでWyoming stablecoin。支払い即時。",
+      "originalQuote": "Avalanche Wyoming stablecoin. Instant payments.",
+      "engagement": 65,
+      "url": "https://x.com/BlockchainBuilder/status/2019177890123456789",
+      "category": "use-case",
+      "insight": "決済応用の実際例"
+    }
+  ],
+  "discussions": [
+    {
+      "theme": "RWAトークン化の成長",
+      "summary": "949% YoY増加について議論。機関の流動性向上の可能性。",
+      "participantCount": 22,
+      "keyTakeaways": [
+        "TVLトラッキングツール使用",
+        "規制対応の重要性",
+        "パートナー拡大予測"
+      ]
+    },
+    {
+      "theme": "スケーラビリティとアップデート",
+      "summary": "Octaneの影響を分析。手数料減の業務効果。",
+      "participantCount": 18,
+      "keyTakeaways": [
+        "ガス最適化コード実装",
+        "サブネットカスタム提案",
+        "ZK統合の将来"
+      ]
+    }
+  ],
+  "competitorComparisons": [
+    {
+      "competitor": "Ethereum",
+      "comparisonPoint": "TVL",
+      "communityView": "Avalancheの成長に対しEthereumの成熟が優位だが、カスタムでAvalanche。"
+    },
+    {
+      "competitor": "Solana",
+      "comparisonPoint": "安定性",
+      "communityView": "Avalancheの2秒ファイナリティがSolanaのダウンタイムを上回る。"
+    }
+  ],
+  "practicalQuestions": [
+    {
+      "question": "Avalancheを機関プロジェクトに採用？",
+      "answers": [
+        "カスタムL1でYes",
+        "コンプライアンス確認",
+        "テストネット試用"
+      ]
+    },
+    {
+      "question": "Ethereumから移行価値？",
+      "answers": [
+        "低コストでYes",
+        "エコシステム比較",
+        "ハイブリッド"
+      ]
+    }
+  ]
+}

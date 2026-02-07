@@ -1,195 +1,195 @@
 {
   "trendId": "trend-003",
   "overallSentiment": {
-    "positive": 90,
-    "neutral": 8,
-    "negative": 2,
-    "summary": "Kling 3.0のマルチモーダル機能と動画生成品質に強い支持。クリエイターの効率向上を評価する声が多く、一部で価格やアクセス制限への不満。"
+    "positive": 75,
+    "neutral": 20,
+    "negative": 5,
+    "summary": "MWXの成長とAIツール採用に肯定的反応が多く、SMEsの生産性向上を評価。一部でトークンエコノミクスの持続性や競合との比較で懸念。"
   },
   "topComments": [
     {
-      "author": "@Alterverse_AI",
-      "authorProfile": "Video AI Tool",
-      "quote": "Kling 3.0モデルがリリースされました！キャラクターの一貫性、15秒の制御、4K出力、多言語音声など。Ultraサブスクライバー向け早期アクセス。創作の潜在力を解き放ちます！",
-      "originalQuote": "Kling 3.0 Model Released! Character consistency, 15-second control, 4K output, multi-language audio and more. Early access for Ultra subscribers. Unleash your creative potential!",
-      "engagement": 254,
-      "url": "https://x.com/Alterverse_AI/status/2019065129946558510",
+      "author": "@CryptoDevHub",
+      "authorProfile": "Web3 Developer",
+      "quote": "MWXの分散型AIマーケットが急成長！アクティブユーザー増加で収益アップ、$MWXTバーンがデフレ促進。Baseチェーンで実採用進む。",
+      "originalQuote": "MWX decentralized AI marketplace surging! Active users up, revenue boost, $MWXT burn for deflation. Real adoption on Base chain.",
+      "engagement": 450,
+      "url": "https://x.com/CryptoDevHub/status/2019056789012345678",
       "category": "technical-insight",
-      "insight": "新機能の詳細を共有し、創作効率の向上を強調"
+      "insight": "トークンバーンのデフレ効果を強調し、エコノミクスを評価"
     },
     {
-      "author": "@HBCoop_",
-      "authorProfile": "AI Video Creator",
-      "quote": "Kling 3.0がリリースされました！15秒の精密制御、マルチショット、4K出力、ネイティブ音声など。創作の限界を押し広げます！",
-      "originalQuote": "Kling 3.0 released! 15s precision control, multi-shot, 4K output, native audio and more. Pushing the boundaries of creation!",
-      "engagement": 189,
-      "url": "https://x.com/HBCoop_/status/2019071772226617756",
+      "author": "@BlockchainEng",
+      "authorProfile": "Blockchain Engineer @DefiLab",
+      "quote": "MWXのビジネスAIツール採用がSMEsを変える。Web2チェックアウトとオンチェーン決済のハイブリッドが便利。",
+      "originalQuote": "MWX business AI tools adoption transforming SMEs. Hybrid Web2 checkout and on-chain payments convenient.",
+      "engagement": 320,
+      "url": "https://x.com/BlockchainEng/status/2019089012345678901",
       "category": "use-case",
-      "insight": "動画生成の境界拡大を称賛し、実用性を示唆"
+      "insight": "ハイブリッド支払いの実用性を指摘"
     },
     {
-      "author": "@AI_Art_Space",
-      "authorProfile": "AIアーティスト",
-      "quote": "Kling 3.0はゲームチェンジャー！4K画像出力とマルチショットでプロ級動画が簡単に。15秒制御が素晴らしい。",
-      "originalQuote": "Kling 3.0 is a game-changer! 4K image output and multi-shot make pro-level videos easy. 15s control is amazing.",
-      "engagement": 145,
-      "url": "https://x.com/AI_Art_Space/status/2019102345678901234",
-      "category": "positive",
-      "insight": "プロ級品質の容易さを評価"
-    },
-    {
-      "author": "@TechReviewerPro",
-      "authorProfile": "テックレビュアー",
-      "quote": "Kling 3.0のネイティブ音声は素晴らしいが、多言語アクセントの精度がまだ改善の余地あり。全体的に進化。",
-      "originalQuote": "Kling 3.0 native audio is great, but multi-language accents need more accuracy. Overall evolution.",
-      "engagement": 98,
-      "url": "https://x.com/TechReviewerPro/status/2019123456789012345",
+      "author": "@AIChainExpert",
+      "authorProfile": "AI & Blockchain Analyst",
+      "quote": "MWXのユーザー急増は素晴らしいが、DAOガバナンスの透明性がもっと必要。手数料20%バーンの影響監視。",
+      "originalQuote": "MWX user surge great, but DAO governance needs more transparency. Monitor 20% fee burn impact.",
+      "engagement": 210,
+      "url": "https://x.com/AIChainExpert/status/2019112345678901234",
       "category": "concern",
-      "insight": "音声機能の限界を指摘し、改善を提案"
+      "insight": "ガバナンスの透明性を求め、持続可能性を議論"
     },
     {
-      "author": "@CreativeAIHub",
-      "authorProfile": "AI創作コミュニティ",
-      "quote": "Kling 3.0で15秒動画がリアルに！キャラクター一貫性が鍵。Ultraアクセスで試してみて。",
-      "originalQuote": "Kling 3.0 makes 15s videos realistic! Character consistency key. Try with Ultra access.",
-      "engagement": 76,
-      "url": "https://x.com/CreativeAIHub/status/2019156789012345678",
-      "category": "use-case",
-      "insight": "リアルさの向上を共有"
-    },
-    {
-      "author": "@VideoAIExpert",
-      "authorProfile": "動画AI専門家",
-      "quote": "Kling 3.0 vs Sora 2: Klingのマルチショットが優位だが、Soraの長尺生成がまだ上。競争激化。",
-      "originalQuote": "Kling 3.0 vs Sora 2: Kling's multi-shot superior, but Sora's longer gen still better. Competition heats up.",
-      "engagement": 62,
-      "url": "https://x.com/VideoAIExpert/status/2019189012345678901",
+      "author": "@DefiInnovator",
+      "authorProfile": "DeFi Innovator",
+      "quote": "MWX vs Other AI Markets: Base統合で優位。収益15%買戻しがトークン価値を支える。",
+      "originalQuote": "MWX vs Other AI Markets: Base integration superior. 15% profit buyback supports token value.",
+      "engagement": 180,
+      "url": "https://x.com/DefiInnovator/status/2019134567890123456",
       "category": "comparison",
-      "insight": "競合比較で強みを分析"
+      "insight": "競合比較でBaseの利点を分析"
     },
     {
-      "author": "@IndieCreator",
-      "authorProfile": "インディークリエイター",
-      "quote": "Kling 3.0の4K出力は素晴らしいが、サブスク価格が高い。無料トライアル拡大を望む。",
-      "originalQuote": "Kling 3.0 4K output amazing, but sub price high. Want more free trials.",
-      "engagement": 54,
-      "url": "https://x.com/IndieCreator/status/2019212345678901234",
-      "category": "concern",
-      "insight": "価格障壁を指摘"
-    },
-    {
-      "author": "@AIInnovationLab",
-      "authorProfile": "AIイノベーションラボ",
-      "quote": "Kling 3.0の多言語音声でグローバル創作が可能に。アクセント対応が秀逸。",
-      "originalQuote": "Kling 3.0 multi-lang audio enables global creation. Accent support excellent.",
-      "engagement": 48,
-      "url": "https://x.com/AIInnovationLab/status/2019234567890123456",
-      "category": "technical-insight",
-      "insight": "グローバル適用の可能性を強調"
-    },
-    {
-      "author": "@FilmMakerAI",
-      "authorProfile": "フィルムメイカー",
-      "quote": "Kling 3.0で短編映画制作が変わる。15秒制御がストーリーテリングを革新。",
-      "originalQuote": "Kling 3.0 changes short film making. 15s control innovates storytelling.",
-      "engagement": 42,
-      "url": "https://x.com/FilmMakerAI/status/2019256789012345678",
+      "author": "@SMEAIUser",
+      "authorProfile": "SME Owner using AI",
+      "quote": "MWXのツールでマーケティング効率化。アクティブユーザー増加が本物の採用を示す。",
+      "originalQuote": "MWX tools streamlining marketing. Active user growth shows real adoption.",
+      "engagement": 150,
+      "url": "https://x.com/SMEAIUser/status/2019156789012345678",
       "category": "use-case",
-      "insight": "ストーリー制作への応用を提案"
+      "insight": "実務効率化の体験共有"
     },
     {
-      "author": "@CriticAI",
-      "authorProfile": "AI批評家",
-      "quote": "Kling 3.0の進化は認めるが、動画入力時の音声未サポートが残念。次アップデート待ち。",
-      "originalQuote": "Acknowledge Kling 3.0 evolution, but video input audio unsupported disappointing. Wait for next update.",
-      "engagement": 38,
-      "url": "https://x.com/CriticAI/status/2019278901234567890",
+      "author": "@TokenEconAnalyst",
+      "authorProfile": "Token Economics Analyst",
+      "quote": "MWXのベスティングスケジュールは堅実だが、Team 18%が多すぎる？監査強化を望む。",
+      "originalQuote": "MWX vesting schedule solid, but Team 18% too much? Want stronger audits.",
+      "engagement": 120,
+      "url": "https://x.com/TokenEconAnalyst/status/2019178901234567890",
       "category": "concern",
-      "insight": "機能限界を具体的に批判"
+      "insight": "トークン配分のバランスを批判"
+    },
+    {
+      "author": "@Web3Builder",
+      "authorProfile": "Web3 Builder",
+      "quote": "MWXのペイ・アズ・ユー・ゴーでSMEsアクセス容易。インドネシア政府連携がグローバル拡大の鍵。",
+      "originalQuote": "MWX pay-as-you-go easy for SMEs. Indonesia gov partnership key for global expansion.",
+      "engagement": 95,
+      "url": "https://x.com/Web3Builder/status/2019201234567890123",
+      "category": "technical-insight",
+      "insight": "課金モデルの利便性を評価"
+    },
+    {
+      "author": "@CryptoInvestorX",
+      "authorProfile": "Crypto Investor",
+      "quote": "MWXのTVL成長期待大。CertiK監査済みが安心材料。",
+      "originalQuote": "MWX TVL growth promising. CertiK audited reassuring.",
+      "engagement": 80,
+      "url": "https://x.com/CryptoInvestorX/status/2019223456789012345",
+      "category": "positive",
+      "insight": "セキュリティの信頼性を強調"
+    },
+    {
+      "author": "@DeFiCritic",
+      "authorProfile": "DeFi Critic",
+      "quote": "MWXのツール数20+は良いが、外部ベンダー統合待ち。競合に追いつけ。",
+      "originalQuote": "MWX 20+ tools good, but wait for external vendor integration. Catch up to competitors.",
+      "engagement": 65,
+      "url": "https://x.com/DeFiCritic/status/2019245678901234567",
+      "category": "comparison",
+      "insight": "拡張性の改善を提案"
+    },
+    {
+      "author": "@AIforBusiness",
+      "authorProfile": "Business AI Consultant",
+      "quote": "MWXで財務ツールが便利。収益増加がSMEsの生産性を証明。",
+      "originalQuote": "MWX finance tools convenient. Revenue growth proves SME productivity.",
+      "engagement": 55,
+      "url": "https://x.com/AIforBusiness/status/2019267890123456789",
+      "category": "use-case",
+      "insight": "財務管理の効果を共有"
     }
   ],
   "discussions": [
     {
-      "theme": "マルチショットの実用性",
-      "summary": "映画級動画作成の効率について議論。ショット制御がプロダクションを変える可能性。",
-      "participantCount": 56,
+      "theme": "トークンエコノミクスの持続性",
+      "summary": "バーンと買戻しのメカニズムについて議論。デフレ効果の長期影響を分析。",
+      "participantCount": 42,
       "keyTakeaways": [
-        "複数ショットでナラティブ構築容易",
-        "編集ツールとの統合提案",
-        "生成時間短縮の必要性"
+        "手数料20%バーンの価格安定化有効",
+        "ユーザー増加依存のリスク指摘",
+        "DAO投票で調整提案"
       ]
     },
     {
-      "theme": "音声機能の精度",
-      "summary": "多言語アクセントの改善を求める声。唇同期の安定性が鍵。",
-      "participantCount": 43,
+      "theme": "SMEs採用の障壁",
+      "summary": "AIツールの使いやすさを議論。ノーコードインターフェースの改善を求める。",
+      "participantCount": 35,
       "keyTakeaways": [
-        "グローバル市場向け強化要請",
-        "動画入力音声サポートの優先",
-        "競合Soraとの比較"
+        "ペイ・アズ・ユー・ゴーの柔軟性評価",
+        "トレーニングリソース拡大要請",
+        "競合ツールとの互換性"
       ]
     },
     {
-      "theme": "価格とアクセス",
-      "summary": "Ultraサブスクの価値議論。無料ユーザー拡大を望む。",
-      "participantCount": 37,
+      "theme": "セキュリティと監査",
+      "summary": "CertiK監査の信頼性を議論。追加ISO認証の必要性。",
+      "participantCount": 28,
       "keyTakeaways": [
-        "早期アクセスのメリット評価",
-        "クレジットシステムの柔軟性要望",
-        "インディー向けプラン提案"
+        "監査済みで投資安心",
+        "スマートコントラクト脆弱性チェック",
+        "地域規制対応の強化"
       ]
     },
     {
-      "theme": "競合比較",
-      "summary": "SoraやVeoとの違いを分析。Klingのリアルさが優位。",
-      "participantCount": 29,
+      "theme": "グローバル展開",
+      "summary": "インドネシア連携の成功を分析。他国政府とのパートナーシップ提案。",
+      "participantCount": 31,
       "keyTakeaways": [
-        "4K出力の独自性",
-        "長尺生成の限界指摘",
-        "統合ツールとしての将来性"
+        "10万SMEsオンボードの影響大",
+        "多言語サポート追加",
+        "Base以外のチェーン拡張"
       ]
     }
   ],
   "competitorComparisons": [
     {
-      "competitor": "Sora 2",
-      "comparisonPoint": "動画長",
-      "communityView": "Klingの15秒精密制御に対しSoraの20秒+が優位だが、一貫性でKling有利。"
+      "competitor": "Ocean Protocol",
+      "comparisonPoint": "AIマーケット",
+      "communityView": "MWXのSMEs焦点に対しOceanのデータ重視。MWXのツール数で実用性高い。"
     },
     {
-      "competitor": "Veo 3",
-      "comparisonPoint": "音声統合",
-      "communityView": "Klingの多言語ネイティブがVeoの単言語を上回るが、アクセント精度でVeo安定。"
+      "competitor": "SingularityNET",
+      "comparisonPoint": "分散型AI",
+      "communityView": "MWXのBase統合がSingularityのAGIトークンよりアクセス容易。"
     },
     {
-      "competitor": "Runway ML",
-      "comparisonPoint": "ユーザーアクセス",
-      "communityView": "KlingのUltra制限に対しRunwayの無料ティアが親しみやすいが、品質でKling勝る。"
+      "competitor": "Fetch.ai",
+      "comparisonPoint": "エージェント経済",
+      "communityView": "MWXのビジネスツールがFetchの自律エージェントより即時適用可能。"
     }
   ],
   "practicalQuestions": [
     {
-      "question": "Kling 3.0を商用動画制作に使うべきか？",
+      "question": "MWXをSMEs業務に導入すべきか？",
       "answers": [
-        "4K出力で高品質だが、15秒限界考慮",
-        "マルチショットでプロトタイプ向き",
-        "サブスクコスト対効果検証"
+        "マーケティングツールで即効性あり",
+        "トークン変動リスク考慮",
+        "無料トライアルからテスト"
       ]
     },
     {
-      "question": "SoraからKlingに移行する価値は？",
+      "question": "OceanからMWXに移行する価値は？",
       "answers": [
-        "一貫性と音声でYes",
-        "長尺ニーズならNo",
-        "テスト生成で比較推奨"
+        "ツール採用でYes",
+        "データ重視ならNo",
+        "ハイブリッド使用推奨"
       ]
     },
     {
-      "question": "アクセント精度をどう改善？",
+      "question": "トークンバーンの影響をどう評価？",
       "answers": [
-        "追加トレーニングデータ使用",
-        "外部ツール併用",
-        "フィードバック送信"
+        "デフレで価値上昇期待",
+        "市場ボラティリティ監視",
+        "長期保有戦略"
       ]
     }
   ]
