@@ -4,6 +4,7 @@ import { Metadata } from 'next';
 import { getArticleBySlug, getAllArticles } from '@/lib/articles';
 import ArticleContent from '@/components/ArticleContent';
 import ShareOnXButton from '@/components/ShareOnXButton';
+import FloatingShareButton from '@/components/FloatingShareButton';
 
 interface PageProps {
   params: {
@@ -83,9 +84,19 @@ export default async function ArticlePage({ params }: PageProps) {
             </div>
 
             {/* Title */}
-            <h1 className="article-title text-text-primary mb-8">
+            <h1 className="article-title text-text-primary mb-6">
               {article.title}
             </h1>
+
+            {/* Share Button - すぐ下に配置 */}
+            <div className="mb-8 flex items-center gap-3">
+              <ShareOnXButton
+                title={article.title}
+                slug={slug}
+                tags={article.tags}
+              />
+              <span className="text-sm text-text-tertiary">← この記事をシェア</span>
+            </div>
 
             {/* Excerpt */}
             {article.excerpt && (
@@ -172,6 +183,13 @@ export default async function ArticlePage({ params }: PageProps) {
           </Link>
         </div>
       </main>
+
+      {/* フローティングシェアボタン - 常に表示 */}
+      <FloatingShareButton
+        title={article.title}
+        slug={slug}
+        tags={article.tags}
+      />
     </div>
   );
 }

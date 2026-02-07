@@ -1,5 +1,5 @@
 import HeroSection from '@/components/HeroSection';
-import ArticleCard from '@/components/ArticleCard';
+import ArticleList from '@/components/ArticleList';
 import { Newspaper } from 'lucide-react';
 import { getLatestArticles } from '@/lib/articles';
 
@@ -41,53 +41,7 @@ export default async function HomePage() {
         <HeroSection />
 
         <div className="max-w-7xl mx-auto px-4 py-20" id="articles">
-          <div className="flex flex-col md:flex-row items-end justify-between mb-10 border-b border-white/5 pb-6 gap-4">
-            <div>
-              <h2 className="text-3xl font-bold text-white mb-2 tracking-tight">
-                Latest Insights
-              </h2>
-              <p className="text-gray-400">
-                AIが厳選した、今日のエンジニアリングトレンド
-              </p>
-            </div>
-
-            {/* 簡易フィルター (UIのみ) */}
-            <div className="flex gap-2 overflow-x-auto pb-2 md:pb-0 w-full md:w-auto">
-              {['All', 'AI', 'Frontend', 'Backend', 'DevOps'].map((filter, i) => (
-                <button
-                  key={filter}
-                  className={`px-4 py-1.5 rounded-full text-xs font-medium transition-colors whitespace-nowrap ${
-                    i === 0
-                      ? 'bg-white text-slate-900'
-                      : 'bg-slate-800/50 text-gray-400 hover:bg-slate-800 hover:text-white border border-white/5'
-                  }`}
-                >
-                  {filter}
-                </button>
-              ))}
-            </div>
-          </div>
-
-          {articles.length === 0 ? (
-            <div className="flex flex-col items-center justify-center py-32 text-center border border-dashed border-slate-800 rounded-3xl bg-slate-900/20">
-              <div className="w-16 h-16 rounded-full bg-slate-800/50 flex items-center justify-center mb-6">
-                <Newspaper className="w-8 h-8 text-slate-500" />
-              </div>
-              <h3 className="text-xl font-semibold text-white mb-2">まだ記事がありません</h3>
-              <p className="text-gray-400 max-w-md mx-auto mb-8">
-                コマンドを実行して、SuperGrokに最新トレンドを分析させましょう。
-              </p>
-              <code className="px-4 py-3 bg-slate-950 border border-white/10 rounded-lg text-sm font-mono text-blue-400 shadow-xl">
-                npm run genprompt
-              </code>
-            </div>
-          ) : (
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {articles.map((article, index) => (
-                <ArticleCard key={article.slug} article={article} index={index} />
-              ))}
-            </div>
-          )}
+          <ArticleList articles={articles} />
         </div>
       </main>
 

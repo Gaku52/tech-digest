@@ -220,9 +220,7 @@ ${trend.keyPoints.map(point => `- ${point}`).join('\n')}
 
   // 詳細セクション
   if (stage2) {
-    markdown += `## 詳細
-
-### 背景
+    markdown += `## 背景と詳細
 
 ${stage2.background.context}
 
@@ -230,7 +228,7 @@ ${stage2.background.previousState}
 
 ${stage2.background.motivation}
 
-### 内容
+**主要仕様:**
 
 ${stage2.technicalDetails.specifications.map(spec =>
   `- **${spec.aspect}**: ${spec.detail}`
@@ -239,13 +237,11 @@ ${stage2.technicalDetails.specifications.map(spec =>
 `;
 
     // 技術的詳細
-    markdown += `## 技術的詳細
-
-### アーキテクチャ
+    markdown += `## 技術アーキテクチャ
 
 ${stage2.technicalDetails.architecture}
 
-### 実装
+**実装詳細:**
 
 - **使用技術**: ${stage2.technicalDetails.implementation.technology}
 - **デプロイ方法**: ${stage2.technicalDetails.implementation.deployment}
@@ -258,7 +254,7 @@ ${stage2.technicalDetails.architecture}
       b.name && b.name !== '詳細未公開' && b.score && b.score !== '詳細未公開'
     );
     if (validBenchmarks.length > 0) {
-      markdown += `### ベンチマーク
+      markdown += `**ベンチマーク:**
 
 ${validBenchmarks.map(bench =>
   `- **${bench.name}**: ${bench.score} (${bench.comparison})`
@@ -269,7 +265,7 @@ ${validBenchmarks.map(bench =>
 
     // ユースケース
     if (stage2.useCases && stage2.useCases.length > 0) {
-      markdown += `### ユースケース
+      markdown += `## ユースケース
 
 ${stage2.useCases.map(uc =>
   `**${uc.scenario}**
@@ -308,7 +304,7 @@ ${comment.insight}
 
     // 議論
     if (stage3.discussions.length > 0) {
-      markdown += `### 主要な議論
+      markdown += `## 主要な議論
 
 ${stage3.discussions.map(disc =>
   `**${disc.theme}** (参加者: ${disc.participantCount}人)
