@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { Metadata } from 'next';
 import { getArticleBySlug, getAllArticles } from '@/lib/articles';
 import ArticleContent from '@/components/ArticleContent';
-import ShareOnXButton from '@/components/ShareOnXButton';
+import ShareButtons from '@/components/ShareButtons';
 import FloatingShareButton from '@/components/FloatingShareButton';
 
 interface PageProps {
@@ -88,14 +88,14 @@ export default async function ArticlePage({ params }: PageProps) {
               {article.title}
             </h1>
 
-            {/* Share Button - すぐ下に配置 */}
-            <div className="mb-8 flex items-center gap-3">
-              <ShareOnXButton
+            {/* Share Buttons - すぐ下に配置 */}
+            <div className="mb-8">
+              <p className="text-sm text-text-tertiary mb-3">この記事をシェア:</p>
+              <ShareButtons
                 title={article.title}
                 slug={slug}
                 tags={article.tags}
               />
-              <span className="text-sm text-text-tertiary">← この記事をシェア</span>
             </div>
 
             {/* Excerpt */}
@@ -127,17 +127,15 @@ export default async function ArticlePage({ params }: PageProps) {
               <ArticleContent content={article.content} />
             </div>
 
-            {/* Share on X */}
+            {/* Share Buttons */}
             <div className="mt-16 p-6 bg-gradient-to-r from-primary/10 to-accent-purple/10 border border-primary/20 rounded-xl">
-              <div className="flex items-center justify-between">
-                <div className="flex-1">
-                  <h3 className="text-lg font-bold text-text-primary mb-2 flex items-center gap-2">
-                    <span>📢</span>
-                    <span>この記事をシェア</span>
-                  </h3>
-                  <p className="text-sm text-text-tertiary">最新の技術トレンドを共有しましょう</p>
-                </div>
-                <ShareOnXButton
+              <div>
+                <h3 className="text-lg font-bold text-text-primary mb-2 flex items-center gap-2">
+                  <span>📢</span>
+                  <span>この記事をシェア</span>
+                </h3>
+                <p className="text-sm text-text-tertiary mb-4">最新の技術トレンドを共有しましょう</p>
+                <ShareButtons
                   title={article.title}
                   slug={slug}
                   tags={article.tags}
