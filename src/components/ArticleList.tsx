@@ -26,18 +26,20 @@ export default function ArticleList({ articles }: ArticleListProps) {
 
   return (
     <>
-      <div className="flex flex-col md:flex-row items-end justify-between mb-10 border-b border-white/5 pb-6 gap-4">
-        <div>
-          <h2 className="text-3xl font-bold text-white mb-2 tracking-tight">
-            Latest Insights
-          </h2>
-          <p className="text-gray-400">
-            AIが厳選した、今日のエンジニアリングトレンド
-          </p>
+      <div className="mb-10 border-b border-white/5 pb-6">
+        <div className="flex flex-col md:flex-row items-start md:items-end justify-between gap-4 mb-6">
+          <div>
+            <h2 className="text-3xl font-bold text-white mb-2 tracking-tight">
+              Latest Insights
+            </h2>
+            <p className="text-gray-400">
+              AIが厳選した、今日のエンジニアリングトレンド
+            </p>
+          </div>
         </div>
 
-        {/* カテゴリーフィルター */}
-        <div className="flex gap-2 overflow-x-auto pb-2 md:pb-0 w-full md:w-auto">
+        {/* カテゴリーフィルター - 全幅で折り返し可能 */}
+        <div className="flex flex-wrap gap-2">
           {categories.map((filter) => (
             <button
               key={filter}

@@ -1,6 +1,7 @@
 import { ImageResponse } from 'next/og';
 
-export const runtime = 'edge';
+// Node.js runtimeを使用（fsアクセスのため）
+export const runtime = 'nodejs';
 export const alt = 'Tech Digest - AI技術トレンドメディア';
 export const size = {
   width: 1200,

@@ -1,7 +1,8 @@
 import { ImageResponse } from 'next/og';
 import { getArticleBySlug } from '@/lib/articles';
 
-export const runtime = 'edge';
+// Node.js runtimeを使用（fsアクセスのため）
+export const runtime = 'nodejs';
 export const alt = 'Tech Digest Article';
 export const size = {
   width: 1200,

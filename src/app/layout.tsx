@@ -19,6 +19,7 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://tech-digest.ogadix.com'),
   title: 'Tech Digest - 最新技術トレンドを毎日お届け',
   description: 'SuperGrokが分析した最新のAI・エンジニアリングトレンドを、分かりやすく配信する技術情報メディア',
   keywords: ['Tech', 'AI', 'Engineering', 'Trends', 'SuperGrok', 'GPT', 'Claude', 'Next.js'],
