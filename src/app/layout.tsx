@@ -22,6 +22,28 @@ export const metadata: Metadata = {
   title: 'Tech Digest - 最新技術トレンドを毎日お届け',
   description: 'SuperGrokが分析した最新のAI・エンジニアリングトレンドを、分かりやすく配信する技術情報メディア',
   keywords: ['Tech', 'AI', 'Engineering', 'Trends', 'SuperGrok', 'GPT', 'Claude', 'Next.js'],
+  openGraph: {
+    title: 'Tech Digest - 最新技術トレンドを毎日お届け',
+    description: 'SuperGrokが分析した最新のAI・エンジニアリングトレンドを、分かりやすく配信する技術情報メディア',
+    url: 'https://tech-digest.ogadix.com',
+    siteName: 'Tech Digest',
+    images: [
+      {
+        url: '/opengraph-image',
+        width: 1200,
+        height: 630,
+        alt: 'Tech Digest - AI技術トレンドメディア',
+      },
+    ],
+    locale: 'ja_JP',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Tech Digest - 最新技術トレンドを毎日お届け',
+    description: 'SuperGrokが分析した最新のAI・エンジニアリングトレンドを、分かりやすく配信する技術情報メディア',
+    images: ['/opengraph-image'],
+  },
 };
 
 export default function RootLayout({

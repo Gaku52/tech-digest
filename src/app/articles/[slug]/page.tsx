@@ -30,9 +30,37 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     };
   }
 
+  const articleUrl = `https://tech-digest.ogadix.com/articles/${slug}`;
+  const description = article.excerpt || article.title;
+
   return {
     title: `${article.title} | Tech Digest`,
-    description: article.excerpt || article.title,
+    description,
+    openGraph: {
+      title: article.title,
+      description,
+      url: articleUrl,
+      siteName: 'Tech Digest',
+      images: [
+        {
+          url: `/articles/${slug}/opengraph-image`,
+          width: 1200,
+          height: 630,
+          alt: article.title,
+        },
+      ],
+      locale: 'ja_JP',
+      type: 'article',
+      publishedTime: article.publishedAt.toISOString(),
+      authors: ['Tech Digest'],
+      tags: article.tags,
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: article.title,
+      description,
+      images: [`/articles/${slug}/opengraph-image`],
+    },
   };
 }
 
