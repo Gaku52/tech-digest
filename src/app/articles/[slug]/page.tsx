@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { Metadata } from 'next';
 import { getArticleBySlug, getAllArticles } from '@/lib/articles';
 import ArticleContent from '@/components/ArticleContent';
+import ShareOnXButton from '@/components/ShareOnXButton';
 
 interface PageProps {
   params: {
@@ -115,9 +116,27 @@ export default async function ArticlePage({ params }: PageProps) {
               <ArticleContent content={article.content} />
             </div>
 
+            {/* Share on X */}
+            <div className="mt-16 p-6 bg-gradient-to-r from-primary/10 to-accent-purple/10 border border-primary/20 rounded-xl">
+              <div className="flex items-center justify-between">
+                <div className="flex-1">
+                  <h3 className="text-lg font-bold text-text-primary mb-2 flex items-center gap-2">
+                    <span>📢</span>
+                    <span>この記事をシェア</span>
+                  </h3>
+                  <p className="text-sm text-text-tertiary">最新の技術トレンドを共有しましょう</p>
+                </div>
+                <ShareOnXButton
+                  title={article.title}
+                  slug={slug}
+                  tags={article.tags}
+                />
+              </div>
+            </div>
+
             {/* Sources */}
             {article.sources && article.sources.length > 0 && (
-              <div className="mt-16 p-6 bg-surfaceLight/60 border border-white/10 rounded-xl">
+              <div className="mt-8 p-6 bg-surfaceLight/60 border border-white/10 rounded-xl">
                 <h3 className="text-lg font-bold text-text-primary mb-4 flex items-center gap-2">
                   <span>🔗</span>
                   <span>参考リンク</span>
@@ -171,4 +190,5 @@ function PriorityBadge({ priority }: { priority: string }) {
     </span>
   );
 }
+
 
