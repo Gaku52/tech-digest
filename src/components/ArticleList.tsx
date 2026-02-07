@@ -3,18 +3,7 @@
 import { useState, useMemo } from 'react';
 import ArticleCard from '@/components/ArticleCard';
 import { Newspaper } from 'lucide-react';
-
-interface Article {
-  slug: string;
-  title: string;
-  publishedAt: string;
-  excerpt: string;
-  category: string;
-  priority: string;
-  tags: string[];
-  engagement?: number;
-  sources?: string[];
-}
+import type { Article } from '@/lib/articles';
 
 interface ArticleListProps {
   articles: Article[];
