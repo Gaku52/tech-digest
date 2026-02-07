@@ -253,11 +253,14 @@ ${stage2.technicalDetails.architecture}
 
 `;
 
-    // ベンチマーク
-    if (stage2.benchmarks.length > 0) {
+    // ベンチマーク - 意味のあるデータがある場合のみ
+    const validBenchmarks = stage2.benchmarks.filter(b =>
+      b.name && b.name !== '詳細未公開' && b.score && b.score !== '詳細未公開'
+    );
+    if (validBenchmarks.length > 0) {
       markdown += `### ベンチマーク
 
-${stage2.benchmarks.map(bench =>
+${validBenchmarks.map(bench =>
   `- **${bench.name}**: ${bench.score} (${bench.comparison})`
 ).join('\n')}
 
@@ -265,7 +268,7 @@ ${stage2.benchmarks.map(bench =>
     }
 
     // ユースケース
-    if (stage2.useCases.length > 0) {
+    if (stage2.useCases && stage2.useCases.length > 0) {
       markdown += `### ユースケース
 
 ${stage2.useCases.map(uc =>
@@ -321,10 +324,13 @@ ${disc.keyTakeaways.map(tk => `- ${tk}`).join('\n')}
   }
 
   // エンジニアへの影響
-  if (stage4) {
+  if (stage4 && (stage4.immediateActions.length > 0 || stage4.longTermConsiderations.length > 0)) {
     markdown += `## エンジニアへの影響
 
-**今すぐ対応すべきこと:**
+`;
+
+    if (stage4.immediateActions.length > 0) {
+      markdown += `**今すぐ対応すべきこと:**
 
 ${stage4.immediateActions.map(action =>
   `- ${action.action} (所要時間: ${action.estimatedTime}, 難易度: ${action.difficulty}, 影響度: ${action.impact})
@@ -333,7 +339,11 @@ ${stage4.immediateActions.map(action =>
   - 期待される成果: ${action.expectedOutcome}`
 ).join('\n\n')}
 
-**中長期的に考えるべきこと:**
+`;
+    }
+
+    if (stage4.longTermConsiderations.length > 0) {
+      markdown += `**中長期的に考えるべきこと:**
 
 ${stage4.longTermConsiderations.map(cons =>
   `- ${cons.consideration} (${cons.timeline})
@@ -347,6 +357,7 @@ ${cons.mitigations.map(mit => `    - ${mit}`).join('\n')}`
 ).join('\n\n')}
 
 `;
+    }
 
     // 職種別の影響
     if (stage4.impactByRole.length > 0) {

@@ -9,20 +9,27 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['var(--font-inter)', 'ui-sans-serif', 'system-ui', 'sans-serif'],
-        mono: ['var(--font-jetbrains)', 'ui-monospace', 'SFMono-Regular', 'monospace'],
+        sans: ['var(--font-noto-sans-jp)', 'ui-sans-serif', 'system-ui', '-apple-system', 'sans-serif'],
+        mono: ['var(--font-jetbrains-mono)', 'ui-monospace', 'SFMono-Regular', 'Menlo', 'Monaco', 'Consolas', 'monospace'],
       },
       colors: {
-        background: "#020617", // Slate-950より深い黒
-        surface: "#0f172a",    // カード背景
+        // 科学的に目に優しい配色
+        background: "#0a0e1a", // 純黒ではなく、わずかに青みがかったダークブルーグレー
+        surface: "#131825",    // カード背景 - コントラストを適度に
+        surfaceLight: "#1a2030", // 明るいサーフェス
         primary: {
-          DEFAULT: "#3b82f6",
+          DEFAULT: "#5b8def", // より明るく、視認性の高いブルー
           foreground: "#ffffff",
         },
         accent: {
-          purple: "#8b5cf6",
-          cyan: "#06b6d4",
-          emerald: "#10b981",
+          purple: "#9d7bea",
+          cyan: "#22d3ee",
+          emerald: "#34d399",
+        },
+        text: {
+          primary: "#f1f5f9",    // メイン本文 - WCAG AAA対応
+          secondary: "#cbd5e1",  // サブテキスト
+          tertiary: "#94a3b8",   // メタ情報
         }
       },
       animation: {

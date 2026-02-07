@@ -3,18 +3,26 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 255, 255, 255;
+  --foreground-rgb: 241, 245, 249;
+  /* 記事の可読性を最適化する変数 */
+  --content-max-width: 680px;
+  --line-height-base: 1.9;
+  --letter-spacing-ja: 0.03em;
 }
 
 body {
   color: rgb(var(--foreground-rgb));
-  background-color: #020617;
-  /* Vercel風の微細なグリッド背景 */
+  background-color: #0a0e1a;
+  /* 控えめなグリッド背景 */
   background-image:
-    linear-gradient(to right, rgba(255, 255, 255, 0.02) 1px, transparent 1px),
-    linear-gradient(to bottom, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
-  background-size: 40px 40px;
+    linear-gradient(to right, rgba(255, 255, 255, 0.015) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.015) 1px, transparent 1px);
+  background-size: 48px 48px;
   overflow-x: hidden;
+  /* より滑らかなフォントレンダリング */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
 }
 
 /* スクロールバーのカスタマイズ */
@@ -32,6 +40,48 @@ body {
   background: #475569;
 }
 
+/* 記事本文の最適化 */
+.article-content {
+  font-size: 17px;
+  line-height: var(--line-height-base);
+  letter-spacing: var(--letter-spacing-ja);
+  max-width: var(--content-max-width);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.article-content h2 {
+  font-size: 28px;
+  line-height: 1.4;
+  margin-top: 48px;
+  margin-bottom: 24px;
+  font-weight: 700;
+}
+
+.article-content h3 {
+  font-size: 22px;
+  line-height: 1.5;
+  margin-top: 32px;
+  margin-bottom: 16px;
+  font-weight: 600;
+}
+
+.article-content p {
+  margin-bottom: 20px;
+}
+
+.article-content li {
+  margin-bottom: 12px;
+}
+
+/* タイトルの最適化 */
+.article-title {
+  font-size: clamp(32px, 5vw, 48px);
+  line-height: 1.3;
+  letter-spacing: -0.02em;
+  font-weight: 900;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
@@ -39,10 +89,10 @@ body {
 
   /* グラスモーフィズムユーティリティ */
   .glass {
-    @apply bg-slate-900/40 backdrop-blur-md border border-white/10;
+    @apply bg-surface/60 backdrop-blur-md border border-white/10;
   }
 
   .glass-hover {
-    @apply hover:bg-slate-800/60 hover:border-white/20 transition-all duration-300;
+    @apply hover:bg-surfaceLight/80 hover:border-white/20 transition-all duration-300;
   }
 }

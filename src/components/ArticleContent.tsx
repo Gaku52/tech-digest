@@ -32,12 +32,12 @@ function Section({ section, index }: { section: ArticleSection; index: number })
   // 概要セクション
   if (sectionName === '概要') {
     return (
-      <div className="bg-gradient-to-r from-blue-500/10 to-purple-500/10 border-l-4 border-blue-500 rounded-r-lg p-6">
-        <h2 className="text-2xl font-bold text-white mb-4 flex items-center gap-2">
-          <span>📋</span>
+      <div className="bg-primary/5 border-l-4 border-primary rounded-r-xl p-8 mb-8">
+        <h2 className="text-[28px] font-bold text-text-primary mb-5 flex items-center gap-3">
+          <span className="text-2xl">📋</span>
           <span>概要</span>
         </h2>
-        <div className="text-lg leading-relaxed text-slate-300 space-y-4">
+        <div className="text-[17px] leading-[1.9] text-text-secondary space-y-5">
           {text.split('\n\n').map((para, i) => (
             <p key={i}>{para}</p>
           ))}
@@ -49,12 +49,12 @@ function Section({ section, index }: { section: ArticleSection; index: number })
   // 技術的詳細セクション
   if (sectionName === '技術的詳細') {
     return (
-      <div className="bg-slate-800/50 border border-slate-700 rounded-lg p-8">
-        <h3 className="text-xl font-bold text-white mb-6 flex items-center gap-2">
-          <span>⚙️</span>
+      <div className="bg-surfaceLight/40 border border-white/10 rounded-xl p-8 mb-8">
+        <h3 className="text-[22px] font-bold text-text-primary mb-6 flex items-center gap-3">
+          <span className="text-xl">⚙️</span>
           <span>技術的詳細</span>
         </h3>
-        <div className="prose prose-invert prose-lg max-w-none">
+        <div className="text-[17px] leading-[1.9] text-text-secondary">
           {renderContent(text)}
         </div>
       </div>
@@ -64,12 +64,12 @@ function Section({ section, index }: { section: ArticleSection; index: number })
   // コミュニティの反応セクション
   if (sectionName === 'コミュニティの反応') {
     return (
-      <div className="bg-slate-800/50 border border-slate-700 rounded-lg p-8">
-        <h3 className="text-xl font-bold text-white mb-6 flex items-center gap-2">
-          <span>💬</span>
+      <div className="bg-surfaceLight/40 border border-white/10 rounded-xl p-8 mb-8">
+        <h3 className="text-[22px] font-bold text-text-primary mb-6 flex items-center gap-3">
+          <span className="text-xl">💬</span>
           <span>コミュニティの反応</span>
         </h3>
-        <div className="text-slate-300 leading-relaxed space-y-4">
+        <div className="text-[17px] leading-[1.9] text-text-secondary space-y-5">
           {text.split('\n\n').map((para, i) => (
             <p key={i}>{para}</p>
           ))}
@@ -81,12 +81,12 @@ function Section({ section, index }: { section: ArticleSection; index: number })
   // エンジニアへの影響セクション
   if (sectionName === 'エンジニアへの影響') {
     return (
-      <div className="bg-slate-800/50 border border-slate-700 rounded-lg p-8">
-        <h2 className="text-2xl font-bold text-white mb-6 flex items-center gap-2">
-          <span>🎯</span>
+      <div className="bg-accent-emerald/5 border border-accent-emerald/20 rounded-xl p-8 mb-8">
+        <h2 className="text-[28px] font-bold text-text-primary mb-7 flex items-center gap-3">
+          <span className="text-2xl">🎯</span>
           <span>エンジニアへの影響</span>
         </h2>
-        <div className="space-y-6">
+        <div className="space-y-8">
           {renderEngineerImpact(text)}
         </div>
       </div>
@@ -96,12 +96,12 @@ function Section({ section, index }: { section: ArticleSection; index: number })
   // 注目のコメントセクション
   if (sectionName === '注目のコメント') {
     return (
-      <div>
-        <h2 className="text-2xl font-bold text-white mb-6 flex items-center gap-2">
-          <span>⭐</span>
+      <div className="mb-10">
+        <h2 className="text-[28px] font-bold text-text-primary mb-7 flex items-center gap-3">
+          <span className="text-2xl">⭐</span>
           <span>注目のコメント</span>
         </h2>
-        <div className="space-y-4">
+        <div className="space-y-5">
           {renderComments(text)}
         </div>
       </div>
@@ -111,12 +111,12 @@ function Section({ section, index }: { section: ArticleSection; index: number })
   // 参考リンクセクション
   if (sectionName === '参考リンク') {
     return (
-      <div className="bg-slate-900 border border-slate-700 rounded-lg p-6">
-        <h2 className="text-xl font-bold text-white mb-4 flex items-center gap-2">
-          <span>🔗</span>
+      <div className="bg-surfaceLight/40 border border-white/10 rounded-xl p-6 mb-8">
+        <h2 className="text-[22px] font-bold text-text-primary mb-5 flex items-center gap-3">
+          <span className="text-xl">🔗</span>
           <span>参考リンク</span>
         </h2>
-        <div className="space-y-2">
+        <div className="space-y-3">
           {renderLinks(text)}
         </div>
       </div>
@@ -126,12 +126,12 @@ function Section({ section, index }: { section: ArticleSection; index: number })
   // 詳細セクション
   if (sectionName === '詳細') {
     return (
-      <div>
-        <h2 className="text-2xl font-bold text-white mb-6 flex items-center gap-2">
-          <span>📊</span>
+      <div className="mb-10">
+        <h2 className="text-[28px] font-bold text-text-primary mb-7 flex items-center gap-3">
+          <span className="text-2xl">📊</span>
           <span>詳細</span>
         </h2>
-        <div className="space-y-6">
+        <div className="space-y-8">
           {renderDetailSection(text)}
         </div>
       </div>
@@ -140,26 +140,26 @@ function Section({ section, index }: { section: ArticleSection; index: number })
 
   // デフォルト - 見出し
   if (type === 'heading2') {
-    return <h2 className="text-2xl font-bold text-white mb-4">{text}</h2>;
+    return <h2 className="text-[28px] font-bold text-text-primary mb-6 mt-12">{text}</h2>;
   }
 
   if (type === 'heading3') {
-    return <h3 className="text-xl font-bold text-white mb-3 mt-6">{text}</h3>;
+    return <h3 className="text-[22px] font-bold text-text-primary mb-4 mt-8">{text}</h3>;
   }
 
   // 段落
   if (type === 'paragraph') {
-    return <p className="text-slate-300 leading-relaxed mb-4">{text}</p>;
+    return <p className="text-[17px] text-text-secondary leading-[1.9] mb-5">{text}</p>;
   }
 
   // リスト
   if (type === 'list' && items) {
     return (
-      <ul className="space-y-2 mb-4">
+      <ul className="space-y-3 mb-6">
         {items.map((item, i) => (
-          <li key={i} className="text-slate-300 flex items-start gap-3">
-            <span className="text-blue-400 mt-1">▸</span>
-            <span>{item}</span>
+          <li key={i} className="text-[17px] text-text-secondary flex items-start gap-3 leading-[1.9]">
+            <span className="text-primary mt-1.5 text-sm">▸</span>
+            <span className="flex-1">{item}</span>
           </li>
         ))}
       </ul>
@@ -289,8 +289,8 @@ function renderContent(text: string) {
     if (para.startsWith('```')) {
       const code = para.replace(/```[a-z]*\n?/g, '').trim();
       return (
-        <div key={i} className="bg-slate-900 border border-slate-600 rounded-lg p-4 mb-4">
-          <pre className="text-sm text-green-400 overflow-x-auto">
+        <div key={i} className="bg-background/60 border border-white/10 rounded-xl p-5 mb-6 overflow-hidden">
+          <pre className="text-[14px] text-accent-emerald overflow-x-auto leading-[1.6] font-mono">
             <code>{code}</code>
           </pre>
         </div>
@@ -301,18 +301,18 @@ function renderContent(text: string) {
     if (para.startsWith('- ')) {
       const items = para.split('\n').filter(l => l.startsWith('- ')).map(l => l.replace(/^- /, ''));
       return (
-        <ul key={i} className="space-y-2 mb-4">
+        <ul key={i} className="space-y-3 mb-6">
           {items.map((item, j) => (
-            <li key={j} className="text-slate-300 flex items-start gap-3">
-              <span className="text-blue-400 mt-1">▸</span>
-              <span>{item}</span>
+            <li key={j} className="text-[17px] text-text-secondary flex items-start gap-3 leading-[1.9]">
+              <span className="text-primary mt-1.5 text-sm">▸</span>
+              <span className="flex-1">{item}</span>
             </li>
           ))}
         </ul>
       );
     }
 
-    return <p key={i} className="mb-4">{para}</p>;
+    return <p key={i} className="text-[17px] text-text-secondary leading-[1.9] mb-5">{para}</p>;
   });
 }
 
@@ -329,17 +329,17 @@ function renderEngineerImpact(text: string) {
       const items = nextSection?.split('\n').filter(l => l.trim().startsWith('- ')).map(l => l.trim().replace(/^- /, '')) || [];
 
       parts.push(
-        <div key={i} className="mb-6">
-          <h3 className="text-lg font-bold text-white mb-4 flex items-center gap-2">
-            <span>{section === '今すぐ対応すべきこと:' ? '⚡' : '🎯'}</span>
+        <div key={i} className="mb-8">
+          <h3 className="text-[22px] font-bold text-text-primary mb-5 flex items-center gap-3">
+            <span className="text-xl">{section === '今すぐ対応すべきこと:' ? '⚡' : '🎯'}</span>
             <span>{section}</span>
           </h3>
-          <div className="grid gap-3">
+          <div className="grid gap-4">
             {items.map((item, j) => (
-              <div key={j} className="bg-slate-900/50 border border-slate-600 rounded-lg p-4 hover:border-blue-500/50 transition">
-                <div className="flex items-start gap-3">
-                  <span className="text-lg">✓</span>
-                  <span className="text-slate-300">{item}</span>
+              <div key={j} className="bg-background/50 border border-white/10 rounded-xl p-5 hover:border-primary/40 hover:bg-background/70 transition-all duration-200">
+                <div className="flex items-start gap-4">
+                  <span className="text-xl text-accent-emerald">✓</span>
+                  <span className="text-[16px] text-text-secondary leading-[1.8] flex-1">{item}</span>
                 </div>
               </div>
             ))}
@@ -364,13 +364,13 @@ function renderComments(text: string) {
     const [, quote, author, engagement] = match;
 
     return (
-      <div key={i} className="bg-slate-800/50 border border-slate-700 rounded-lg p-5 hover:border-slate-600 transition">
-        <blockquote className="text-slate-300 mb-3 italic">
+      <div key={i} className="bg-surfaceLight/60 border border-white/10 rounded-xl p-6 hover:border-white/20 transition-all duration-200">
+        <blockquote className="text-[17px] text-text-secondary mb-4 italic leading-[1.9]">
           「{quote}」
         </blockquote>
         <div className="flex items-center justify-between">
-          <span className="text-blue-400 font-medium">{author}</span>
-          <span className="text-sm text-slate-400">{engagement}</span>
+          <span className="text-primary font-medium text-[15px]">{author}</span>
+          <span className="text-sm text-text-tertiary">{engagement}</span>
         </div>
       </div>
     );
@@ -393,18 +393,18 @@ function renderLinks(text: string) {
         href={url}
         target="_blank"
         rel="noopener noreferrer"
-        className="flex items-center gap-3 p-3 bg-slate-800/50 border border-slate-700 rounded-lg hover:border-blue-500/50 hover:bg-slate-800 transition group"
+        className="flex items-center gap-4 p-4 bg-background/50 border border-white/10 rounded-xl hover:border-primary/40 hover:bg-background/70 transition-all duration-200 group"
       >
         <span className="text-2xl">{emoji.split(' ')[0]}</span>
-        <div className="flex-1">
-          <div className="text-blue-400 group-hover:text-blue-300 font-medium">
+        <div className="flex-1 min-w-0">
+          <div className="text-primary group-hover:text-primary/80 font-medium text-[15px] transition-colors">
             {emoji.replace(/^.+? /, '')}
           </div>
           {description && (
-            <div className="text-xs text-slate-500">{description.trim()}</div>
+            <div className="text-xs text-text-tertiary mt-0.5">{description.trim()}</div>
           )}
         </div>
-        <span className="text-slate-500 group-hover:text-slate-400">→</span>
+        <span className="text-text-tertiary group-hover:text-primary group-hover:translate-x-0.5 transition-all text-lg">→</span>
       </a>
     );
   }).filter(Boolean);
@@ -423,12 +423,12 @@ function renderDetailSection(text: string) {
       const items = content.split('\n').filter(l => l.trim().startsWith('- ')).map(l => l.trim().replace(/^- /, ''));
 
       return (
-        <div key={i} className="bg-slate-800/50 border border-slate-700 rounded-lg p-6">
-          <h3 className="text-xl font-bold text-white mb-4">{title}</h3>
+        <div key={i} className="bg-surfaceLight/40 border border-white/10 rounded-xl p-6">
+          <h3 className="text-[22px] font-bold text-text-primary mb-5">{title}</h3>
           <div className="grid md:grid-cols-2 gap-3">
             {items.map((item, j) => (
-              <div key={j} className="bg-slate-900/50 border border-slate-600 rounded-lg p-3 text-slate-300 text-sm">
-                <span className="text-blue-400 mr-2">▸</span>
+              <div key={j} className="bg-background/50 border border-white/10 rounded-lg p-4 text-text-secondary text-[15px] leading-[1.7]">
+                <span className="text-primary mr-2">▸</span>
                 {item}
               </div>
             ))}
@@ -439,9 +439,9 @@ function renderDetailSection(text: string) {
 
     // 背景セクション
     return (
-      <div key={i} className="mb-6">
-        <h3 className="text-xl font-bold text-white mb-3">{title}</h3>
-        <p className="text-slate-300 leading-relaxed">{content}</p>
+      <div key={i} className="mb-8">
+        <h3 className="text-[22px] font-bold text-text-primary mb-4">{title}</h3>
+        <p className="text-[17px] text-text-secondary leading-[1.9]">{content}</p>
       </div>
     );
   });
